@@ -3,7 +3,7 @@ layout: post
 title:  "Hello, World"
 date:   2015-1-10 14:02
 author: "asmalldev"
-read_time: "5 minutes"
+read_time: "4 minutes"
 article_overview: "Hello, World! For my first post, I thought it would be appropriate to talk about the creation process of this site. I've built this site using primarily HTML and CSS, used git for version control, and deployed it using Jekyll and Github pages. In this post I'll go into further details on the making of this site."
 
 ---
