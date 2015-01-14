@@ -9,7 +9,7 @@ article_overview: "Hello, World! For my first post, I thought it would be approp
 ---
 
 ###HTML, CSS, and Jekyll (Oh My)
-Hello, World! For my first post, I thought it would be appropriate to talk about the creation process of this site. I've built this site using primarily HTML and CSS, used git for version control, and deployed it using Jekyll and Github pages. In this post I'll go into further detail on these part of making of this site.
+Hello, World! For my first post, I thought it would be appropriate to talk about the creation process of this site. I've built this site using primarily HTML and CSS, used git for version control, and deployed it using Jekyll and Github pages. In this post I'll go into further detail on these parts of making the site.
 
 ###Adding More Functionality to HTML and CSS While Keeping Things Lightweight
 I've written original HTML and CSS from the ground up (with just a bit of javascript). I've kept in mind that HTML and CSS alone provide an impressive amount of functionality and design and also that not using any bulky dynamic content can be quite freeing. I also did this because I want to keep the back end as simple as possible and easy to maintain.
