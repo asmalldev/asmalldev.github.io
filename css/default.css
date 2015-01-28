@@ -420,7 +420,7 @@
 
 	#profile
 	{
-		border-radius: 100px;
+		border-radius: 8px;
 		height: 150px;
 		box-shadow: 3px 2px 3px 2px #0f0f0f;
 		transition-property:width,height,margin,padding,border,opacity,display;
