@@ -8,7 +8,7 @@ article_overview: "Hello World! For my first post, I thought it would be appropr
 
 ---
 
-###Shout Out: HTML, CSS, and Jekyll (Oh My)
+###A Shout Out: HTML, CSS, and Jekyll (Oh My)
 Hello World! For my first post, I thought it would be appropriate to talk about the creation process of this site and basically give a non-technical overview of/ shout out to the methods I used to create and deploy it. I wrote plain HTML and CSS for the site rather than using some sort of content management system, used git for version control, and deployed it using Jekyll and Github pages. In this post I'll go into further detail on these tools.
 
 ###Adding More Functionality to HTML and CSS While Keeping Things Lightweight
