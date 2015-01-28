@@ -33,4 +33,4 @@ Combined with Github pages I am able to host this site in a git repository for *
 Using Github and Jekyll also enables me to keep all the parts of my site locally too so I can edit them with the program of my choice and use git for version control, pushing my local repository to github in order to update my site.
 
 ### Long Story Short:
-Jekyll and Github were instrumental in the making of this site and provide a simple, functional, and secure solution for site creation and deployment. I highly encourage you to check out both [Jekyll](http://www.jekyllrb.com) and [Github Pages](http://www.pages.github.com). Head over to the credits tab up above to see the other useful tools I've used for this site!
+Jekyll and Github were instrumental in the making of this site and provide a simple, functional, and secure solution for site creation and deployment. I highly encourage you to check out both [Jekyll](http://www.jekyllrb.com) and [Github Pages](http://www.pages.github.com). Head over to the credits tab up above to see the other useful tools I've used for this site! Also, stay tuned for more technical posts ;)
