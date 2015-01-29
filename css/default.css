@@ -1024,6 +1024,11 @@
 		background: #FFFFFF;
 	}
 	
+	#header
+	{
+		box-shadow: none;
+	}
+	
 	.articles_wrapper
 	{
 		width: 800px;
