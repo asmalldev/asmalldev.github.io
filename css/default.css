@@ -294,13 +294,15 @@
 	#header-wrapper
 	{
 		background: #333333;
+		transition-property: background;
+		transition-duration: 1.2s;
 	}
 
 	#header
 	{
 		position: relative;
 		height: 4emm;
-		box-shadow: 1px 1px 1px 1px #000000;
+		box-shadow: 1px 1px 1px 1px #D8D8D8;
 	}
 
 /*Logo*/
@@ -422,7 +424,7 @@
 	{
 		border-radius: 15px;
 		height: 150px;
-		box-shadow: 3px 2px 3px 2px #0f0f0f;
+		box-shadow: 2px 1px 1px 1px #B5B5B5;
 		transition-property:width,height,margin,padding,border,opacity,display;
 		transition-duration:.99s;
 		margin-bottom: -2em;
@@ -436,10 +438,10 @@
 	#banner
 	{
 		overflow: hidden;
-		background: #202020;
+		background: #FFFFFF;
 		background-size: cover;
 		text-align: center;
-		color: rgba(255,255,255,.8);
+		color: #2B3F48;
 		padding-top: 1em;
 		padding-bottom: 1em;		
 	}
@@ -740,7 +742,7 @@
 	{
 		letter-spacing: 2px;
 		font-size: .9em;
-		color: white;
+		color: #1793D1;
 		margin-left: 1em;
 	}
 	
@@ -1015,6 +1017,12 @@
 /*Responsive resizing SMALL*/
 
 @media handheld, screen and (max-width: 959.985px) {
+
+
+	#wrapper #header-wrapper
+	{
+		background: #FFFFFF;
+	}
 	
 	.articles_wrapper
 	{
@@ -1180,7 +1188,7 @@
 /*Responsive resizing of article boxes MEDIUM*/
 
 @media handheld, screen and (max-width: 1250px) {
-	
+
 	.articles_wrapper
 	{
 		width: 50em;
@@ -1222,7 +1230,7 @@
 /*Responsive resizing of article boxes TEENY*/
 	
 @media handheld, screen and (max-width: 815px) {
-	
+
 	.articles_wrapper
 	{
 		width: 35em;
@@ -1346,7 +1354,7 @@
 	
 	.selected
 	{
-		box-shadow: 0px 4px 15px #191919;
+
 	}
 	
 	.button
