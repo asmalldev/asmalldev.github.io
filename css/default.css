@@ -852,8 +852,8 @@
 	{
 		padding: 1em 1em 1em 1em;
 		background: #333333;
-		box-shadow: inset 0 0 8px #000000;
-		border-radius: 4px;
+		box-shadow: inset 0 0 15px #000000;
+		border-radius: 6px;
 		text-align: center;
 		width: 22em;
 		margin-left: auto;
