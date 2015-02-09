@@ -107,6 +107,8 @@
 	.mini
 	{
 		font-size: .3em;
+		transition-property: display;
+		transition-duration: 1s;
 	}
 
 	.thinner
@@ -727,12 +729,14 @@
 		font-size: .9em;
 		color: #1793D1;
 		margin-left: 1.5em;
+		transition-property: margin;
+		transition-duration: 1s;
 	}
 	
 	#subtitle
 	{
 		font-size: 1.5em;
-		padding-left: 5.5em;
+		padding-left: 6.25em;
 		transition-property:padding;
 		transition-duration:1s;
 	}
@@ -1563,6 +1567,19 @@
 		font-family: 'Lato', sans-serif;
 		font-size: 1.2em;
 		text-align: center;
+	}
+	
+	.kerningexpander
+	{
+		letter-spacing: 2px;
+		font-size: .9em;
+		color: #1793D1;
+		margin-left: 0;
+	}
+	
+	.mini
+	{
+		display: none;
 	}
 
 	
