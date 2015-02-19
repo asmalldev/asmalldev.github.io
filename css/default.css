@@ -420,7 +420,7 @@
 	{
 		border-radius: 15px;
 		height: 150px;
-		box-shadow: 2px 1px 1px 1px #B5B5B5;
+		box-shadow: 2px 1px 1px 1px #E6E6E6;
 		transition-property:width,height,margin,padding,border,opacity,display;
 		transition-duration:.99s;
 		margin-bottom: -2em;
