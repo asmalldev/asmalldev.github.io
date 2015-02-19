@@ -572,6 +572,7 @@
 	{
 		width: 100%;
 		text-align: center;
+		margin-left: 2em;
 	}
 
 	#footer_cols
@@ -1243,6 +1244,11 @@
 	{
 		font-size: .8em;
 	}
+	
+	#footer_infos
+	{
+		margin-left: 1.3em;
+	}
 
 	a .CC_icons
 	{
@@ -1424,6 +1430,11 @@
 	#footer
 	{
 		font-size: .8em;
+	}
+	
+	#footer_infos
+	{
+		margin-left: 3.3em;
 	}
 
 	.title2 a .CC_icons
