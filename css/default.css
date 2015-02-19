@@ -542,6 +542,17 @@
 	{
 		text-decoration: underline;
 	}
+	
+	#footer li
+	{
+		margin-bottom: 2px;
+	}
+	
+	#footer h4
+	{
+		margin-top: 0;
+		margin-bottom: .5em;
+	}
 
 	#site_license
 	{
@@ -556,11 +567,18 @@
 		border-radius: 4px;
 		padding: 10px;
 	}
+	
+	#footer_infos
+	{
+		width: 100%;
+		text-align: center;
+	}
 
 	#footer_cols
 	{
 		width: 23em;
 		margin: 0 auto;
+		margin-top: 1.6em;
 	}
 
 	.nav_col
