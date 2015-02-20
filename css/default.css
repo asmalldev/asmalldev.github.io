@@ -255,14 +255,14 @@
 
 	.title .byline
 	{
-		font-size: 1.7em;
+		font-size: 1.55em;
 		color: #6F6F6F;
 		margin-bottom: .5em;
 		line-height: .7em;
 	}
 	.title2 .byline
 	{
-		font-size: 1.7em;
+		font-size: 1.55em;
 		color: #656565;
 		line-height: 1.7em;
 		font-weight: 100;
@@ -1611,7 +1611,7 @@
 	
 	#profile
 	{
-		height: 220px;
+		height: 220px;t
 	}
 
 
