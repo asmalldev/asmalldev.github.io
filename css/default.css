@@ -655,7 +655,7 @@
 		overflow: hidden;
 		padding: 0em 0em;
 		background-color: white;
-		width: 80%;
+		width: 70%;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -1537,6 +1537,11 @@
 		padding-left: 0em;
 		font-size: .6em;
 		float: none;
+	}
+	
+		.extra
+	{
+		width: 88%;
 	}
 
 	.credit_box_right .credit_right .credit_txt
