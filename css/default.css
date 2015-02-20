@@ -425,6 +425,7 @@
 		transition-property:width,height,margin,padding,border,opacity,display;
 		transition-duration:.99s;
 		margin-bottom: -2em;
+		margin-left: .5em;
 	}
 
 	#profile_box
@@ -756,7 +757,7 @@
 	#subtitle
 	{
 		font-size: 1.5em;
-		padding-left: 6.25em;
+		padding-left: 7.1em;
 		transition-property:padding;
 		transition-duration:1s;
 	}
@@ -1406,10 +1407,11 @@
 
 	#profile
 	{
-		position: absolute;
-		visibility:hidden;
-		opacity:0;
-		transition:visibility 0s linear 0.5s,opacity 0.5s linear;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 1em;
+		height: 250px;
 	}
 
 	.paragraph_wrapper
@@ -1605,6 +1607,11 @@
 	.mini
 	{
 		display: none;
+	}
+	
+	#profile
+	{
+		height: 220px;
 	}
 
 
