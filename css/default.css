@@ -308,7 +308,7 @@
 	#header
 	{
 		position: relative;
-		border: 1px solid #EEE;
+		border-bottom: 1px solid #EEE;
 		transition-property: border;
 		transition-duration: .3s;
 	}
@@ -1100,7 +1100,7 @@
 
 	#header
 	{
-		box-shadow: none;
+
 	}
 
 	.articles_wrapper
