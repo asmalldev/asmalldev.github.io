@@ -217,6 +217,67 @@
 		margin-top: 3em;
 	}
 	
+	/*Forms (FormKeep from Thoughtbot)*/
+
+.form_section
+{
+	width: 35em;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #CCCCCC;
+	border-radius: 4px;
+	padding: 3em;
+}
+
+.form_sub
+{
+	width: 100%;
+	height: 8em;
+}
+
+.form_section span
+{
+	font-size: 2em;
+	margin-right: 2em;
+}
+
+.form_section input
+{
+	font-size: 1.3em;
+	padding-left: 2px;
+	padding-right: 2px;
+	float: right;
+	margin-top: 1.9em;
+}
+
+.form_section img
+{
+	margin-bottom: -2.5em;
+	margin-right: 2em;
+	height: 70px;
+}
+
+#feedback_section
+{
+	border: none;
+}
+
+#feedback_section img
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.form_sub .feedback_title
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#feedback_section input{
+	display: block;
+}
+	
 /*Heading Titles*/
 
 	.title
