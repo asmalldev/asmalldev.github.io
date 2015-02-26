@@ -218,6 +218,11 @@
 	}
 	
 	/*Forms (FormKeep from Thoughtbot)*/
+	
+form
+{
+	text-align: center;
+}
 
 .form_section
 {
@@ -226,28 +231,42 @@
 	margin-right: auto;
 	border: 1px solid #CCCCCC;
 	border-radius: 4px;
-	padding: 3em;
+	padding-right: 3.5em;
+	padding-left: 3.5em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	text-align: left;
 }
 
 .form_sub
 {
 	width: 100%;
-	height: 8em;
+	height: 6.5em;
+	padding-top: .5em;
+	padding-bottom: .5em;
 }
 
 .form_section span
 {
 	font-size: 2em;
-	margin-right: 2em;
 }
 
-.form_section input
+.form_section textarea
 {
+	line-height: .5em;
 	font-size: 1.3em;
-	padding-left: 2px;
-	padding-right: 2px;
+	padding-left: 16px;
+	padding-right: 4px;
+	padding-top: 18px;
+	padding-bottom: 9px;
+	margin-top: 1.3em;
+	width: 12em;
+	resize: none;
 	float: right;
-	margin-top: 1.9em;
+	border-radius: 4px;
+	white-space: nowrap;
+	overflow: hidden;
+	
 }
 
 .form_section img
@@ -255,17 +274,8 @@
 	margin-bottom: -2.5em;
 	margin-right: 2em;
 	height: 70px;
-}
-
-#feedback_section
-{
-	border: none;
-}
-
-#feedback_section img
-{
-	margin-left: auto;
-	margin-right: auto;
+	padding-left: 0;
+	padding-right: 0;
 }
 
 .form_sub .feedback_title
@@ -274,8 +284,9 @@
 	margin-right: auto;
 }
 
-#feedback_section input{
-	display: block;
+.form_section .lginput
+{
+	//specific things for large input field
 }
 	
 /*Heading Titles*/
