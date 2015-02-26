@@ -308,9 +308,8 @@
 	#header
 	{
 		position: relative;
-		height: 4emm;
-		box-shadow: 1px 1px 1px 1px #D8D8D8;
-		transition-property: box-shadow;
+		border-bottom: 1px solid #EEE;
+		transition-property: border;
 		transition-duration: .3s;
 	}
 
@@ -1101,7 +1100,7 @@
 
 	#header
 	{
-		box-shadow: none;
+
 	}
 
 	.articles_wrapper
