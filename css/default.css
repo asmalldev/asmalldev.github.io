@@ -258,6 +258,8 @@ form
 	padding-top: 1em;
 	padding-bottom: 1em;
 	text-align: left;
+	transition-property: min-height, width;
+	transition-duration: .35s;
 }
 
 .form_sub
@@ -266,6 +268,9 @@ form
 	height: 6.5em;
 	padding-top: .5em;
 	padding-bottom: .5em;
+	display: inline-block;
+	transition-property: padding;
+	transition-duration: .35s;
 }
 
 .form_section span
@@ -309,6 +314,14 @@ form
 .form_section .lginput
 {
 	//specific things for large input field
+}
+
+.button input
+{
+	background: none;
+	color: white;
+	font-family: lato, sans-serif;
+	border: none;
 }
 
 /*Heading Titles*/
@@ -1651,6 +1664,18 @@ form
 		font-size: .9em;
 		color: #1793D1;
 		margin-left: 1.22em;
+	}
+
+	/*FORMS*/
+	.form_section
+	{
+		width: 15em;
+		min-height: 30em;
+	}
+
+	.form_sub
+	{
+		padding-bottom: 4em;
 	}
 
 							}
