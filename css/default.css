@@ -443,9 +443,18 @@ form
 		height: 55px;
 	}
 
+/*Social,Contact*/
+
 	#soc_icon_box
 	{
 		padding-top: 1.25em;
+	}
+
+	.soc_group
+	{
+		display: inline-block;
+		transition-property: display;
+		transition-duration: .3s;
 	}
 
 	.soc_icon
@@ -454,6 +463,16 @@ form
 		padding: 1em;
 		transition-property: height;
 		transition-duration: .3s;
+	}
+
+	.soc_sub
+	{
+		display: inline-block;
+	}
+
+	.soc_cap
+	{
+
 	}
 
 /*Menu*/
@@ -1599,6 +1618,7 @@ form
 	a .soc_icon
 	{
 		height: 75px;
+		padding: 1.1em;
 	}
 
 	#footer #site_license
