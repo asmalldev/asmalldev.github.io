@@ -3,7 +3,7 @@ layout: post
 title:  "Hello World"
 date:   2015-3-3
 author: "asmalldev"
-read_time: "4 minutes"
+read_time: "4 mins"
 article_overview: "Hello World! For my first post, I thought it would be appropriate to talk about the creation process of this site. In this post I'll give a brief, non-technical overview of the tools I used to create and deploy this site and my rational for using them."
 
 ---

@@ -22,7 +22,7 @@ full_posts: 6
 			<div class="articles_overview_header">
 				<div class="articles_overview_titles">
 				<span class="articles_overview_title"><a href="{{ post.url }}"><h3>{{ post.title }}</h3></a></span>
-				<span class="post_info">by {{post.author}} &middot; last edited {{ post.date | date: '%B %d, %Y' }} &middot; read in {{post.read_time}}</span>
+				<span class="post_info">by {{post.author}} &middot; edited {{ post.date | date: '%B %d, %Y' }} &middot; read in {{post.read_time}}</span>
 				</div>
 					<div class="articles_overview_body">{{post.article_overview}}<br><br>
 						<span class="read_on"><a href="{{post.url}}">Read More...</a></span>
