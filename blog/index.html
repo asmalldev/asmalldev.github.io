@@ -13,7 +13,7 @@ full_posts: 6
 		<span class="byline">welcome to the blog section</span>
 	</div>
 </div>
-<div id="posts_wrapper"> 
+<div id="posts_wrapper">
 {% for post in site.posts %}
 {% if forloop.index < page.full_posts %}
 <div class="articles_wrapper">
@@ -22,7 +22,7 @@ full_posts: 6
 			<div class="articles_overview_header">
 				<div class="articles_overview_titles">
 				<span class="articles_overview_title"><a href="{{ post.url }}"><h3>{{ post.title }}</h3></a></span>
-				<span class="post_info">by {{post.author}} on {{ post.date | date: '%B %d, %Y' }} - read in {{post.read_time}}</span>
+				<span class="post_info">by {{post.author}} &middot; last edited {{ post.date | date: '%B %d, %Y' }} &middot; read in {{post.read_time}}</span>
 				</div>
 					<div class="articles_overview_body">{{post.article_overview}}<br><br>
 						<span class="read_on"><a href="{{post.url}}">Read More...</a></span>
@@ -30,7 +30,7 @@ full_posts: 6
 				</div>
 			</div>
 		</div>
-	</div>	
+	</div>
 {% else %}
 {% if forloop.index == page.full_posts %}
 <div id="archive_box">
