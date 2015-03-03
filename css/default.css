@@ -44,6 +44,22 @@
 		height: 7px;
 	}
 
+	/*REFACTOR, hacky use of id's*/
+
+	#pad_top
+	{
+		margin-top: 2.5em;
+		transition-property: margin;
+		transition-duration: .35s;
+	}
+
+	#pad_bottom
+	{
+		margin-bottom: 3em;
+		transition-property: margin;
+		transition-duration: .35s;
+	}
+
 	ul.actions
 	{
 		text-align: center;
@@ -211,14 +227,20 @@
 		color: #272925;
 	}
 
+	#back_button
+	{
+		margin-top: 2em;
+		padding-bottom: 0;
+		margin-bottom: -3em;
+	}
 
 	#form_button
 	{
 		margin-top: 3em;
 	}
-	
+
 	/*Forms (FormKeep from Thoughtbot)*/
-	
+
 form
 {
 	text-align: center;
@@ -266,7 +288,7 @@ form
 	border-radius: 4px;
 	white-space: nowrap;
 	overflow: hidden;
-	
+
 }
 
 .form_section img
@@ -288,7 +310,7 @@ form
 {
 	//specific things for large input field
 }
-	
+
 /*Heading Titles*/
 
 	.title
@@ -345,6 +367,8 @@ form
 		color: #656565;
 		line-height: 1.7em;
 		font-weight: 100;
+		padding-left: 3em;
+		padding-right: 3em;
 	}
 
 
@@ -518,8 +542,10 @@ form
 		background-size: cover;
 		text-align: center;
 		color: #2B3F48;
-		padding-top: 1em;
-		padding-bottom: 1em;
+		padding-top: 2em;
+		padding-bottom: 2em;
+		transition-property: padding;
+		transition-duration: .35s;
 	}
 
 	#banner .title
@@ -571,14 +597,12 @@ form
 
 	#page .button
 	{
-		margin-top: 0em;
 		display: inline-block;
 		text-align: center;
 	}
 
 	#page .title .actions li
 	{
-		padding-bottom: 2em;
 	}
 
 	#page .container
@@ -621,12 +645,12 @@ form
 	{
 		text-decoration: underline;
 	}
-	
+
 	#footer li
 	{
 		margin-bottom: 2px;
 	}
-	
+
 	#footer h4
 	{
 		margin-top: 0;
@@ -646,7 +670,7 @@ form
 		border-radius: 4px;
 		padding: 10px;
 	}
-	
+
 	#footer_infos
 	{
 		width: 100%;
@@ -679,10 +703,13 @@ form
 	#featured
 	{
 		overflow: hidden;
-		padding: 0em 0em;
+		padding-left: 5em;
+		padding-right: 5em;
 		background: none;
 		text-align: center;
 		margin-bottom: 0em;
+		transition-property: padding;
+		transition-duration: .35s;
 	}
 
 	#featured a
@@ -750,7 +777,7 @@ form
 
 	.extra .button
 	{
-		margin-top: 5em;
+		margin-top: 4.1em;
 	}
 
 	.extra .fa
@@ -775,7 +802,7 @@ form
 		padding-bottom: 2em;
 	}
 
-	.extra .title2 .byline
+	.extra .title2 .byline span
 	{
 		text-align: justify !important;
 	}
@@ -1298,14 +1325,44 @@ form
 		padding: .5em 4em .5em 4em;
 	}
 
+	#banner
+	{
+		padding-top: 1em;
+		padding-bottom: 1em;
+	}
+
 	#banner .button
 	{
 		padding: 1.2em 8em 1.2em 8em;
 	}
 
+	#featured
+	{
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.title2 .byline
+	{
+		padding-left:0;
+		padding-right:0;
+	}
+
 	.paragraph_wrapper
 	{
 		width: 80%;
+	}
+
+	/*REFACTOR, hacky use of id's*/
+
+	#pad_top
+	{
+		margin-top: 0;
+	}
+
+	#pad_bottom
+	{
+		margin-bottom: 0;
 	}
 
 	#paragraph_wrapper_categories
@@ -1322,7 +1379,7 @@ form
 	{
 		font-size: .8em;
 	}
-	
+
 	#footer_infos
 	{
 		margin-left: 1.3em;
@@ -1510,7 +1567,7 @@ form
 	{
 		font-size: .8em;
 	}
-	
+
 	#footer_infos
 	{
 		margin-left: 3.3em;
@@ -1615,7 +1672,7 @@ form
 		font-size: .6em;
 		float: none;
 	}
-	
+
 		.extra
 	{
 		width: 88%;
@@ -1690,12 +1747,12 @@ form
 	{
 		display: none;
 	}
-	
+
 	#profile
 	{
 		height: 220px;t
 	}
-	
+
 	.title2 a .CC_icons
 	{
 		height: 55px;
