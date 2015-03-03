@@ -32,5 +32,5 @@ In practice, Jekyll and Liquid (its template engine of choice) include numerous 
 Combined with Github pages I am able to host this site in a git repository for *free*. This is the cherry on top. The simplicity that static site generation brings to building and maintaining a site and the ease of hosting on Github pages makes the whole process a joy and basically makes me want to <s>laugh maniacally while petting a kitten</s> donate some $ to Github and Jekyll.
 Using Github and Jekyll also enables me to keep all the parts of my site locally too so I can edit them with the program of my choice and use git for version control, just the way I like it. To update the site, I simply push my local master repository to github!
 
-### TL;DR (come on, it's not that long)
+### TL;DR (but let's be real, it's pretty short)
 Jekyll (a static site generator written in Ruby), Github, and Git were instrumental in the making of this site and provide a simple, functional, and secure solution for site creation and deployment. I highly encourage you to check out both [Jekyll](http://www.jekyllrb.com) and [Github Pages](http://www.pages.github.com) or find another static generator that you prefer- let me know what you choose! Head over to the credits tab up above to see the other useful tools I've used for this site! Also, stay tuned for posts that are more technical than this ;)
