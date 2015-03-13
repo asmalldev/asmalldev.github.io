@@ -143,8 +143,8 @@
 		height: 80vh;
 		display: flex;
 		min-height: 25em;
-		padding-left: 20%;
-		padding-right: 20%;
+		padding-left: 19%;
+		padding-right: 19%;
 	}
 
 	.container_col
@@ -1135,6 +1135,7 @@
 	#profile_img
 	{
 		height: 175px;
+		margin-left: -4em;
 	}
 
 	#logo
