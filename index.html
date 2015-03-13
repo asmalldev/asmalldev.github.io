@@ -152,13 +152,14 @@ title: Overview &middot; Austin Small
 				</div>
 			</div>
 
-			<!--set height of .container_title-->
-			<script>
-			function resize() {
-			    var h = window.screen.height;
-					h += -275;
-			    document.querySelector('.container_title').style.height = h + 'px';;
-			}
-			window.onresize = resize;
-			resize();
-			</script>
+						<!--set height of .container_title-->
+						<script type="text/javascript">
+						function resize() {
+					    var h = $(window).height();
+
+					    document.querySelector('.container_title').style.height = (h*.75) + 'px';
+						}
+
+							window.onresize = resize;
+							resize();
+						</script>

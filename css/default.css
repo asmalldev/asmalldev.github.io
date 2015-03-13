@@ -141,7 +141,7 @@
 	.container_title
 	{
 		display: flex;
-		min-height: 18em;
+		min-height: 25em;
 		padding-left: 19%;
 		padding-right: 19%;
 		transition-property: height;
