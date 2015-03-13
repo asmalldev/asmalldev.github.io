@@ -1,59 +1,67 @@
 ---
 layout: master
-title: About Me &middot; Austin Small
+title: Overview &middot; Austin Small
 ---
 
 <style>
 {% include about_select.css %}
 </style>
 
+	<div class="container_title">
+		<div class="container_sub">
+			<div class="container_center">
+				<img id="profile_img" src="{{site.baseurl}}/img/me.jpg" alt="Me"/>
+			</div>
+		</div>
+		<div class="container_sub">
+			<div class="container_center">
+				<div id="names">
+					<span id="first">Austin</span><span id="last">Small</span>
+					<sub id="handle">(asmalldev)</sub>
+				</div>
+				<span id="subtitle" class="byline">aspiring programmer</span>
+			</div>
+		</div>
+	</div>
 
-			<div id="banner">
+<img class="next" src="/img/small_arrow.png" alt="">
+<img class="divider" src="/img/divider.png" alt="">
+
+	<div class="container">
+		<div class="container_sub">
+				<h1>Overview</h1>
+				<span class="byline">what this site is and why I made it</span>
+			<div class="paragraph_wrapper">
+				<p>My name is Austin. I'm a computer science student and an aspiring developer with diverse interests. This is my personal site.</p>
+				<p>I created this site both as a creative outlet and as a way to connect with others professionally. I hope you'll find
+				what I post here helpful and interesting and that you'll feel free to contribute to it by contacting me or posting in the comments.
+				<p>Well, without further ado, you can jump right into the blog posts or
+				continue reading for a more in depth introduction to my site.
+				</p>
+			</div>
+		</div>
+	</div>
+
+<img class="divider" src="img/divider.png" alt="">
+
 				<div class="container">
-					<div id="profile_title">
-						<h2 class="reduce">
-							<div id="profile_box"><img id="profile" class="norm" src="{{site.baseurl}}/img/me.jpg" alt="Austin"/>
+					<div class="container_sub">
+							<h1 class="title">My Experience</h1>
+							<div class="subline">
+								<span class="byline">Part of this site details my experience (like a CV or r&eacute;sum&eacute;). This includes
+								my work history, education, interests, and other information relevant to anyone interested in working with me.</span>
 							</div>
-								<span class="kerningexpander">Austin</span>
-								<span class=thinner> Small </span><sub class="mini">(asmalldev)</sub>
-						</h2>
-							<span id="subtitle" class="byline">aspiring programmer</span>
-						</div>
+						<ul class="actions">
+							<li><a href="{{site.baseurl}}/experience/index.html" class="button">Experience</a></li>
+						</ul>
 					</div>
 				</div>
 
-<img class="divider" src="/img/divider.png" alt=""><br>
-				<div id="featured">
-					<div class="container">
-						<div class="title">
-							<h1>OVERVIEW</h1>
-							<span class="byline">what's going on here?</span>
-						</div>
-						<div class="paragraph_wrapper">
-							<p>My name is Austin. I'm a computer science student and an apiring programmer with diverse interests.</p>
-							<p>I created this site both as a creative outlet and as a way to connect with others professionally. I hope you'll find
-							what I post here helpful and interesting and that you'll feel free to contribute to it by contacting me or posting in the comments.
-							<p>Well, without further ado, you can jump right into the blog posts or
-							continue reading for a more in depth introduction to my site.
-							</p>
-						</div>
-					</div>
-				</div>
-<img id="pad_bottom" class="divider" src="img/divider.png" alt="">
-				<div class="extra">
-					<div class="title2">
-						<h2 class="reduce">My Experience</h2>
-						<div class="byline">
-							<span>Part of this site details my experience (like a CV or r&eacute;sum&eacute;). This includes
-							my work history, education, interests, and other information relevant to anyone interested in working with me.</span>
-						</div>
-							<div class="less_button">
-								<ul class="actions">
-									<li><a href="{{site.baseurl}}/experience/index.html" class="button">Experience</a></li>
-								</ul>
-							</div>
-<img id="pad_top" class="divider" src="img/divider.png" alt="">
-								<h2 class="reduce">The Blog</h2>
+<img class="divider" src="img/divider.png" alt="">
+
+				<div class="container">
+					<div class="container_sub">
+							<h1 class="title">The Blog</h1>
 							<div id="list_box">
 								<ul>
 									<li class="no_space">#Development</li>
@@ -62,47 +70,45 @@ title: About Me &middot; Austin Small
 									<li>#Linux</li>
 								</ul>
 							</div>
-							<div class="title2">
-								<div class="byline">
-									<span> The other half of this site is a blog where I write
+							<div class="subline">
+									<span class="byline"> The other half of this site is a blog where I write
 									about personal and professional interests, which range from Linux
 									and software development to photography and literature.
 									</span>
-								</div>
 							</div>
+							<ul class="actions">
+								<li><a href="{{site.baseurl}}/blog/index.html" class="button">Blog Posts</a></li>
+							</ul>
 					</div>
 				</div>
-				<div class="less_button">
-					<ul class="actions">
-						<li><a href="{{site.baseurl}}/blog/index.html" class="button">Blog Posts</a></li>
-					</ul>
-				</div>
+
 <img class="divider" src="img/divider.png" alt="">
-				<div class="extra">
-					<div class="title2">
-						<h2 class="reduce">Site License</h2>
-						<div class="byline">
-							<span>I like to share.</span>
-						</div>
+
+				<div class="container">
+					<div class="container_sub">
+						<h1 class="title">Site License</h1>
+						<span class="byline">I like to share.</span>
+
 					<br><br>
 						<a href="http://creativecommons.org"><img class="CC_icons" src="img/ccman.png" alt="attribution"></a>
 						<a href="http://creativecommons.org"><img class="CC_icons" src="img/CC.png" alt="creative commons"></a>
 						<a href="http://creativecommons.org"><img class="CC_icons" src="img/ccshare.png" alt="share alike"></a>
 					<br><br>
-						<div class="byline">
-							<span>All content I create on this site is licensed under Creative Commons;
+
+						<div class="subline">
+							<span class="byline">All content I create on this site is licensed under Creative Commons;
 							you can adapt and share it as long as it isn't for commercial reasons and you let people know where you got it from.
-							Happy sharing!</span>
+							<strong>Happy sharing!</strong></span>
 						</div>
 					</div>
 				</div>
-<img class="divider" id="pad_bottom" src="img/divider.png" alt="">
-				<div id="soc_sec" class="extra">
-					<div class="title2">
-						<h2 class="reduce">Want to say hi?</h2>
-						<div class="byline">
-							<span>I'd love to hear from you;<br>you can contact me through:</span>
-						</div>
+
+<img class="divider" src="img/divider.png" alt="">
+
+				<div id="soc_sec" class="container">
+					<div class="container_sub">
+						<h1 class="title">Want to say hi?</h1>
+						<span class="byline">I'd love to hear from you;<br>you can contact me through...</span>
 						<div id="soc_icon_box">
 							<div class="soc_group">
 								<div class="soc_sub">
@@ -126,13 +132,13 @@ title: About Me &middot; Austin Small
 							</div>
 						</div>
 					<br><br>
-<img class="divider" id="pad_top" src="img/divider.png" alt="">
-				<div id="page" class="container">
-					<div class="title">
-						<h2>So, Welcome to my site.</h2>
-						<div class="short_byline">
-							<span>I hope you find something worthwhile!</span>
-						</div>
+
+<img class="divider" src="img/divider.png" alt="">
+
+				<div class="container">
+					<div class="container_sub">
+						<h1 class="title">So, Welcome to my site.</h1>
+							<span class="byline">I hope you find something worthwhile!</span>
 						<ul class="actions">
 							<li><a href="#top" id="back_button" class="button">back to top</a></li>
 						</ul>
