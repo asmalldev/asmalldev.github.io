@@ -1228,30 +1228,6 @@
 		margin-left: 2.5%;
 	}
 
-	.articles_wrapper .post
-	{
-		min-width: 95%;
-		border: 1px solid #CCCCCC;
-		border-radius: 4px;
-		margin-bottom: 1em;
-		background: #F0F0F0;
-		box-shadow: 0px 4px 15px #CCCCCC;
-		margin-left: 2.5%;
-		margin-right: 2.5%;
-	}
-
-	.articles_wrapper #right_article_box
-	{
-		min-width: 95%;
-		border: 1px solid #CCCCCC;
-		border-radius: 4px;
-		margin-bottom: 2em;
-		background: #F0F0F0;
-		box-shadow: 0px 4px 15px #CCCCCC;
-		margin-right: 2.5%;
-		margin-left: 2.5%;
-	}
-
 	.post_info
 	{
 		font-size: .8em;
@@ -1270,11 +1246,6 @@
 	.post_img
 	{
 		height: 90px;
-	}
-
-	.articles_overview_body
-	{
-		font-size: .95em;
 	}
 
 	#menu
