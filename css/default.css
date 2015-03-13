@@ -25,6 +25,8 @@
 		overflow: hidden;
 		text-align: center;
 		white-space: nowrap;
+		transition-property: border;
+		transition-duration: .35s;
 	}
 
 	#menu ul
@@ -220,6 +222,14 @@
 		padding: 0;
 		font-weight: 700;
 		color: #2B3F48;
+	}
+
+	h2
+	{
+		color: #2B3F48;
+		font-family: lato;
+		text-align: center;
+		text-decoration: underline;
 	}
 
 	.title
@@ -573,19 +583,17 @@ form
 
 /*Header*/
 
-	#header-wrapper
-	{
-		background: #FFFFFF;
-		height: 4em;
-		margin-bottom: -1em;
-	}
-
-	#header
+	#menu
 	{
 		position: relative;
 		border-bottom: 1px solid #EEE;
 		transition-property: border;
 		transition-duration: .3s;
+		background: #FFFFFF;
+		height: 4em;
+		overflow: hidden;
+		text-align: center;
+		white-space: nowrap;
 	}
 
 /*Logos*/
@@ -886,70 +894,51 @@ form
 
 /*ALL POSTS PAGES*/
 
-	.articles_wrapper
+	#posts_wrapper .byline
+	{
+		color: #1793d1;
+	}
+
+	.post_box
 	{
 		width: 70em;
+		margin-top: 2em;
 		margin-left: auto;
 		margin-right: auto;
-		margin-top: 2em;
-		padding-bottom: .5em;
-		font-size: 1em;
-		font-family: "Mate", serif;
-		text-align: justify;
-		transition-property:width;
-		transition-duration:1s;
-
-		/* Safari */
-		-webkit-transition-property:width;
-		-webkit-transition-duration:1s;
-	}
-
-	.articles_box
-	{
-		width: 70em;
 		border: 1px solid #CCCCCC;
 		border-radius: 4px;
-		margin-bottom: 1em;
 		background: #FFF;
 		box-shadow: 0px 4px 15px #CCCCCC;
+		transition-property: width;
+		transition-duration: .5s;
 	}
 
-	.articles_overview
+	.post_box p
 	{
-		padding: 0em 1em 0em 1em;
+		font-size: 1.05em;
+		font-family: "Mate", serif;
+		line-height: 1.5em;
+		text-align: justify;
+		padding: 2.5em;
+		margin-bottom: 0;
+	}
+
+	.post_box p a
+	{
+		font-size: .6em;
 	}
 
 
-	.articles_overview_header
+	.post_info
 	{
-		display: block;
-		padding-bottom: .5em;
-	}
-
-	.articles_overview_titles
-	{
+		font-size: .8em;
 		text-align: center;
-	}
-
-	.articles_overview_title
-	{
-		font-family: "Lato", sans-serif;
-		text-decoration: underline;
-		font-size: 1.2em;
-		color: #2B3F48;
+		font-family: mate, serif;
 	}
 
 	.post_info span
 	{
 		font-size: .9em;
-	}
-
-
-	.articles_overview_body
-	{
-		font-size: 1.05em;
-		margin-top: 2em;
-		line-height: 1.5em;
 	}
 
 	.center_imgs
@@ -973,10 +962,6 @@ form
 		background: #E0E0E0;
 		border-radius: 2px;
 		opacity: .7;
-	}
-
-	#content
-	{
 	}
 
 	#archive_box
@@ -1009,6 +994,30 @@ form
 		margin-top: 2em;
 	}
 
+	/* Individual Post Pages */
+
+	.post
+	{
+		max-width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 1em;
+		padding-bottom: 2.5em;
+		padding-left: 4em;
+		padding-right: 4em;
+		text-align: left;
+	}
+
+	.post-header h1
+	{
+		margin-bottom: .1em;
+	}
+
+	.post-header
+	{
+		text-align: center;
+	}
+
 /*Responsive (percentage width) extra-tiny for post page*/
 
 @media handheld, screen and (max-width: 575px) {
@@ -1029,39 +1038,13 @@ form
 
 @media handheld, screen and (max-width: 1250px) {
 
-	.articles_wrapper
+	#posts_wrapper .post_box
 	{
 		width: 50em;
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 0;
-		font-size: 1em;
-		font-family: "Mate", serif;
-		text-align: justify;
-	}
-
-	.articles_box
-	{
-		width: 50em;
-		border: 1px solid #CCCCCC;
-		border-radius: 4px;
-		float: both;
-		margin-bottom: 1em;
-		background: #FFF;
-		box-shadow: 0px 4px 15px #CCCCCC;
-	}
-
-	.articles_overview_header
-	{
-		padding-top: 0;
-		padding-bottom: 2em;
-		padding-left: 2em;
-		padding-right: 2em;
 	}
 
 	.post_info
 	{
-		font-size: .8em;
 
 	}
 
@@ -1083,58 +1066,15 @@ form
 
 	}
 
-	.articles_wrapper
+	.posts_wrapper .post_box
 	{
-		width: 800px;
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 0;
-		font-size: 1em;
-		font-family: "Mate", serif;
-		text-align: justify;
-	}
-
-	.articles_wrapper .articles_box
-	{
-		width: 800px;
-		border: 1px solid #CCCCCC;
-		border-radius: 4px;
-		margin-bottom: 1em;
-		background: #FFF;
-		box-shadow: 0px 4px 15px #CCCCCC;
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-	.articles_overview .articles_overview_header
-	{
-		padding-top: 1em;
-		padding-left: 1em;
-		padding-right: 1em;
-		padding-bottom: 2em;
-	}
-
-	.articles_wrapper .articles_overview
-	{
-		border: 1px solid #CCCCCC;
-		border-radius: 4px;
-		background: #FFF;
-		box-shadow: 0px 4px 15px #CCCCCC;
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-	.post_info
-	{
-		font-size: 1.1em;
-
+		width: 40em;
 	}
 
 	#menu
 	{
-		overflow: hidden;
-		text-align: center;
-		white-space: nowrap;
+		height: 5em;
+		border: none;
 	}
 
 	#menu ul
@@ -1240,18 +1180,6 @@ form
 		width: 80%;
 	}
 
-	/*REFACTOR, hacky use of id's*/
-
-	#pad_top
-	{
-		margin-top: 0;
-	}
-
-	#pad_bottom
-	{
-		margin-bottom: 0;
-	}
-
 	#hatman
 	{
 		margin-top: 3em;
@@ -1285,18 +1213,7 @@ form
 
 @media handheld, screen and (max-width: 815px) {
 
-	.articles_wrapper
-	{
-		width: 35em;
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 0;
-		font-size: 1em;
-		font-family: "Mate", serif;
-		text-align: justify;
-	}
-
-	.articles_wrapper .articles_box
+	#posts_wrapper .post_box
 	{
 		width: 95%;
 		border: 1px solid #CCCCCC;
@@ -1306,11 +1223,6 @@ form
 		box-shadow: 0px 4px 15px #CCCCCC;
 		margin-right: 2.5%;
 		margin-left: 2.5%;
-	}
-
-	.articles_overview_header
-	{
-		padding: .5em;
 	}
 
 	.articles_wrapper .post
@@ -1703,36 +1615,6 @@ form
 	{
 		text-decoration: line-through;
 	}
-
-
-/* Individual Post Pages */
-
-	.post
-	{
-		max-width: 1000px;
-		margin-left: auto;
-		margin-right: auto;
-		padding-top: 1em;
-		padding-bottom: 2.5em;
-		padding-left: 4em;
-		padding-right: 4em;
-	}
-
-	.post-header h1
-	{
-		margin-bottom: .1em;
-	}
-
-	.post-header
-	{
-		text-align: center;
-	}
-
-	article
-	{
-		font-size: 1.1em;
-	}
-
 
 /* Experience Page */
 
