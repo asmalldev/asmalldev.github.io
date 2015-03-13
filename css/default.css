@@ -1216,6 +1216,25 @@
 
 @media handheld, screen and (max-width: 815px) {
 
+	.container_title
+	{
+		flex-direction: column;
+		padding-top: 2em;
+	}
+
+	#profile_img
+	{
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: -2.5em;
+		height: 250px;
+	}
+
+	#names
+	{
+		padding-bottom: .5em;
+	}
+
 	#posts_wrapper .post_box
 	{
 		width: 95%;
@@ -1305,14 +1324,6 @@
 	#banner .button
 	{
 		padding: .3em 2em .3em 2em;
-	}
-
-	#profile_img
-	{
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		height: 250px;
 	}
 
 	.paragraph_wrapper
