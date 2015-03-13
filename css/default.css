@@ -1232,7 +1232,16 @@
 
 	#names
 	{
-		padding-bottom: .5em;
+		margin-left: 0;
+		white-space: normal;
+		padding-bottom: 0;
+		line-height: .8em;
+	}
+
+	#subtitle
+	{
+		margin-top: .5em;
+		margin-left: 0;
 	}
 
 	#posts_wrapper .post_box
