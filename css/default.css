@@ -778,6 +778,16 @@
 	  white-space: nowrap;
 	}
 
+	#credits_wrapper .subline
+	{
+		width: initial;
+	}
+
+	#credits_wrapper .subline span
+	{
+		line-height: 1.3em;
+	}
+
 	.credit_img img
 	{
 		height: 150px;
@@ -1218,10 +1228,21 @@
 
 @media handheld, screen and (max-width: 815px) {
 
+	.container
+	{
+		flex-direction: column;
+	}
+
 	.container_title
 	{
 		flex-direction: column;
 		padding-top: 2em;
+	}
+
+	.container_col
+	{
+		padding-left: 10%;
+		padding-rigth: 10%;
 	}
 
 	#profile_img
@@ -1230,6 +1251,11 @@
 		margin-right: auto;
 		margin-bottom: -2em;
 		height: 250px;
+	}
+
+	.subline
+	{
+		text-align: center;
 	}
 
 	#names
