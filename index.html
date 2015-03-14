@@ -154,13 +154,9 @@ title: Overview &middot; Austin Small
 
 						<!--set height of .container_title-->
 						<script type="text/javascript">
-							window.scrollTo(0, 1);
-							
 							function resize() {
-								if (window.screen.width < 500) {
-									var h = window.screen.height;
-									document.querySelector('.container_title').style.height = (h*.75) + 'px';
-								}
+					    	var h = $(window).height();
+								document.querySelector('.container_title').style.height = (h*.75) + 'px';
 							}
 
 							window.onresize = resize;
