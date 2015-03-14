@@ -145,7 +145,7 @@
 		padding-left: 19%;
 		padding-right: 19%;
 		transition-property: height;
-		transition-duration: .35s;
+		transition-duration: .15s;
 	}
 
 	.container_col

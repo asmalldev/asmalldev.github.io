@@ -144,21 +144,24 @@ title: Overview &middot; Austin Small
 						</ul>
 					</div>
 					<script>
-					$("a[href='#top']").click(function() {
-  $("html, body").animate({ scrollTop: 0 }, "slow");
-  return false;
-});
-</script>
+						$("a[href='#top']").click(function() {
+	  				$("html, body").animate({ scrollTop: 0 }, "slow");
+	  				return false;
+						});
+					</script>
 				</div>
 			</div>
 
 						<!--set height of .container_title-->
 						<script type="text/javascript">
-						function resize() {
-					    var h = $(window).height();
-
-					    document.querySelector('.container_title').style.height = (h*.75) + 'px';
-						}
+							window.scrollTo(0, 1);
+							
+							function resize() {
+								if (window.screen.width < 500) {
+									var h = window.screen.height;
+									document.querySelector('.container_title').style.height = (h*.75) + 'px';
+								}
+							}
 
 							window.onresize = resize;
 							resize();
