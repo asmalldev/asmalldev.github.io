@@ -143,15 +143,15 @@ title: Overview &middot; Austin Small
 							<li><a href="#top" id="back_button" class="button">back to top</a></li>
 						</ul>
 					</div>
-<script>
+					{% raw %}<script>
 					$("a[href='#top']").click(function() {
   $("html, body").animate({ scrollTop: 0 }, "slow");
   return false;
 });
-</script>
+</script>{% endraw %}
 				</div>
 			</div>
-
+			{% raw %}
 						<!--set height of .container_title-->
 						<script type="text/javascript">
 						function resize() {
@@ -163,3 +163,4 @@ title: Overview &middot; Austin Small
 							window.onresize = resize;
 							resize();
 						</script>
+						{% endraw %}

@@ -141,7 +141,7 @@
 	.container_title
 	{
 		display: flex;
-		min-height: 25em;
+		min-height: 19em;
 		padding-left: 19%;
 		padding-right: 19%;
 		transition-property: height;
@@ -233,12 +233,6 @@
 		text-decoration: underline;
 	}
 
-	.title
-	{
-		text-transform: uppercase;
-		color: #1793d1;
-	}
-
 	p, ol, ul
 	{
 		margin-top: 0;
@@ -284,10 +278,6 @@
 		font-size: 1.2em;
 	}
 
-	strong
-	{
-	}
-
 	a
 	{
 		color: inherit;
@@ -311,28 +301,12 @@
 		font-family: 'Mate', serif;
 		transition-property:width;
 		transition-duration:.5s;
-
-		/* Safari */
-		-webkit-transition-property:width;
-		-webkit-transition-duration:1s;
 	}
 
 	.paragraph_wrapper p
 	{
 		color: #4A4A4A;
 		font-size: 1.1em;
-	}
-
-	.mini
-	{
-		font-size: .3em;
-		transition-property: display;
-		transition-duration: .3s;
-	}
-
-	.thinner
-	{
-		font-weight: 300;
 	}
 
 /*Image Style*/
@@ -1235,7 +1209,7 @@
 	.container_title
 	{
 		flex-direction: column;
-		padding-top: 2em;
+		min-height: 23em;
 	}
 
 	.container_col
@@ -1249,7 +1223,7 @@
 		margin-left: auto;
 		margin-right: auto;
 		margin-bottom: -2em;
-		height: 250px;
+		height: 170px;
 	}
 
 	.subline
@@ -1307,6 +1281,7 @@
 	{
 		overflow: hidden;
 		text-align: center;
+		height: initial;
 	}
 
 	#menu ul
@@ -1493,11 +1468,6 @@
 		display: inline-block;
 		margin-left: auto;
 		margin-right: auto;
-	}
-
-	#profile_img
-	{
-		height: 220px;
 	}
 
 	a .CC_icons
