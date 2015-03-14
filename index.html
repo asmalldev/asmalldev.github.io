@@ -8,6 +8,19 @@ title: Overview &middot; Austin Small
 </style>
 
 	<div class="container_title">
+
+		<!--set height of .container_title-->
+		<script type="text/javascript">
+			window.scrollTo(0, 1);
+			function resize() {
+				var h = $(window).height();
+				document.querySelector('.container_title').style.height = (h*.75) + 'px';
+			}
+
+			window.onresize = resize;
+			resize();
+		</script>
+
 		<div class="container_sub">
 			<div class="container_center">
 				<img id="profile_img" src="{{site.baseurl}}/img/me.jpg" alt="Me"/>
@@ -161,16 +174,4 @@ title: Overview &middot; Austin Small
 	        			scrollTop: $(".divider").offset().top},
 	        			375);
 						});
-						</script>
-
-						<!--set height of .container_title-->
-						<script type="text/javascript">
-							window.scrollTo(0, 1);
-							function resize() {
-					    	var h = $(window).height();
-								document.querySelector('.container_title').style.height = (h*.75) + 'px';
-							}
-
-							window.onresize = resize;
-							resize();
 						</script>
