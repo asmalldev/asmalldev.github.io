@@ -25,7 +25,6 @@
 								<li id="about"><a href="{{site.baseurl}}/index.html">Overview</a></li>
 							</ul>
 					</div>
-
 			</div>
 
 			<div id="content">
@@ -69,3 +68,13 @@
 		</div>
 </body>
 </html>
+
+
+<!--script to make menu fixed on scroll-->
+					<script>
+					var $menu = $('#menu');
+					$(document).scroll(function() {
+						$menu.css({position: $(document).scrollTop() < 450? "relative":"fixed"});
+						$menu.css({"box-shadow": $(document).scrollTop() < 450? "none":"0px 4px 15px #CCC"});
+					});
+					</script>
