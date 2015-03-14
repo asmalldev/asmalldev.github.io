@@ -1420,7 +1420,7 @@
 
 	#menu ul
 	{
-		font-size: .6em;
+		height: initial;
 	}
 
 	.center_imgs
