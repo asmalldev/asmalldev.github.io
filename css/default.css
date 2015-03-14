@@ -705,7 +705,9 @@
 	{
 		float:left;
 		text-align: left;
-		margin: 1em;
+		margin-left: 1em;
+		margin-right: 1em;
+		font-size: 1.2em;
 
 	}
 
