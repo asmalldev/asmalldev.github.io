@@ -8,6 +8,19 @@ title: Experience &middot; Austin Small
 </style>
 
 <div class="container_title">
+
+		<!--set height of .container_title-->
+		<script type="text/javascript">
+			window.scrollTo(0, 1);
+			function resize() {
+				var h = $(window).height();
+				document.querySelector('.container_title').style.height = (h*.75) + 'px';
+			}
+
+			window.onresize = resize;
+			resize();
+		</script>
+
 	<div class="container_sub">
 		<div class="container_center">
 			<img id="profile_img" src="{{site.baseurl}}/img/me.jpg" alt="Me"/>
@@ -40,7 +53,7 @@ SECTION ICONS
 </div>
 -->
 
-<img class="next" src="/img/small_arrow.png" alt="">
+<a href="#next"><img class="next" height="60px" src="/img/small_arrow.png" alt=""></a>
 <img class="divider" src="/img/divider.png" alt=""><br>
 
 <div id="experience_wrapper">
@@ -112,3 +125,13 @@ SECTION ICONS
 
 	</div>
 </div>
+
+
+					<!--scroll down button-->
+					<script>
+					$("a[href='#next']").click(function() {
+						$('html,body').animate({
+							scrollTop: $(".divider").offset().top},
+							375);
+					});
+					</script>
