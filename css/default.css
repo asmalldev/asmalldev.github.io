@@ -1297,10 +1297,7 @@
 
 	#menu ul li a
 	{
-		padding-top: 0;
-		padding-bottom: 0;
-		padding-left: .2em;
-		padding-right: .2em;
+			font-size: .7em;
 	}
 
 	#logo
@@ -1418,9 +1415,9 @@
 
 @media handheld, screen and (max-width: 435px) {
 
-	#menu ul
+	#menu ul li
 	{
-		height: initial;
+		width: auto;
 	}
 
 	.center_imgs
