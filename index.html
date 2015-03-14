@@ -24,7 +24,7 @@ title: Overview &middot; Austin Small
 		</div>
 	</div>
 
-<img class="next" src="/img/small_arrow.png" alt="">
+<a href="#next"><img class="next" src="/img/small_arrow.png" alt=""></a>
 <img class="divider" src="/img/divider.png" alt="">
 
 	<div class="container">
@@ -143,14 +143,25 @@ title: Overview &middot; Austin Small
 							<li><a href="#top" id="back_button" class="button">back to top</a></li>
 						</ul>
 					</div>
-					<script>
-						$("a[href='#top']").click(function() {
-	  				$("html, body").animate({ scrollTop: 0 }, "slow");
-	  				return false;
-						});
-					</script>
 				</div>
 			</div>
+
+						<!--scroll top button-->
+						<script>
+							$("a[href='#top']").click(function() {
+								$("html, body").animate({ scrollTop: 0 }, "slow");
+							return false;
+							});
+						</script>
+
+						<!--scroll down button-->
+						<script>
+						$("a[href='#next']").click(function() {
+	    				$('html,body').animate({
+	        			scrollTop: $(".divider").offset().top},
+	        			'slow');
+						});
+						</script>
 
 						<!--set height of .container_title-->
 						<script type="text/javascript">
