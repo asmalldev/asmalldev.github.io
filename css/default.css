@@ -139,6 +139,11 @@
 	.container
 	{
 		display: flex;
+		display:-webkit-flex;
+    display:-webkit-box;
+    display:-moz-flex;
+    display:-moz-box;
+    display:-ms-flexbox;
 		padding-top: 2em;
 		padding-bottom: 2em;
 	}
@@ -146,6 +151,11 @@
 	.container_title
 	{
 		display: flex;
+		display:-webkit-flex;
+    display:-webkit-box;
+    display:-moz-flex;
+    display:-moz-box;
+    display:-ms-flexbox;
 		min-height: 19em;
 		padding-left: 19%;
 		padding-right: 19%;
@@ -156,6 +166,11 @@
 	.container_col
 	{
 		display: flex;
+		display:-webkit-flex;
+    display:-webkit-box;
+    display:-moz-flex;
+    display:-moz-box;
+    display:-ms-flexbox;
 		flex-direction: column;
 		padding-top: 2em;
 		padding-left: 20%;
