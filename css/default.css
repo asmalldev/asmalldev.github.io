@@ -1364,6 +1364,11 @@
 		padding: 0;
 	}
 
+	#profile_img
+	{
+		margin-top: 0;
+	}
+
 	#header
 	{
 		padding-bottom: 2em;
