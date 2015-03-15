@@ -154,6 +154,7 @@
 		display:-webkit-flex;
     display:-moz-flex;
     display:-ms-flexbox;
+		flex-shrink:0
 		padding-top: 2em;
 		padding-bottom: 2em;
 	}
@@ -164,6 +165,7 @@
 		display:-webkit-flex;
     display:-moz-flex;
     display:-ms-flexbox;
+		flex-shrink:0
 		min-height: 19em;
 		padding-left: 19%;
 		padding-right: 19%;
@@ -178,6 +180,10 @@
     display:-moz-flex;
     display:-ms-flexbox;
 		flex-direction: column;
+		-ms-flex-direction: column;
+		-moz-flex-direction: column;
+		-webkit-flex-direction: column;
+		flex-shrink:0
 		padding-top: 2em;
 		padding-left: 20%;
 		padding-right: 20%;
@@ -186,6 +192,7 @@
 	.container_sub
 	{
 	  flex-grow: 1;
+		flex-shrink:0
 	  height: 95%;
 	  position: relative;
 		margin: auto;
@@ -1150,11 +1157,17 @@
 	.container
 	{
 		flex-direction: column;
+		-ms-flex-direction: column;
+		-moz-flex-direction: column;
+		-webkit-flex-direction: column;
 	}
 
 	.container_title
 	{
 		flex-direction: column;
+		-ms-flex-direction: column;
+		-moz-flex-direction: column;
+		-webkit-flex-direction: column;
 		min-height: 24em;
 	}
 
