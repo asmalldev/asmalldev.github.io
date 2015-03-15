@@ -154,7 +154,6 @@
 		display:-webkit-flex;
     display:-moz-flex;
     display:-ms-flexbox;
-		flex-shrink: 0;
 		padding-top: 2em;
 		padding-bottom: 2em;
 	}
@@ -165,7 +164,6 @@
 		display:-webkit-flex;
     display:-moz-flex;
     display:-ms-flexbox;
-		flex-shrink: 0;
 		min-height: 19em;
 		padding-left: 19%;
 		padding-right: 19%;
@@ -183,7 +181,6 @@
 		-ms-flex-direction: column;
 		-moz-flex-direction: column;
 		-webkit-flex-direction: column;
-		flex-shrink: 0;
 		padding-top: 2em;
 		padding-left: 20%;
 		padding-right: 20%;
@@ -192,7 +189,6 @@
 	.container_sub
 	{
 	  flex-grow: 1;
-		flex-shrink: 0;
 	  position: relative;
 		margin: auto;
 	}
@@ -290,6 +286,11 @@
 		margin-left: auto;
 		margin-right: auto;
 		margin-bottom: 1.5em;
+	}
+
+	.scroll_to
+	{
+		padding-bottom: 2.5em;
 	}
 
 	ul.actions
