@@ -140,9 +140,7 @@
 	{
 		display: flex;
 		display:-webkit-flex;
-    display:-webkit-box;
     display:-moz-flex;
-    display:-moz-box;
     display:-ms-flexbox;
 		padding-top: 2em;
 		padding-bottom: 2em;
@@ -152,9 +150,7 @@
 	{
 		display: flex;
 		display:-webkit-flex;
-    display:-webkit-box;
     display:-moz-flex;
-    display:-moz-box;
     display:-ms-flexbox;
 		min-height: 19em;
 		padding-left: 19%;
@@ -167,9 +163,7 @@
 	{
 		display: flex;
 		display:-webkit-flex;
-    display:-webkit-box;
     display:-moz-flex;
-    display:-moz-box;
     display:-ms-flexbox;
 		flex-direction: column;
 		padding-top: 2em;
@@ -179,7 +173,6 @@
 
 	.container_sub
 	{
-	  display: block;
 	  flex-grow: 1;
 	  height: 95%;
 	  position: relative;
