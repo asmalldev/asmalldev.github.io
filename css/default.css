@@ -19,7 +19,7 @@
 
 	#content
 	{
-		padding-top: 2em;
+		padding-top: 10%;
 	}
 
 /* MENU */
@@ -1164,10 +1164,10 @@
 
 	.container_title
 	{
-		flex-direction: column;
-		-ms-flex-direction: column;
-		-moz-flex-direction: column;
-		-webkit-flex-direction: column;
+		flex-direction: column-reverse;
+		-ms-flex-direction: column-reverse;
+		-moz-flex-direction: column-reverse;
+		-webkit-flex-direction: column-reverse;
 		min-height: 24em;
 	}
 
@@ -1181,13 +1181,14 @@
 	{
 		margin-left: auto;
 		margin-right: auto;
-		margin-bottom: -2em;
 		height: 170px;
+		margin-top: -2em;
 	}
 
 	.subline
 	{
 		text-align: center;
+		margin-bottom: -2em;
 	}
 
 	#names
