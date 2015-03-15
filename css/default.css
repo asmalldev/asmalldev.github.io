@@ -286,6 +286,12 @@
 		margin-left: auto;
 		margin-right: auto;
 		margin-bottom: 1.5em;
+		text-decoration: none!important;
+	}
+
+	.next:hover
+	{
+		text-decoration: none;
 	}
 
 	.scroll_to
@@ -311,6 +317,7 @@
 	a
 	{
 		color: inherit;
+		border: none;
 	}
 
 	a:hover
@@ -1355,6 +1362,11 @@
 	#menu ul li
 	{
 		padding: 0;
+	}
+
+	.next
+	{
+		display: none;
 	}
 
 	.center_imgs
