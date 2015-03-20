@@ -9,11 +9,13 @@ title: Overview &middot; Austin Small
 
 	<div class="container_title">
 
-		<!--set height of .container_title-->
+		<!--set height of .container_title based on viewport ratio-->
 		<script type="text/javascript">
 			function resize() {
 				var h = $(window).height();
-				document.querySelector('.container_title').style.height = (h*.75) + 'px';
+				var w = $(window).width();
+				var r = h * (w * .82);
+				document.querySelector('.container_title').style.height = (r*.00068) + 'px';
 			}
 
 			window.onresize = resize;
