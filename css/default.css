@@ -175,13 +175,12 @@
 	{
 		display: flex;
 		display:-webkit-flex;
-    display:-moz-flex;
-    display:-ms-flexbox;
+		display:-moz-flex;
+		display:-ms-flexbox;
 		flex-direction: column;
 		-ms-flex-direction: column;
 		-moz-flex-direction: column;
 		-webkit-flex-direction: column;
-		padding-top: 2em;
 		padding-left: 20%;
 		padding-right: 20%;
 	}
