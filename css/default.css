@@ -152,8 +152,8 @@
 	{
 		display: flex;
 		display:-webkit-flex;
-    display:-moz-flex;
-    display:-ms-flexbox;
+		display:-moz-flex;
+		display:-ms-flexbox;
 		padding-top: 2em;
 		padding-bottom: 2em;
 	}
@@ -162,8 +162,8 @@
 	{
 		display: flex;
 		display:-webkit-flex;
-    display:-moz-flex;
-    display:-ms-flexbox;
+		display:-moz-flex;
+		display:-ms-flexbox;
 		min-height: 19em;
 		padding-left: 19%;
 		padding-right: 19%;
@@ -1170,10 +1170,10 @@
 
 	.container_title
 	{
-		flex-direction: column-reverse;
-		-ms-flex-direction: column-reverse;
-		-moz-flex-direction: column-reverse;
-		-webkit-flex-direction: column-reverse;
+		flex-direction: column;
+		-ms-flex-direction: column;
+		-moz-flex-direction: column;
+		-webkit-flex-direction: column;
 		min-height: 24em;
 	}
 
