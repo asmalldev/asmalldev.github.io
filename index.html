@@ -10,17 +10,7 @@ title: Overview &middot; Austin Small
 	<div class="container_title">
 
 		<!--set height of .container_title based on viewport ratio-->
-		<script type="text/javascript">
-			function resize() {
-				var h = $(window).height();
-				var w = $(window).width();
-				var r = h * (w * .82);
-				document.querySelector('.container_title').style.height = (r*.00068) + 'px';
-			}
-
-			window.onresize = resize;
-			resize();
-		</script>
+		<script type="text/javascript" src="/assets/javascript/resize.js"></script>
 
 		<div class="container_sub">
 			<div class="container_center">
@@ -167,18 +157,7 @@ title: Overview &middot; Austin Small
 <!--SCRIPTS-->
 
 	<!--scroll top button-->
-	<script>
-		$("a[href='#top']").click(function() {
-			$("html, body").animate({ scrollTop: 0 }, "slow");
-		return false;
-		});
-	</script>
+	<script type="text/javascript" src="/assets/javascript/scrolltop.js"></script>
 
 	<!--scroll down button-->
-	<script>
-	$("a[href='#next']").click(function() {
-		$('html,body').animate({
-			scrollTop: $(".scroll_to").offset().top},
-			375);
-	});
-	</script>
+	<script type="text/javascript" src="/assets/javascript/scrolldown.js"></script>
