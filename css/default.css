@@ -1359,6 +1359,11 @@
 
 @media handheld, screen and (max-width: 435px) {
 
+	.next
+	{
+	display: none;
+	}
+	
 	#menu ul li
 	{
 		padding: 0;
