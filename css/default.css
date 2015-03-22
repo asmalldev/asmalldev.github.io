@@ -1175,6 +1175,7 @@
 		-moz-flex-direction: column;
 		-webkit-flex-direction: column;
 		min-height: 24em;
+		padding-top: 3em;
 	}
 
 	.container_col
