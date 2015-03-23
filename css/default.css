@@ -905,6 +905,11 @@
 
 /*ALL POSTS PAGES*/
 
+	.post-content p
+	{
+		font-family: mate, serif;
+	}
+	
 	#posts_wrapper .byline
 	{
 		color: #1793d1;
