@@ -167,6 +167,8 @@
 		min-height: 19em;
 		padding-left: 19%;
 		padding-right: 19%;
+        -webkit-padding-end: 19%;
+        -webkit-padding-start: 19%;
 		transition-property: height;
 		transition-duration: .3s;
 	}
@@ -183,6 +185,8 @@
 		-webkit-flex-direction: column;
 		padding-left: 20%;
 		padding-right: 20%;
+        -webkit-padding-end: 20%;
+        -webkit-padding-start: 20%;
 	}
 
 	.container_sub
@@ -198,6 +202,7 @@
 	  top: 50%;
 	  left: 50%;
 	  transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%,-50%);
 	  white-space: nowrap;
 	}
 
