@@ -1255,7 +1255,7 @@
 		margin-right: 2.5%;
 		margin-left: 2.5%;
 	}
-
+    
 	.post_info
 	{
 		font-size: .8em;
@@ -1406,6 +1406,12 @@
 	{
 		padding-bottom: 2em;
 	}
+    
+     .post_box p
+	{
+        padding-left: .6em;
+        padding-right: .6em;
+    }
 
 	.center_imgs
 	{
