@@ -926,6 +926,12 @@
 	{
 		color: #1793d1;
 	}
+    
+    .post h4
+    {
+        margin-top: 2em;
+        text-align: center;
+    }
 
 	.post_box
 	{
@@ -976,11 +982,7 @@
 
 	.center_imgs
 	{
-		width: 320px;
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 2em;
-		margin-bottom: 2em;
+		text-align: center;
 	}
 
 	.post_img
@@ -988,7 +990,16 @@
 		height: 90px;
 		transition-property: height;
 		transition-duration: .3s;
+        margin-top: 2em;
+		margin-bottom: 2em;
 	}
+    
+    .post_img_large
+    {
+        max-width: 80%;
+		margin-bottom: 2em;
+        border-radius: 4px;
+    }
 
 	.tags
 	{
@@ -1253,19 +1264,15 @@
 
 	}
 
-	.center_imgs
-	{
-		width: 321px;
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 2em;
-		margin-bottom: 2em;
-	}
-
 	.post_img
 	{
 		height: 90px;
 	}
+    
+    .post_img_large
+    {
+        max-width: 95%;
+    }
 
 	#logo
 	{
@@ -1404,11 +1411,7 @@
 
 	.center_imgs
 	{
-		width: 215px;
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 2em;
-		margin-bottom: 2em;
+		text-align: center;im
 	}
 
 	.post_img
