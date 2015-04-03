@@ -262,7 +262,8 @@
 		color: #2B3F48;
 		font-family: lato;
 		text-align: center;
-		text-decoration: underline;
+		margin-top: .85em;
+        margin-bottom: .4em;
 	}
 
 	p, ol, ul
@@ -911,6 +912,11 @@
 
 /*ALL POSTS PAGES*/
 
+    #posts_wrapper a
+    {
+        text-decoration: none;
+    }
+
 	.post-content p
 	{
 		font-family: mate, serif;
@@ -941,7 +947,10 @@
 		font-family: "Mate", serif;
 		line-height: 1.5em;
 		text-align: justify;
-		padding: 2.5em;
+		padding-left: 2.5em;
+		padding-right: 2.5em;
+		padding-bottom: 2.5em;
+        padding-top: 2em;
 		margin-bottom: 0;
 	}
 
@@ -956,6 +965,8 @@
 		font-size: .8em;
 		text-align: center;
 		font-family: mate, serif;
+        padding-left: 10%;
+        padding-right: 10%;
 	}
 
 	.post_info span
@@ -1046,7 +1057,7 @@
 
 	#posts_wrapper
 	{
-		width: 95%;
+		
 	}
 							}
 
