@@ -841,7 +841,7 @@
 
 	#cv h1
 	{
-		
+
 	}
 
 	#cv h2
@@ -921,12 +921,12 @@
 	{
 		font-family: mate, serif;
 	}
-	
+
 	#posts_wrapper .byline
 	{
 		color: #1793d1;
 	}
-    
+
     .post h4
     {
         margin-top: 2em;
@@ -942,7 +942,7 @@
 		border: 1px solid #CCCCCC;
 		border-radius: 4px;
 		background: #FFF;
-		box-shadow: 0px 4px 15px #CCCCCC;
+		box-shadow: 0px 4px 15px rgba(204, 204, 204, 0.44);
 		transition-property: width;
 		transition-duration: .5s;
 	}
@@ -991,7 +991,7 @@
         margin-top: 2em;
 		margin-bottom: 2em;
 	}
-    
+
     .post_img_large
     {
         max-width: 80%;
@@ -1033,7 +1033,7 @@
 
 	#posts_wrapper
 	{
-	
+
 	}
 
 	/* Individual Post Pages */
@@ -1066,7 +1066,7 @@
 
 	#posts_wrapper
 	{
-		
+
 	}
 							}
 
@@ -1251,11 +1251,11 @@
 		border-radius: 4px;
 		margin-bottom: 1em;
 		background: #FFF;
-		box-shadow: 0px 4px 15px #CCCCCC;
+		box-shadow: 0px 4px 15px rgba(204, 204, 204, 0.44);
 		margin-right: 2.5%;
 		margin-left: 2.5%;
 	}
-    
+
 	.post_info
 	{
 		font-size: .8em;
@@ -1266,7 +1266,7 @@
 	{
 		height: 90px;
 	}
-    
+
     .post_img_large
     {
         max-width: 95%;
@@ -1391,7 +1391,7 @@
 	{
 	display: none;
 	}
-	
+
 	#menu ul li
 	{
 		padding: 0;
@@ -1406,7 +1406,7 @@
 	{
 		padding-bottom: 2em;
 	}
-    
+
      .post_box p
 	{
         padding-left: .6em;
