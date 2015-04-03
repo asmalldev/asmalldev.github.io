@@ -1,11 +1,10 @@
 ---
 layout: post
 title:  "Photomicroscopy!"
-date:   2015-3-26
+date:   2015-4-3
 author: "asmalldev"
 read_time: "< 1 min"
 article_overview: "I recently re-discovered some images from a few years ago when I was doing amateur photography more actively. The thing that made these specific images stand out to me among gigs and gigs of other images is that they're photomicroscopy images. What the heck is that? It's what it sounds like: photography done with a microscope. Think macro photography taken a few steps further. If that peeks your interest, I highly suggest you give it a try- if you can... unfortunately the equipment is rather expensive, but if you can borrow equipment from a school or organization like I did, I think it's worth a try. Take a look and the images and let me know what you think. <strong>WARNING:</strong> If you're squeemish about insects or other bugs, you may want to turn back now."
-
 ---
 
 ###Photomi<em>whats</em>copy?
