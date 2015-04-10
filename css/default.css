@@ -119,7 +119,6 @@
     .image_overlay
     {
         position: fixed;
-        height: 100vh;
         background-repeat: no-repeat;
         top: 0;
         left: 0;
