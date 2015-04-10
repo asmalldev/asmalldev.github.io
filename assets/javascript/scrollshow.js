@@ -1,3 +1,5 @@
+<!--
+
 $("#footer").css('display','none');
 $(window).scroll(function() {
     if($(window).scrollTop() + 160 > $(document).height() - $(window).height() ) {
@@ -7,3 +9,5 @@ $(window).scroll(function() {
        $("#footer").css('display','none');
     }
 });
+
+-->
