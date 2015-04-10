@@ -160,8 +160,9 @@
 
 	#subtitle
 	{
-	  display: block;
+        display: block;
 		margin-left: -12px;
+        color: #2B3F48;
 	}
 
 	#profile_img
@@ -1271,11 +1272,6 @@
 		height: 170px;
 		margin-top: 2em;
 	}
-    
-    #subtitle
-    {
-        color: #2B3F48;
-    }
 
 	.subline
 	{
