@@ -114,6 +114,7 @@
     #profile_wrapper
     {
         background: none;
+        min-height: 27em;
     }
     
     .image_overlay
@@ -713,7 +714,7 @@
 	#footer
 	{
         display: none;
-        color: #D0D0D0;
+        color: #F9F9F9;
 		padding-bottom: 2.5em;
 		text-align: center;
 		width: 100%;
