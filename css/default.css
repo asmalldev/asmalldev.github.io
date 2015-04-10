@@ -119,6 +119,7 @@
     .image_overlay
     {
         position: fixed;
+        height: 100vh;
         background-repeat: no-repeat;
         top: 0;
         left: 0;
@@ -1308,6 +1309,11 @@
 		margin-right: 2.5%;
 		margin-left: 2.5%;
 	}
+    
+    .next
+    {
+        opacity: 1;
+    }
 
 	.post_info
 	{
