@@ -1,13 +1,14 @@
 <!--
- document.querySelector('#menu').style.opacity = .8;
-$(window).scroll(function() {
-    if($('.next').offset().top > document.querySelector('.container_title').style.height) {
+document.querySelector('#menu').style.opacity = .7;
+var d = $(".next").offset().top;
+$(document).scroll(function() {
+    if($(this).scrollTop() < d)
+    {
+        document.querySelector('#menu').style.opacity = .7;
+    } 
+    else {
         document.querySelector('#menu').style.opacity = 1;
     }
-    else{
-        document.querySelector('#menu').style.opacity = initial;
-    }
- 
 });
 
 -->
