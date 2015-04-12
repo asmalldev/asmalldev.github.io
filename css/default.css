@@ -8,7 +8,6 @@
 	body
 	{
 		height: auto;
-		min-height: 100%;
         background: #333333;
 		font-family: 'Lato', sans-serif;
 		font-size: inherit;
@@ -46,7 +45,7 @@
         transition-duration: .35s;
         opacity: 1;
 	}
-    
+
     #menu:hover
     {
         opacity: 1;
@@ -116,7 +115,7 @@
         background: none;
         min-height: 27em;
     }
-    
+
     .image_overlay
     {
         position: fixed;
@@ -172,7 +171,7 @@
 		transition-property:width,height,margin,padding,border,opacity,display;
 		transition-duration:.99s;
 	}
-    
+
     #white_box
     {
         width: 80%;
@@ -620,7 +619,7 @@
 		box-shadow: 0px 4px 15px #181818;
         margin-bottom: 17.5em;
 	}
-    
+
     .rest_wrapper
     {
         background: #FFF;
@@ -1259,7 +1258,7 @@
 		padding-left: 10%;
 		padding-right: 10%;
 	}
-    
+
     #white_box
     {
         min-height: 22.5em;
@@ -1305,7 +1304,7 @@
 		margin-right: 2.5%;
 		margin-left: 2.5%;
 	}
-    
+
     .next
     {
         opacity: 1;
