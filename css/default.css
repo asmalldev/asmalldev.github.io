@@ -19,7 +19,7 @@
 
 	#content
 	{
-		padding-top: 3.8em;
+		padding-top: 1.8em;
 	}
 
 /* MENU */
@@ -114,7 +114,7 @@
     #profile_wrapper
     {
         background: none;
-        min-height: 27em;
+        min-height: 29em;
     }
     
     .image_overlay
@@ -1251,7 +1251,6 @@
 		-moz-flex-direction: column;
 		-webkit-flex-direction: column;
 		min-height: 21em;
-		padding-top: 1.5em;
 	}
 
 	.container_col
