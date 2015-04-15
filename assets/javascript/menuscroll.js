@@ -1,6 +1,6 @@
 <!--
 document.querySelector('#menu').style.opacity = .7;
-var d = $(".next").offset().top;
+var d = $(".container_title").offset().top;
 $(document).scroll(function() {
     if($(this).scrollTop() < d)
     {
