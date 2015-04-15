@@ -1440,11 +1440,11 @@
 
 @media handheld, screen and (max-width: 435px) {
 
-	.next
-	{
-
-	}
-
+    .container_title
+    {
+        padding-top: 2em;
+    }
+    
 	#menu ul li
 	{
 		padding: 0;
