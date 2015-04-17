@@ -178,7 +178,7 @@
     #white_box
     {
         width: 80%;
-        margin-left: -5.5%;
+        margin-left: -9.5%;
         border-radius: 15px;
         background: white;
         opacity: .6;
@@ -209,7 +209,6 @@
 		min-height: 19em;
 		padding-left: 19%;
 		padding-right: 19%;
-        margin-left: -4%;
         -webkit-padding-end: 19%;
         -webkit-padding-start: 19%;
 		transition-property: height;
