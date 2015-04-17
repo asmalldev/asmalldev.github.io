@@ -155,8 +155,9 @@
 	#handle
 	{
 		font-size: .39em;
-		color: #A0A0A0;
+		color: #777777;
         white-space: normal;
+        font-weight: normal;
 	}
 
 	#subtitle
