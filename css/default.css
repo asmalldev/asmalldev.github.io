@@ -126,6 +126,7 @@
         bottom: 0;
         background-image: url(/img/whill.jpg);
         background-size: cover;
+        background-position: center, center;
         z-index: -3;
     }
 
