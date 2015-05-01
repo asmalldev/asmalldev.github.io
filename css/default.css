@@ -35,7 +35,6 @@
 		overflow: hidden;
 		position: fixed;
 		text-align: center;
-		/*white-space: nowrap;*/
 		border-bottom: 1px solid #EEE;
 		transition-property: border, box-shadow, position;
 		transition-duration: .35s;
@@ -59,7 +58,6 @@
         transform: translateY(-50%);
         -webkit-transform: translateY(-50%);
 		list-style: none;
-		/*white-space: nowrap;*/
 		transition-property:width,height,margin,padding,border,opacity,font-size,float;
 		transition-duration:.35s;
 	}
