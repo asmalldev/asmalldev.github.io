@@ -622,8 +622,7 @@
     .rest_wrapper
     {
         background: #FFF;
-        padding-top: 2em;
-        padding-bottom: 2em;
+        padding: 2em;
     }
 
 	#spacer
@@ -868,7 +867,7 @@
 		margin-right: auto;
 		margin-top: 1em;
 		text-align: left;
-		width: 60%;
+		width: 80%;
 		padding: .5em;
 		padding-left: .5em;
 		padding-right: .5em;
