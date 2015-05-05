@@ -1465,6 +1465,14 @@
 		padding-bottom: 2em;
 	}
 
+	.rest_wrapper
+	{
+		padding-top: 2em;
+		padding-bottom: 2em;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
      .post_box p
 	{
         padding-left: .6em;
