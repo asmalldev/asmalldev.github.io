@@ -1,5 +1,8 @@
-	$("a[href='#next']").click(function() {
-		$('html,body').animate({
-			scrollTop: $(".scroll_to").offset().top},
-			375);
-	});
+<!--
+// scroll function for button
+$("a[href='#next']").click(function() {
+	$('html,body').animate({
+		scrollTop: $(".scroll_to").offset().top},
+		375);
+});
+-->

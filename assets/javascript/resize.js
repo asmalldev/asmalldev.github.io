@@ -1,10 +1,13 @@
-	function resize() {
-		var h = $(window).height();
-		var w = $(window).width();
-		var r = h * (w * .75);
-		document.querySelector('#profile_wrapper').style.height = (r*.0009) + 'px';
-		document.querySelector('.container_title').style.height = (r*.00068) + 'px';
-		document.querySelector('#white_box').style.height = (r*.00068) + 'px';
-    }
-	window.onresize = resize;
-	resize();
+<!--
+// resize profile wrapper, container_title and white_box according to window
+function resize() {
+	var h = $(window).height();
+	var w = $(window).width();
+	var r = h * (w * .75);
+	document.querySelector('#profile_wrapper').style.height = (r*.0009) + 'px';
+	document.querySelector('.container_title').style.height = (r*.00068) + 'px';
+	document.querySelector('#white_box').style.height = (r*.00068) + 'px';
+}
+window.onresize = resize;
+resize();
+-->
