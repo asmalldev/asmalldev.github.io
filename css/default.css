@@ -1118,7 +1118,7 @@
 
 	#posts_wrapper .post_box
 	{
-		width: 50em;
+		width: 45em;
 	}
 
 	.post_info
@@ -1131,7 +1131,7 @@
 
 /*Responsive resizing SMALL*/
 
-@media handheld, screen and (max-width: 959.985px) {
+@media handheld, screen and (max-width: 1000px) {
 
 
 	#wrapper #header-wrapper
