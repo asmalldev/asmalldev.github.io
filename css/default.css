@@ -23,11 +23,6 @@
 
 /* MENU */
 
-	#header
-	{
-
-	}
-
 	#menu
 	{
 		width: 100%;
@@ -1150,11 +1145,6 @@
 		background: #FFFFFF;
 	}
 
-	#header
-	{
-
-	}
-
 	.posts_wrapper .post_box
 	{
 		width: 40em;
@@ -1469,11 +1459,6 @@
 	#menu ul li
 	{
 		padding: 0;
-	}
-
-	#header
-	{
-		padding-bottom: 2em;
 	}
 
 	.rest_wrapper
