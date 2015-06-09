@@ -897,6 +897,30 @@
 		text-align: justify;
 	}
 
+	#pumpkin
+	{
+		color: #fca311;
+		text-decoration: none;
+	}
+
+	#pardee
+	{
+		color: #CC0000;
+		text-decoration: none;
+	}
+
+  #orbital
+	{
+		color: #124C67;
+		text-decoration: none;
+	}
+
+	#until
+	{
+		color: #333;
+		text-decoration: none;
+	}
+
 @media handheld, screen and (max-width: 1162px) {
 
 		.jump
