@@ -117,7 +117,7 @@
         left: 0;
         right: 0;
         bottom: 0;
-        background-image: url(/img/whill.jpg);
+        background-image: url(/img/stuvi.jpg);
         background-size: cover;
         background-position: center, center;
         z-index: -3;
@@ -157,7 +157,7 @@
 	{
         display: block;
 		margin-left: -12px;
-        color: #474747;
+        color: #1E1E1E;
 	}
 
 	#profile_img
@@ -1283,7 +1283,8 @@
 
     #white_box
     {
-        min-height: 22.5em;
+        min-height: 19.5em;
+				margin-top: 3em;
     }
 
 	#profile_img
@@ -1471,7 +1472,7 @@
 
     .container_title
     {
-        padding-top: 4em;
+        padding-top: 3em;
     }
 
 	#names
