@@ -868,7 +868,6 @@
 		padding-right: .5em;
 		transition-property: width;
 		transition-duration: .3s;
-
 	}
 
 	#cv span
@@ -903,15 +902,15 @@
 		text-decoration: none;
 	}
 
-	#pardee
+	.BU
 	{
 		color: #CC0000;
 		text-decoration: none;
 	}
 
-  #orbital
+  	#orbital
 	{
-		color: #124C67;
+		color: #0E78A9;
 		text-decoration: none;
 	}
 
