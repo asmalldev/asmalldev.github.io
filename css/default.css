@@ -8,7 +8,7 @@
 	body
 	{
 		height: auto;
-    background: #333333;
+    	background: #333333;
 		font-family: 'Lato', sans-serif;
 		font-size: inherit;
 		font-weight: 300;
@@ -504,8 +504,6 @@
 		width: 35em;
 		margin-left: auto;
 		margin-right: auto;
-		border: 1px solid #CCCCCC;
-		border-radius: 4px;
 		padding-right: 3.5em;
 		padding-left: 3.5em;
 		padding-top: 1em;
