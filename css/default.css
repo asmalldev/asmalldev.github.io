@@ -127,8 +127,6 @@
 	{
 		font-size: 2em;
 		font-weight: bold;
-		margin-left: 1.7em;
-		padding-bottom: 1.3em;
 	}
 
 	#first
@@ -143,14 +141,6 @@
 	{
 		color: #2B3F48;
 		font-weight: 300;
-	}
-
-	#handle
-	{
-		font-size: .39em;
-		color: #777777;
-        white-space: normal;
-        font-weight: normal;
 	}
 
 	#subtitle
@@ -1129,16 +1119,6 @@
 		text-align: center;
 	}
 
-/*Responsive (percentage width) extra-tiny for post page*/
-
-@media handheld, screen and (max-width: 575px) {
-
-	#handle
-    {
-        opacity: 0;
-    }
-							}
-
 /*Responsive resizing MEDIUM*/
 
 @media handheld, screen and (max-width: 1250px) {
@@ -1304,7 +1284,6 @@
 		margin-left: 0;
 		padding-bottom: 0;
 		line-height: .8em;
-        margin-left: 2em;
         margin-top: 1em;
 	}
 
