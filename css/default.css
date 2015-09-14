@@ -129,6 +129,15 @@
 		font-weight: bold;
 	}
 
+	#name_box
+	{
+	    background-color: rgba(255, 255, 255, 0.7);;
+	    padding: 2em;
+		border-radius: 4px;
+		z-index: -1;
+		min-width: 10px;
+	}
+
 	#first
 	{
 		font-weight: bold;
@@ -157,17 +166,6 @@
 		transition-property:width,height,margin,padding,border,opacity,display;
 		transition-duration:.99s;
 	}
-
-    #white_box
-    {
-        width: 80%;
-        margin-left: -9.5%;
-        border-radius: 15px;
-        background: white;
-        opacity: .7;
-        position: absolute;
-        min-height: 18em;
-    }
 
 /* CONTAINERS */
 
@@ -1258,12 +1256,6 @@
 		padding-right: 10%;
 	}
 
-    #white_box
-    {
-        min-height: 19.5em;
-				margin-top: 3em;
-    }
-
 	#profile_img
 	{
 		margin-left: auto;
@@ -1354,6 +1346,7 @@
 	.paragraph_wrapper
 	{
 		width: 80%;
+		padding: 1em;
 	}
 
 	#paragraph_wrapper_categories
@@ -1455,6 +1448,11 @@
 	{
 		white-space: normal;
 		margin-left: 0;
+	}
+
+	#name_box
+	{
+		padding: .5em;
 	}
 
 	#menu ul li
