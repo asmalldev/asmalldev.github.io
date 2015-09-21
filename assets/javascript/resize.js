@@ -6,7 +6,6 @@ function resize() {
 	var r = h * (w * .75);
 	document.querySelector('#profile_wrapper').style.height = (r*.0009) + 'px';
 	document.querySelector('.container_title').style.height = (r*.00068) + 'px';
-	document.querySelector('#white_box').style.height = (r*.00068) + 'px';
 }
 window.onresize = resize;
 resize();
