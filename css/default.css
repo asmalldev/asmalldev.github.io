@@ -440,14 +440,15 @@
 		letter-spacing: 0.20em;
 		line-height: 4em;
 		text-decoration: none;
-		text-transform: uppercase;
+		font-family: lato;
 		font-weight: 400;
 		font-size: 1em;
 		color: #FFF;
 		text-align: center;
-		border-radius: 2px;
 		white-space: nowrap;
 		font-size: medium;
+		border-radius: 2px;
+		border: none;
 	}
 
 	.button:hover
@@ -471,7 +472,6 @@
 	#back_button
 	{
 		margin-top: 2em;
-		padding-bottom: 0;
 		margin-bottom: -3em;
 	}
 
@@ -1350,11 +1350,6 @@
 	.selected
 	{
 
-	}
-
-	.button
-	{
-		padding: .3em 2em .3em 2em;
 	}
 
 	#banner .button
