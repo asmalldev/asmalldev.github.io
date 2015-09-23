@@ -136,6 +136,7 @@
 		border-radius: 4px;
 		z-index: -1;
 		min-width: 10px;
+		font-weight: 300;
 	}
 
 	#first
@@ -157,6 +158,7 @@
         display: block;
 		margin-left: -12px;
         color: #1E1E1E;
+		font-size: 1.6em;
 	}
 
 	#profile_img
@@ -371,7 +373,7 @@
 	.paragraph_wrapper p
 	{
 		color: #1E1E1E;
-		font-size: 1.1em;
+		font-size: 1.2em;
 	}
 
 /*Image Style*/
@@ -747,7 +749,6 @@
 	{
 		width: 100%;
 		text-align: center;
-		margin-left: 2em;
 	}
 
 	#footer_cols
