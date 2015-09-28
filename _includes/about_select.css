@@ -1,29 +1,4 @@
 #about
 	{
 		font-weight: bold;
-		border-bottom-style: solid!important;
-		border-bottom-color: #1793d1!important;
-		border-width: 2px;
 	}
-	
-	
-@media (max-width: 959.985px) {
-	
-#about
-	{
-		border-bottom: solid 1px;
-		border-color: white;
-		
-	}
-	
-							}
-							
-								
-@media (max-width: 815px) {
-
-#about
-	{
-		
-	}
-	
-						}

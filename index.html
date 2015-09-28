@@ -12,11 +12,6 @@ title: Overview &middot; Austin Small
             <!--set height of .container_title based on viewport ratio-->
             <script type="text/javascript" src="/assets/javascript/resize.js"></script>
             <div class="container_sub">
-                <div class="container_center">
-                    <img id="profile_img" src="{{site.baseurl}}/img/me.jpg" alt="Me"/>
-                </div>
-            </div>
-            <div class="container_sub">
                 <div id="name_box" class="container_center">
                     <div id="names">
                         <span id="first">Austin</span><span id="last">Small</span>
@@ -31,23 +26,22 @@ title: Overview &middot; Austin Small
     </div>
 	<img class="divider" src="/img/divider.png" alt="" style="margin-bottom: -.3em; width=100%;">
     <div class="rest_wrapper">
-        <div class="container">
+        <div class="container" style="background: rgba(23, 147, 209, 0.24);">
             <div class="container_sub">
-                    <h1>Hi, I'm Austin</h1>
+				<img id="profile_img" src="{{site.baseurl}}/img/me.jpg" style="position: absolute;" alt="Me"/>
+                    <h1>Hello!</h1>
                     <span class="byline">this is my personal site</span>
                 <div class="paragraph_wrapper">
-                    <p>I'm a computer science student and an aspiring programmer with diverse interests.
-					<strong>I'm especially eager to get involved in development in the real world</strong>, so if you have any interesting projects
-                    or ideas and you're looking for more contributors or even just want to talk about them- <a href="mailto:asmalldev@gmail.com">send me an email</a>.
-                    I'd love to hear about it! I hope you'll find my blog posts on this site interesting and helpful and that you'll say hi.
+                    <p>My name is Austin, I'm a computer science student and programmer. I enjoy lots of things: music, food, people, and of course writing code ;)
+					This site is a blog, a CV, and a way for people to get in contact with me. <a href="mailto:asmalldev@gmail.com">Send me an email</a> if you want to say hi or have any interesting projects that need contributors- I'm always eager to get involved in more development!
                     </p>
                 </div>
             </div>
         </div>
 
-        <img class="divider" src="img/divider.png" alt="">
+        <!-- <img class="divider" src="img/divider.png" alt=""> -->
 
-        <div class="container">
+        <div class="container" style="background: rgba(255, 238, 215, 0.65);">
             <div class="container_sub">
 				{% include cv.html %}
 				<br><br>
@@ -55,37 +49,62 @@ title: Overview &middot; Austin Small
             </div>
         </div>
 
-        <img class="divider" src="img/divider.png" alt="">
+        <!-- <img class="divider" src="img/divider.png" alt=""> -->
 
-        <div class="container">
+        <div class="container" style="background: rgba(40, 175, 108, 0.26);">
             <div class="container_sub">
                     <h1 class="title">My Blog</h1>
-                    <div id="list_box">
+                    <!-- <div id="list_box">
                         <ul>
                             <li class="no_space">#Development</li>
                             <li>#TehInterwebz</li>
                             <li>#Photography</li>
                             <li>#Linux</li>
                         </ul>
-                    </div>
-                    <div class="subline">
+                    </div> -->
+
+					<div class="subline">
                             <span class="byline">Part of this site is a blog where I write
                             about personal and professional interests, which range from Linux
-                            and software development to photography and literature.
+                            and software development to photography and food.
                             </span>
                     </div>
+
+					<div id="terminal-window">
+						<div id="terminal" data-terminal-prompt="asmalldev@arch:~$ ">
+							<div id="terminaltitle">
+								<span id="x">x</span>
+								<span id="shelltitle">asmalldev@arch</span>
+							</div>
+							<span data-terminal="text" data-terminal-message='sudo systemctl enable gitback.service' data-terminal-time="2000"></span>
+							<!-- <span data-terminal="line" data-terminal-message="&nbsp;" data-terminal-time="1000"></span> -->
+							<span data-terminal="line" data-terminal-message="[sudo] password for asmalldev:" data-terminal-time="2000"></span>
+							<span data-terminal="line" data-terminal-message="Created symlink from /etc/systemd/system/multi-user.target.wants/gitback.service to /usr/lib/systemd/system/gitback@.service." data-terminal-time="3000"></span>
+							<span data-terminal="line" data-terminal-message="prompt" data-terminal-time="500"></span>
+							<span data-terminal="text" data-terminal-message="sudo systemctl start gitback.service" data-terminal-time="1000"></span>
+							<span data-terminal="line" data-terminal-message="prompt" data-terminal-time="500"></span>
+							<span data-terminal="text" data-terminal-message='echo -e \nThis blog is about code, Linux, and other things.' data-terminal-time="2000"></span>
+							<span data-terminal="line" data-terminal-message="&nbsp;" data-terminal-time="500"></span>
+							<span data-terminal="line" data-terminal-message="This blog is about code, Linux, and other things." data-terminal-time="10"></span>
+							<span data-terminal="line" data-terminal-message="prompt" data-terminal-time="100"></span>
+							<div class="output">
+								<span class="line">asmalldev@arch:~$ </span>
+							</div>
+						</div>
+					</div>
+
                     <ul class="actions">
                         <li><a href="{{site.baseurl}}/blog/index.html" class="button">BLOG POSTS</a></li>
                     </ul>
             </div>
         </div>
 
-		<img class="divider" src="img/divider.png" alt="">
+		<!-- <img class="divider" src="img/divider.png" alt=""> -->
 
-		<div id="soc_sec" class="container">
+		<div id="soc_sec" class="container" style="background: rgba(202, 218, 255, 0.62);">
 			<div class="container_sub">
-				<h1 class="title">Want to say hello?</h1>
-				<span class="byline">I'd love to hear from you. You can contact me through:</span>
+				<h1 class="title">Say hello!</h1>
+				<span class="byline">I'd love to hear from you.</span>
 				<div id="soc_icon_box">
 					<div class="soc_group">
 						<div class="soc_sub">
@@ -112,25 +131,22 @@ title: Overview &middot; Austin Small
 		</div>
 
 
-        <img class="divider" src="img/divider.png" alt="">
+        <!-- <img class="divider" src="img/divider.png" alt=""> -->
 
-        <div class="container">
+        <div class="container" style="background:rgba(255, 152, 152, 0.62); padding-bottom: 3.5em;">
             <div class="container_sub">
-                <h1 class="title">Site License</h1>
-                <span class="byline">I like to share.</span>
-
-            <br><br>
+                <h1 class="title">I like to share.</h1>
+                <br>
                 <a href="http://creativecommons.org" target="blank"><img class="CC_icons" src="img/ccman.png" alt="attribution"></a>
                 <a href="http://creativecommons.org" target="blank"><img class="CC_icons" src="img/CC.png" alt="creative commons"></a>
                 <a href="http://creativecommons.org" target="blank"><img class="CC_icons" src="img/ccshare.png" alt="share alike"></a>
             <br><br>
 
-                    <span class="byline">All content on this site is licensed under Creative Commons.
-				<strong>Happy sharing!</strong></span>
+                    <span class="byline">All content on this site is licensed under Creative Commons.</span>
             </div>
         </div>
 
-        <img class="divider" src="img/divider.png" alt="">
+        <!-- <img class="divider" src="img/divider.png" alt=""> -->
 
             <div class="container">
                 <div class="container_sub">
@@ -142,6 +158,17 @@ title: Overview &middot; Austin Small
                 </div>
             </div>
 <!--SCRIPTS-->
+
+<!--start terminal when reached-->
+	<script type="text/javascript">
+	var fired=0;
+	$(window).scroll(function() {
+	    if($(window).scrollTop() + 2000 > $(document).height() - $(window).height() & fired==0) {
+	        runTerminal($('#terminal'));
+	        fired = 1;
+	    }
+	});
+	</script>
 
 	<!--scroll top button-->
 	<script type="text/javascript" src="/assets/javascript/scrolltop.js"></script>

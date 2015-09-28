@@ -125,8 +125,10 @@
 
 	#names
 	{
-		font-size: 2em;
+		font-size: 2.5em;
 		font-weight: bold;
+		transition-property: font-size;
+		transition-duration: .5s;
 	}
 
 	#name_box
@@ -164,9 +166,11 @@
 	#profile_img
 	{
 		border-radius: 100px;
-		height: 200px;
-		transition-property:width,height,margin,padding,border,opacity,display;
-		transition-duration:.99s;
+		height: 150px;
+		transition-property:width,height,margin,padding,border,opacity,display,left;
+		transition-duration:.5s;
+		position: absolute;
+		left: 18%;
 	}
 
 /* CONTAINERS */
@@ -179,7 +183,14 @@
 		display:-ms-flexbox;
 		padding-top: 2em;
 		padding-bottom: 2em;
-        background: #FFF;
+		padding-left: .5em;
+		padding-right: .5em;
+		margin-top: 2.5em;
+		margin-bottom: 2.5em;
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 1000px;
+		border-radius: 4px;
 	}
 
 	.container_title
@@ -218,7 +229,8 @@
 	{
 	  flex-grow: 1;
 	  position: relative;
-		margin: auto;
+	  margin: auto;
+	  width: 100%;
 	}
 
 	.container_center
@@ -239,7 +251,6 @@
 		margin-left: auto;
 		margin-right: auto;
 		text-align: justify;
-		padding-bottom: 3em;
 	}
 
 	.subline span
@@ -278,7 +289,7 @@
 		margin: 0;
 		padding: 0;
 		font-weight: 700;
-		color: #2B3F48;
+		color: #253238;
 	}
 
 	h2
@@ -359,8 +370,6 @@
 	{
 		text-align: justify !important;
 		padding: 2em;
-		border: 1px solid rgba(0,0,0,0.1);
-		border-radius: 8px;
 		width: 55%;
 		margin-left: auto;
 		margin-right: auto;
@@ -438,24 +447,28 @@
 	{
 		display: inline-block;
 		padding: 0em 3em;
-		background: #1793d1;
+		background: rgba(255, 255, 255, 0);
+		border: 1px solid;
+		border-color: rgba(0, 0, 0, 0.23);
+		transition-property: border-color background;
+		transition-duration: 1s;
 		letter-spacing: 0.20em;
 		line-height: 4em;
 		text-decoration: none;
 		font-family: lato;
 		font-weight: 400;
 		font-size: 1em;
-		color: #FFF;
+		color: #333;
 		text-align: center;
 		white-space: nowrap;
 		font-size: medium;
 		border-radius: 2px;
-		border: none;
 	}
 
 	.button:hover
 	{
-		background: #2B3F48;
+		border-color: rgb(132, 132, 132);
+		background: rgb(242, 242, 242);
 	}
 
 	.button:before
@@ -675,7 +688,7 @@
 
 	.CC_icons
 	{
-		height:175px;
+		height:125px;
 		width: auto;
 		display: inline-block;
 		margin-left: auto;
@@ -695,7 +708,7 @@
 	#footer
 	{
         display: none;
-        color: #F9F9F9;
+        color: rgb(43, 63, 82);
 		padding-bottom: 2.5em;
 		text-align: center;
 		width: 100%;
@@ -733,7 +746,7 @@
 		float: left;
 		width: 15em;
 		margin-left: 2em;
-		background-color: rgba(51, 51, 51, 0.81);
+		background-color: rgba(255, 255, 255, 0.7);
 		padding: 1em;
 		border-radius: 4px;
 	}
@@ -755,7 +768,7 @@
 	{
 		width: 23em;
 		margin: 0 auto;
-		background-color: rgba(51, 51, 51, 0.81);
+		background-color: rgba(255, 255, 255, 0.7);
 		height: 186.5px;
 		padding: 1em;
 		border-radius: 4px;
@@ -849,7 +862,6 @@
 
 	#cv
 	{
-		border: 1px solid rgba(0,0,0,0.1);
 		border-radius: 8px;
 		margin-left: auto;
 		margin-right: auto;
@@ -857,8 +869,6 @@
 		text-align: left;
 		width: 80%;
 		padding: .5em;
-		padding-left: .5em;
-		padding-right: .5em;
 		transition-property: width;
 		transition-duration: .3s;
 	}
@@ -1158,8 +1168,8 @@
 
 	#profile_img
 	{
-		height: 175px;
-		margin-left: -4em;
+		height: 120px;
+		left: 11%;
 	}
 
 	#logo
@@ -1229,7 +1239,7 @@
 
 	a .CC_icons
 	{
-		height: 150px;
+		height: 115px;
 		width: auto;
 		display: inline-block;
 		margin-left: auto;
@@ -1278,31 +1288,13 @@
 
 	#profile_img
 	{
-		margin-left: auto;
-		margin-right: auto;
-		height: 170px;
-		margin-top: 3em;
+		height: 90px;
 	}
 
 	.subline
 	{
 		text-align: center;
-		margin-bottom: -2em;
 		width: 90%;
-	}
-
-	#names
-	{
-		margin-left: 0;
-		padding-bottom: 0;
-		line-height: .8em;
-        margin-top: 1em;
-	}
-
-	#subtitle
-	{
-		margin-top: .5em;
-		margin-left: 0;
 	}
 
 	#cv p
@@ -1445,6 +1437,12 @@
 		padding-bottom: 4em;
 	}
 
+	#terminal-window
+	{
+		width: 90%!important;
+		height: 20em;
+	}
+
 							}
 
 /*END TEENY*/
@@ -1467,7 +1465,13 @@
 
 	#name_box
 	{
-		padding: 1em;
+		font-size: .7em;
+	}
+
+	#profile_img
+	{
+		height: 70px;
+		left: 7%;
 	}
 
 	#menu ul li
@@ -1513,7 +1517,88 @@
 	{
 		height: 55px;
 	}
-
-
 							}
 /* END WTFTEENY */
+
+
+/* CSS FOR TERMINALS */
+@keyframes cursor {
+	0%, 50% {
+		opacity: 1;
+	}
+
+	51%, 100% {
+		opacity: 0;
+	}
+}
+
+#terminal-window
+{
+    margin: auto;
+	padding: 1.5em;
+	width: 30em;
+	transition-property: width;
+	transition-duration: .5s;
+}
+
+#terminal,
+.terminal{
+	background-color: #300a24;
+	color: white!important;
+    background-color: #333;
+    border-radius: 4px;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.4),0 0 0 1px #282C2C;
+}
+
+#terminal span, #terminaltitle
+{
+	text-align: left;
+	font-size: 14px;
+	line-height: 125%;
+	font-family: "Hack", mono;
+}
+
+#terminaltitle
+{
+    padding-left: .5em;
+    padding-top: .3em;
+}
+
+#x
+{
+    color: #D7434A;
+	padding-left:2px;
+}
+
+#shelltitle
+{
+    display: inline-block;
+}
+
+#terminal .output,
+.terminal .output{
+	height: 250px;
+    padding: 1em;
+	overflow: hidden;
+}
+
+#terminal .output .line,
+.terminal .output .line{
+	display: block;
+	margin: 0 auto;
+}
+
+#terminal .output .line:last-child::after,
+.terminal .output .line:last-child::after{
+	content: "▮";
+
+	animation-name: cursor;
+	animation-iteration-count: infinite;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+}
+
+
+#terminal [data-terminal],
+.terminal [data-terminal]{
+	display: none;
