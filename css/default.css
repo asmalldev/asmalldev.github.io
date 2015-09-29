@@ -1535,7 +1535,8 @@
 #terminal-window
 {
     margin: auto;
-	padding: 1.5em;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
 	width: 30em;
 	transition-property: width;
 	transition-duration: .5s;
