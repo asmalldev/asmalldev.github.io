@@ -1457,6 +1457,12 @@
         padding-top: 3em;
     }
 
+    .container
+    {
+	margin-left: 10px;
+	margin-right: 10px;
+    }
+
 	#names
 	{
 		white-space: normal;
