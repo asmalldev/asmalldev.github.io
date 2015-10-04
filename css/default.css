@@ -16,6 +16,12 @@
 		text-align: center;
 	}
 
+	.lost
+	{
+		background-color: white;
+		padding-top: 7em;
+	}
+
 	#content
 	{
 		padding-top: 1.8em;
@@ -627,15 +633,6 @@
 		background-color: transparent;
 	}
 
-	#wrapper_404
-	{
-	min-height: 100%;
-		width: 100%;
-		position: relative;
-		box-shadow: 0px 4px 15px #181818;
-		background: #FFF;
-	}
-
 /*Logos*/
 
 	#logo
@@ -923,21 +920,14 @@
 		text-decoration: none;
 	}
 
-@media screen and (max-width: 1162px) {
-
-		.jump
-		{
-			margin-top: 5.8em;
-		}
-								}
-
 	#hatman
 	{
 		position: absolute;
 		top: 3em;
-		left: 0em;
-		height: 35em;
+		left: -3em;
+		height: auto;
 		width: auto;
+		max-height: 32em;
 	}
 
 	.sub_banner_wrapper
@@ -1217,9 +1207,9 @@
 		width: 80%;
 	}
 
-	#hatman
+	.lost
 	{
-		margin-top: 3em;
+		padding-top: 18em;
 	}
 
 	/*#footer
@@ -1359,11 +1349,6 @@
 	#paragraph_wrapper_categories
 	{
 		width: 90%;
-	}
-
-	#hatman
-	{
-		margin-top: 0em;
 	}
 
 	#footer
@@ -1523,6 +1508,7 @@
 	{
 		height: 55px;
 	}
+
 							}
 /* END WTFTEENY */
 
