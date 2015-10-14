@@ -5,6 +5,20 @@ layout: master
 <!-- progress bar script -->
 <script type="text/javascript" src="/assets/javascript/progress.js"></script>
 
+<!-- carnival comments -->
+<<script src="https://carnivalapp.io/sites/440/init.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+  Carnival.init({
+    enabled: true,
+    article_author: "Austin S.",
+    article_selector: "article",
+    block_selector: ":scope > p, :scope > pre",
+    onNewComment: function(comment) { }
+  });
+});
+</script>
+
 <div class="rest_wrapper">
     <div class="post">
 
