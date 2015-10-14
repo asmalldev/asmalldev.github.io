@@ -16,6 +16,11 @@
 		text-align: center;
 	}
 
+	article
+	{
+		position: relative;
+	}
+
 	.lost
 	{
 		background-color: white;
@@ -157,16 +162,17 @@
 
 	#last
 	{
-		color: #2B3F48;
-		font-weight: 300;
+		color: #333333;
+		font-weight: 500;
 	}
 
 	#subtitle
 	{
-        display: block;
+        	display: block;
 		margin-left: -12px;
-        color: #1E1E1E;
-		font-size: 1.6em;
+        	color: #333333;
+		font-size: 1.8em;
+		font-weight: 400;
 	}
 
 	#profile_img
@@ -618,7 +624,6 @@
 		width: 100%;
 		position: relative;
 		box-shadow: 0px 4px 15px #181818;
-        margin-bottom: 17.5em;
 	}
 
     .rest_wrapper
