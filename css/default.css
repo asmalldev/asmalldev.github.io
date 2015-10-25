@@ -136,7 +136,7 @@
 
 	#names
 	{
-		font-size: 2.5em;
+		font-size: 3.8em;
 		font-weight: bold;
 		transition-property: font-size;
 		transition-duration: .5s;
@@ -274,6 +274,7 @@
 	{
 		text-transform: none;
 		line-height: 1.5;
+		font-size: 1.5em;
 	}
 
 	#banner .button
@@ -291,7 +292,6 @@
 
 	span
 	{
-	  font-size: 1.5em;
 	  text-align: center;
 	}
 
@@ -630,6 +630,8 @@
     {
         background: #FFF;
         padding: 2em;
+		position: relative;
+		z-index: 1;
     }
 
 	#spacer
@@ -710,7 +712,7 @@
 	#footer
 	{
         display: none;
-        color: rgb(43, 63, 82);
+        color: gainsboro;
 		padding-bottom: 2.5em;
 		text-align: center;
 		width: 100%;
@@ -719,7 +721,7 @@
 		left: 0px;
 		right: 0px;
 		bottom: 0px;
-		z-index: -1;
+		z-index: 0;
 	}
 
 	#footer a
@@ -748,7 +750,7 @@
 		float: left;
 		width: 15em;
 		margin-left: 2em;
-		background-color: rgba(255, 255, 255, 0.7);
+		/*background-color: rgba(255, 255, 255, 0.7);*/
 		padding: 1em;
 		border-radius: 4px;
 	}
@@ -770,7 +772,7 @@
 	{
 		width: 23em;
 		margin: 0 auto;
-		background-color: rgba(255, 255, 255, 0.7);
+		/*background-color: rgba(255, 255, 255, 0.7);*/
 		height: 186.5px;
 		padding: 1em;
 		border-radius: 4px;
@@ -1061,9 +1063,19 @@
 		margin-bottom: 2em;
 	}
 
+	.post_img_portrait
+	{
+		max-width: 25%;
+		padding-left: 4em;
+		padding-right: 4em;
+		margin-bottom: 2em;
+		border-radius: 4px;
+
+	}
+
     .post_img_large
     {
-        max-width: 80%;
+        max-width: 85%;
 		margin-bottom: 2em;
         border-radius: 4px;
     }
@@ -1109,7 +1121,7 @@
 
 	.post
 	{
-		max-width: 1000px;
+		max-width: 90%;
 		margin-left: auto;
 		margin-right: auto;
 		padding-top: 1em;
@@ -1560,17 +1572,19 @@
 {
     padding-left: .5em;
     padding-top: .3em;
+	text-align: center;
 }
 
 #x
 {
-    color: #D7434A;
-	padding-left:2px;
+    float: left;
+	padding-top: 1px;
 }
 
 #shelltitle
 {
     display: inline-block;
+	margin-left: -25px;
 }
 
 #terminal .output,
@@ -1600,3 +1614,27 @@
 #terminal [data-terminal],
 .terminal [data-terminal]{
 	display: none;
+}
+
+ /*CSS for Carnival*/
+
+.carnival
+{
+	transition-property: display;
+	transition-duration: .5s;
+}
+.carnival-comment-indicator
+{
+	z-index: 2!important;
+}
+
+.carnival-comments
+{
+	z-index: 2!important;
+}
+
+.article
+{
+	transition-property: width;
+    transition-duration: 5s;
+}
