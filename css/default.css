@@ -632,6 +632,8 @@
         padding: 2em;
 		position: relative;
 		z-index: 1;
+		transition-property: margin-left;
+		transition-duration: 1s;
     }
 
 	#spacer
@@ -1031,15 +1033,8 @@
 		margin-bottom: 0;
 	}
 
-	.post_box p a
-	{
-		font-size: .6em;
-	}
-
-
 	.post_info
 	{
-		font-size: .8em;
 		text-align: center;
 		font-family: mate, serif;
 	}
@@ -1461,9 +1456,16 @@
 
     .container
     {
-	margin-left: 10px;
-	margin-right: 10px;
+		border-radius: 0px;
+		margin-top: 0;
+		margin-bottom: 0;
     }
+
+	.rest_wrapper
+	{
+		padding-top: 0!important;
+		padding-bottom: 0!important;
+	}
 
 	#names
 	{
