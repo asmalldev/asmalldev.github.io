@@ -1066,7 +1066,8 @@
 
     .post_img_large
     {
-        max-width: 85%;
+        max-width: 75%;
+        max-height: 600px;
 		margin-bottom: 2em;
         border-radius: 4px;
     }
@@ -1131,6 +1132,17 @@
 	.post-header
 	{
 		text-align: center;
+	}
+
+	.post_middle
+	{
+		text-align: center;
+    	font-size: 1.2em;
+    	width: 80%;
+    	margin: auto;
+    	display: block;
+    	margin-top: 2em;
+   		margin-bottom: 3em;
 	}
 
 /*Responsive resizing MEDIUM*/
