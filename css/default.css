@@ -140,6 +140,7 @@
 		font-weight: bold;
 		transition-property: font-size;
 		transition-duration: .5s;
+		z-index: 100;
 	}
 
 	#name_box
