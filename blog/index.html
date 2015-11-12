@@ -11,7 +11,7 @@ full_posts: 6
 <div id="posts_wrapper">
 
 		<h1>My Thoughts</h1>
-		<span class="byline">welcome to the blog section</span>
+		<span class="byline">(the blog section)</span>
 
 
 {% for post in site.posts %}
@@ -19,6 +19,7 @@ full_posts: 6
 			<div class="post_box">
 				<a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
 				<span class="post_info">{{ post.date | date: '%B %d, %Y' }} &middot; read in {{post.read_time}}</span>
+				{{ post.image }}
 					<p>{{post.article_overview}}<br><br>
 						<span><a href="{{post.url}}">Read More...</a></span>
 					</p>
