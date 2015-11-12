@@ -1048,10 +1048,14 @@
 
 	.post_overview_img
 	{
+		display: block;
+		margin: auto;
 		max-width: 85%;
-        max-height: 500px;
+        max-height: 350px;
 		margin-top: 1em;
         border-radius: 4px;
+		transition-property: max-height;
+		transition-duration: .3s;
 	}
 
 	.post_img
@@ -1160,17 +1164,22 @@
 
 	#posts_wrapper .post_box
 	{
-		width: 35em;
+		width: 45em;
 	}
 
 	#archive_box
 	{
-		width: 35em;
+		width: 45em;
 	}
 
 	.post_info
 	{
 
+	}
+
+	.post_overview_img
+	{
+		max-height: 200px;
 	}
 
 							}
