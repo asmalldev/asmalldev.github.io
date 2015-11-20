@@ -826,6 +826,7 @@
 	  left: 50%;
 	  transform: translate(-50%, -50%);
 	  white-space: nowrap;
+
 	}
 
 	#credits_wrapper .subline
@@ -1505,6 +1506,35 @@
 	}
 
 	#posts_wrapper
+	{
+		padding-top: 2em;
+		padding-bottom: 2em;
+	}
+
+	#posts_wrapper .post_box
+	{
+		margin: 0;
+		/*border-top: none;*/
+		border-left: none;
+		border-right: none;
+		/*border-bottom: none;*/
+		border-radius: 0;
+		box-shadow: none;
+		width: 100%;
+		padding-top: 1em;
+	}
+
+	#posts_wrapper #archive_box
+	{
+		border: none;
+	}
+
+	#post_box_wrapper
+	{
+		margin-top: 1em;
+	}
+
+	#credits_wrapper
 	{
 		padding-top: 2em;
 		padding-bottom: 2em;

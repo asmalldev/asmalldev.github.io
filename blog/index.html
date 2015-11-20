@@ -12,8 +12,7 @@ full_posts: 5
 
 		<h1>My Thoughts</h1>
 		<span class="byline">(the blog section)</span>
-
-
+<div id="post_box_wrapper">
 {% for post in site.posts %}
 {% if forloop.index < page.full_posts %}
 			<div class="post_box">
@@ -24,9 +23,10 @@ full_posts: 5
 						<span><a href="{{post.url}}">Read More...</a></span>
 					</p>
 			</div>
-
 {% else %}
 {% if forloop.index == page.full_posts %}
+</div>
+
 <div id="archive_box">
 	<div id="archive">
 		<h3>Older Posts:</h3>
