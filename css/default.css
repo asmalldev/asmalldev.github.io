@@ -1575,6 +1575,12 @@
 		padding-right: 0;
 	}
 
+     .post_box p
+	{
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+    }
+
 	.center_imgs
 	{
 		text-align: center;im
