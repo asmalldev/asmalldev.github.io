@@ -3,7 +3,7 @@
 function resize() {
 	var h = $(window).height();
 	var w = $(window).width();
-	var r = h * (w * .75);
+	var r = h * (w * .35);
 	document.querySelector('#profile_wrapper').style.height = (r*.0009) + 'px';
 	document.querySelector('.container_title').style.height = (r*.00068) + 'px';
 }

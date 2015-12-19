@@ -116,8 +116,10 @@
 
     #profile_wrapper
     {
-        background: none;
+        background-color: white;
         min-height: 29em;
+		position: relative;
+		z-index: 1;
     }
 
     .image_overlay
@@ -128,7 +130,7 @@
         left: 0;
         right: 0;
         bottom: 0;
-	background: #ffffff;
+	/*background: #ffffff;*/
         /*background-image: url(/img/stuvi.jpg);
         background-size: cover;
         background-position: center, center;*/
@@ -146,8 +148,6 @@
 
 	#name_box
 	{
-	    background-color: rgba(255, 255, 255, 0.7);;
-	    padding: 2em;
 		border-radius: 4px;
 		min-width: 10px;
 		font-weight: 300;
@@ -185,6 +185,8 @@
         color: #333333;
 		font-size: 1.8em;
 		font-weight: 400;
+		transition-property: font-size;
+		transition-duration: .5s;
 	}
 
 	#profile_img
@@ -220,6 +222,7 @@
 
 	.container_title
 	{
+		margin-top: 2em;
         padding-top: 5.5em;
 		display: flex;
 		display:-webkit-flex;
@@ -638,9 +641,10 @@
     .rest_wrapper
     {
         background: #FFF;
+		margin-top: -2em;
         padding: 2em;
 		position: relative;
-		z-index: 1;
+		z-index: 2;
 		transition-property: margin-left;
 		transition-duration: 1s;
     }
@@ -722,7 +726,6 @@
 
 	#footer
 	{
-        display: none;
         color: gainsboro;
 		padding-bottom: 2.5em;
 		text-align: center;
@@ -1513,6 +1516,16 @@
 	{
 		padding-top: 2em;
 		padding-bottom: 2em;
+	}
+
+	#subtitle
+	{
+		font-size: 1.4em;
+	}
+
+	#social_bar img
+	{
+		height: 35px;
 	}
 
 	#posts_wrapper .post_box
