@@ -6,25 +6,8 @@ title: Overview &middot; Austin Small
 	<style>
 	{% include about_select.css %}
 	</style>
-    <div id="profile_wrapper">
-        <div class="image_overlay"></div>
-        <div class="container_title">
-            <!--set height of .container_title based on viewport ratio-->
-            <script type="text/javascript" src="/assets/javascript/resize.js"></script>
-            <div class="container_sub">
-                <div id="name_box" class="container_center">
-                    <div id="names">
-                        <span id="first">Austin</span><span id="last">Small</span>
-                    </div>
-                    <span id="subtitle" class="byline">programmer</span>
-                </div>
-            </div>
-        </div>
-
-        <a href="#next"><img class="next" src="/img/small_arrow.svg" height="60" alt=""></a>
-        <div class="scroll_to"></div>
-    </div>
-	<img class="divider" src="/img/divider.png" alt="" style="margin-bottom: -.3em; width=100%;">
+    {% include name_title.html %}
+	<!-- <img class="divider" src="/img/divider.png" alt="" style="margin-bottom: -.3em; width=100%;"> -->
     <div class="rest_wrapper">
         <div class="container" style="background: rgba(23, 147, 209, 0.24);">
             <div class="container_sub">
