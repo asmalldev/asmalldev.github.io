@@ -640,9 +640,10 @@
 
     .rest_wrapper
     {
-        background: #FFF;
+        	background: #FFF;
 		margin-top: -2em;
-        padding: 2em;
+	        padding-top: 2em;
+		padding-bottom: 2em;
 		position: relative;
 		z-index: 2;
 		transition-property: margin-left;
@@ -1012,21 +1013,22 @@
 		opacity: 0;
 	}
 
-    .post h4
-    {
-        margin-top: 2em;
-        text-align: center;
-    }
+    	.post h4
+    	{
+        	margin-top: 2em;
+        	text-align: center;
+    	}
 
 	.post_box
 	{
-		width: 60em;
-		margin-top: 2em;
+		width: 100%;
 		margin-left: auto;
 		margin-right: auto;
-		margin-bottom: 8em;
 		transition-property: width;
 		transition-duration: .5s;
+		border-bottom: 1px solid #CCC;
+		padding-top: 5em;
+		padding-bottom: 4em;
 	}
 
 	.post_box p
@@ -1035,10 +1037,10 @@
 		font-family: "Mate", serif;
 		line-height: 1.5em;
 		text-align: justify;
-		padding-left: 2.5em;
-		padding-right: 2.5em;
+		padding-left: 18%;
+		padding-right: 18%;
 		padding-bottom: 2.5em;
-        padding-top: 1em;
+       		padding-top: 2.5em;
 		margin-bottom: 0;
 	}
 
@@ -1113,10 +1115,8 @@
 		margin-right: auto;
 		padding-bottom: 1em;
 		margin-top: 2em;
-		margin-bottom: 6em;
+		margin-bottom: 2em;
 		padding-top: 1em;
-		border: 1px solid #CCCCCC;
-		border-radius: 4px;
 		transition-property: width;
 		transition-duration: .5s;
 	}
@@ -1175,11 +1175,6 @@
 
 @media screen and (max-width: 1250px) {
 
-	#posts_wrapper .post_box
-	{
-		width: 45em;
-	}
-
 	#archive_box
 	{
 		width: 45em;
@@ -1206,11 +1201,6 @@
 	#wrapper #header-wrapper
 	{
 		background: #FFFFFF;
-	}
-
-	.posts_wrapper .post_box
-	{
-		width: 40em;
 	}
 
 	#profile_img
@@ -1338,22 +1328,15 @@
 		text-align: left;
 	}
 
-	#posts_wrapper .post_box
-	{
-		width: 95%;
-		margin-right: 2.5%;
-		margin-left: 2.5%;
-	}
-
 	#archive_box
 	{
 		width: 95%;
 	}
 
-    .next
-    {
-        opacity: 1;
-    }
+    	.next
+   	{
+        	opacity: 1;
+    	}
 
 	.post_info
 	{
@@ -1399,7 +1382,7 @@
 
 	#footer_infos
 	{
-		margin-left: 3.3em;
+		margin-left: 2.3em;
 	}
 
 	a .CC_icons
@@ -1522,7 +1505,6 @@
 		border-radius: 0;
 		box-shadow: none;
 		width: 100%;
-		padding-top: 1em;
 	}
 
 	#posts_wrapper #archive_box
@@ -1576,11 +1558,11 @@
 		padding-right: 0;
 	}
 
-     .post_box p
+       .post_box p
 	{
         padding-left: 1.5em;
         padding-right: 1.5em;
-    }
+        }
 
 	.center_imgs
 	{
