@@ -21,6 +21,7 @@ full_posts: 5
 				{{ post.image }}
 					<p>{{post.article_overview}}<br>
 					</p>
+				<a class="read_on" href="{{ post.url }}">Read On &#8594; </a>
 			</div>
 {% else %}
 {% if forloop.index == page.full_posts %}

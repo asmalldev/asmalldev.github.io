@@ -209,8 +209,6 @@
 		display:-ms-flexbox;
 		padding-top: 2em;
 		padding-bottom: 2em;
-		padding-left: .5em;
-		padding-right: .5em;
 		margin-top: 2.5em;
 		margin-bottom: 2.5em;
 		margin-left: auto;
@@ -218,6 +216,8 @@
 		max-width: 1000px;
 		min-height: 25em;
 		border-radius: 4px;
+		transition-property: width;
+		transition-duration: .5;
 	}
 
 	.container_title
@@ -1005,7 +1005,7 @@
 	#progress
 	{
 		width: 1%;
-		height: 1px;
+		height: 1.8px;
 		position: fixed;
 		box-sizing: border-box;
 		background: black;
@@ -1042,6 +1042,17 @@
 		padding-bottom: 2.5em;
        		padding-top: 2.5em;
 		margin-bottom: 0;
+	}
+
+	.read_on
+	{
+		font-family: "Lato", sans-serif;
+		color: #7D7D7D;
+		float: left;
+		margin-left: 18%;
+		padding: 4px 13px 4px 13px;
+		border: 1px solid #CCC;
+		border-radius: 25px;
 	}
 
 	.post_info
@@ -1143,7 +1154,7 @@
 		max-width: 90%;
 		margin-left: auto;
 		margin-right: auto;
-		padding-top: 1em;
+		padding-top: 8em;
 		padding-bottom: 1.5em;
 		padding-left: 4em;
 		padding-right: 4em;
@@ -1178,6 +1189,11 @@
 	#archive_box
 	{
 		width: 45em;
+	}
+
+	.container
+	{
+		width: 80%;
 	}
 
 	.post_info
@@ -1471,6 +1487,7 @@
 		border-radius: 0px;
 		margin-top: 0;
 		margin-bottom: 0;
+		width: 100%;
 	}
 
 	.rest_wrapper
@@ -1560,9 +1577,14 @@
 
        .post_box p
 	{
-        padding-left: 1.5em;
-        padding-right: 1.5em;
+            	padding-left: 1.5em;
+	        padding-right: 1.5em;
         }
+
+	.read_on
+	{
+		margin-left: 1.5em;
+	}
 
 	.center_imgs
 	{
