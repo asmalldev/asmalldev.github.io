@@ -51,11 +51,6 @@
         opacity: 1;
 	}
 
-    #menu:hover
-    {
-        opacity: 1;
-    }
-
 	#menu ul
 	{
 		display: inline-block;
@@ -474,7 +469,7 @@
 		background: rgba(255, 255, 255, 0);
 		border: 1px solid;
 		border-color: rgba(0, 0, 0, 0.23);
-		transition-property: border-color background;
+		transition-property: border-color, background;
 		transition-duration: 1s;
 		letter-spacing: 0.20em;
 		line-height: 4em;
@@ -1053,6 +1048,15 @@
 		padding: 4px 13px 4px 13px;
 		border: 1px solid #CCC;
 		border-radius: 25px;
+		transition-property: background-color,color,border-color;
+		transition-duration: .5s;
+	}
+
+	.read_on:hover
+	{
+		background-color: rgba(20,127,200,.6);
+		color: #FFF;
+		border-color: #FFF;
 	}
 
 	.post_info
