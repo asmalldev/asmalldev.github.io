@@ -1024,7 +1024,7 @@
 		transition-duration: .5s;
 		border-bottom: 1px solid #CCC;
 		padding-top: 5em;
-		padding-bottom: 4em;
+		padding-bottom: 6em;
 	}
 
 	.post_box p
@@ -1033,11 +1033,12 @@
 		font-family: "Mate", serif;
 		line-height: 1.5em;
 		text-align: justify;
-		padding-left: 18%;
-		padding-right: 18%;
 		padding-bottom: 2.5em;
        		padding-top: 2.5em;
+		max-width: 27em;
 		margin-bottom: 0;
+		margin-left: auto;
+		margin-right:auto;
 	}
 
 	.read_on
@@ -1055,7 +1056,7 @@
 
 	.read_on:hover
 	{
-		background-color: rgba(20,127,200,.6);
+		background-color: rgba(23,147,209,.8);
 		color: #FFF;
 		border-color: #FFF;
 	}
