@@ -394,7 +394,7 @@
 		margin-left: auto;
 		margin-right: auto;
 		margin-top: 2em;
-		font-family: 'Mate', serif;
+		font-family: 'PT Sans', sans-serif;
 		transition-property:width;
 		transition-duration:.5s;
 	}
@@ -730,6 +730,7 @@
 	{
         color: gainsboro;
 		padding-bottom: 2.5em;
+		font-family: 'PT Sans', sans-serif;
 		text-align: center;
 		width: 100%;
 		height: 200px;
@@ -763,10 +764,8 @@
 
 	#site_license
 	{
-		float: left;
-		width: 15em;
-		margin-left: 2em;
-		/*background-color: rgba(255, 255, 255, 0.7);*/
+		float: right;
+		margin-top: 12em;
 		padding: 1em;
 		border-radius: 4px;
 	}
@@ -886,6 +885,7 @@
 		margin-left: auto;
 		margin-right: auto;
 		margin-top: 1em;
+		font-family: 'PT Sans', sans-serif;
 		text-align: left;
 		width: 80%;
 		padding: .5em;
@@ -1635,7 +1635,7 @@
 {
     margin: auto;
 	padding-top: 1.5em;
-	padding-bottom: 1.5em;
+	padding-bottom: 3.5em;
 	width: 30em;
 	transition-property: width;
 	transition-duration: .5s;
