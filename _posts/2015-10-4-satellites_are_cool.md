@@ -5,10 +5,14 @@ date:   2015-10-4
 author: "asmalldev"
 read_time: "<1 min"
 article_overview: "This summer I had the very good fortune of getting hired as an intern by Pumpkin Inc. Pumpkin is a company that builds hardware and software for Cubesats, a type of small satellite used for space research missions. I won't get too specific about the mission they were doing at the time, but working with such smart people was a very gratifying experience; I loved getting to learn from people who are more experienced and knowledgeable than I am."
-
+image: <img class="post_overview_img" src="/img/cubesat1.webp" alt="cubesat animation">
 ---
 
-This summer I had the very good fortune of getting hired as an intern by Pumpkin Inc. Pumpkin is a company that builds hardware and software for Cubesats, a type of small satellite used for space research missions. I won't get too specific about the mission they were doing at the time, but working with such smart people was a very gratifying experience; I loved getting to learn from people who are more experienced and knowledgeable than I am.
+This summer I had the very good fortune of getting hired as an intern by Pumpkin Inc. Pumpkin is a company that builds hardware and software for Cubesats, a type of small satellite used for space research missions.
+
+<img class="post_img_large" src="/img/cubesat1.webp" alt="cubesat animation">
+
+I won't get too specific about the mission they were doing at the time, but working with such smart people was a very gratifying experience; I loved getting to learn from people who are more experienced and knowledgeable than I am.
 
 I mostly worked alongside more experienced devs on some telemetry software for the company's upcoming Cubesat mission. This helped me bolster my understanding of databases and general software architecture. I also provided some help with an on-board Linux computer since I had a little extra experience from being a Linux desktop user. At the risk of sounding too flashy: I basically got to help send Linux into space (which is pretty much a dream job as far as I'm concerned).
 
