@@ -10,7 +10,7 @@ image: <img class="post_overview_img" src="/img/cubesat1.webp" alt="cubesat anim
 
 This summer I had the very good fortune of getting hired as an intern by Pumpkin Inc. Pumpkin is a company that builds hardware and software for Cubesats, a type of small satellite used for space research missions.
 
-<img class="post_img_large" src="/img/cubesat1.webp" alt="cubesat animation">
+<img class="post_img_large" src="/img/cubesat1.webp" style="margin-bottom: 0;" alt="cubesat animation">
 
 I won't get too specific about the mission they were doing at the time, but working with such smart people was a very gratifying experience; I loved getting to learn from people who are more experienced and knowledgeable than I am.
 
