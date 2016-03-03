@@ -8,8 +8,8 @@
 	body
 	{
 		height: auto;
-         	background: #333333;
-		font-family: 'Lato', sans-serif;
+        background: #333333;
+		font-family: 'PT Sans', sans-serif;
 		font-size: inherit;
 		font-weight: 300;
 		color: #404040;
@@ -112,7 +112,7 @@
     #profile_wrapper
     {
         background-color: white;
-        min-height: 29em;
+        min-height: 27em;
 		position: relative;
 		z-index: 1;
     }
@@ -187,12 +187,13 @@
 
 	#profile_img
 	{
+		border: 1px solid #CCCCCC;
 		border-radius: 100px;
 		height: 150px;
+		margin-top: -7em;
 		transition-property:width,height,margin,padding,border,opacity,display,left;
 		transition-duration:.5s;
-		position: absolute;
-		left: 18%;
+		position: relative;
 	}
 
 /* CONTAINERS */
@@ -218,8 +219,8 @@
 
 	.container_title
 	{
-		margin-top: 2em;
-        	padding-top: 5.5em;
+		font-family: "Lato", sans-serif;
+        padding-top: 3.5em;
 		display: flex;
 		display:-webkit-flex;
 		display:-moz-flex;
@@ -319,7 +320,7 @@
 	h2
 	{
 		color: #2B3F48;
-		font-family: lato;
+		font-family: 'PT Sans', sans-serif;
 		text-align: center;
 		margin-top: .85em;
         margin-bottom: .4em;
@@ -372,7 +373,7 @@
 	p
 	{
 		line-height: 180%;
-		font-size: 1.2em;
+		font-size: 1.1em;
 	}
 
 	a
@@ -475,7 +476,7 @@
 		letter-spacing: 0.20em;
 		line-height: 4em;
 		text-decoration: none;
-		font-family: lato;
+		font-family: 'PT Sans', sans-serif;;
 		font-weight: 400;
 		font-size: 1em;
 		color: #333;
@@ -599,7 +600,7 @@
 	{
 		background: none;
 		color: white;
-		font-family: lato, sans-serif;
+		font-family: 'PT Sans', sans-serif;
 		border: none;
 	}
 
@@ -975,7 +976,7 @@
 	.sub_banner .byline
 	{
 		color: #1793d1;
-		font-family: 'Lato', sans-serif;
+		font-family: 'PT Sans', sans-serif;
 		font-size: 1.8em;
 		text-align: center;
 		transition-property: font-size;
@@ -995,7 +996,7 @@
 
 	.post-content p
 	{
-		font-family: mate, serif;
+		font-family: 'PT Sans', sans-serif;
 	}
 
 	#posts_wrapper .byline
@@ -1035,11 +1036,10 @@
 	.post_box p
 	{
 		font-size: 1.05em;
-		font-family: "Mate", serif;
 		line-height: 1.5em;
 		text-align: justify;
 		padding-bottom: 2.5em;
-       		padding-top: 2.5em;
+       	padding-top: 2.5em;
 		max-width: 27em;
 		margin-bottom: 0;
 		margin-left: auto;
@@ -1048,7 +1048,7 @@
 
 	.read_on
 	{
-		font-family: "Lato", sans-serif;
+		font-family: 'PT Sans', sans-serif;
 		color: #7D7D7D;
 		float: left;
 		margin-left: 18%;
@@ -1069,7 +1069,6 @@
 	.post_info
 	{
 		text-align: center;
-		font-family: mate, serif;
 	}
 
 	.post_info span
@@ -1230,12 +1229,6 @@
 		background: #FFFFFF;
 	}
 
-	#profile_img
-	{
-		height: 120px;
-		left: 11%;
-	}
-
 	#logo
 	{
 		display: none;
@@ -1337,11 +1330,6 @@
 	{
 		padding-left: 10%;
 		padding-right: 10%;
-	}
-
-	#profile_img
-	{
-		height: 90px;
 	}
 
 	.subline
@@ -1495,7 +1483,7 @@
 	.container
 	{
 		border-radius: 0px;
-		margin-top: 0;
+		margin-top: 32px;
 		margin-bottom: 0;
 		width: 100%;
 	}
@@ -1559,12 +1547,6 @@
 	#name_box
 	{
 		font-size: .7em;
-	}
-
-	#profile_img
-	{
-		height: 70px;
-		left: 7%;
 	}
 
 	#menu ul li
