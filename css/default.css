@@ -175,14 +175,14 @@
 		max-width: 1000px;
 		min-height: 25em;
 		border-radius: 4px;
-		transition-property: width;
-		transition-duration: .5;
+		transition-property: margin, width;
+		transition-duration: .6s;
 	}
 
 	.container_title
 	{
 		font-family: "Lato", sans-serif;
-        padding-top: 4em;
+        padding-top: 5em;
 		display: flex;
 		display:-webkit-flex;
 		display:-moz-flex;
@@ -1319,6 +1319,8 @@
 		margin-top: 32px;
 		margin-bottom: 0;
 		width: 100%;
+		margin-top: 0;
+		margin-bottom: 0;
 	}
 
 	.rest_wrapper
