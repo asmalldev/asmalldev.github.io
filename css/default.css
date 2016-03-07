@@ -632,10 +632,10 @@
 
 	#site_license
 	{
-		float: right;
-		margin-top: 12em;
-		padding: 1em;
-		border-radius: 4px;
+		color: #555;
+		position: absolute;
+		right: 15px;
+		bottom: 3px;
 	}
 
 	.footer_icon
@@ -1252,11 +1252,6 @@
 	{
 		height: 75px;
 		padding: 1.1em;
-	}
-
-	#footer #site_license
-	{
-		margin-left: 0;
 	}
 
 	#footer #footer_cols .nav_col
