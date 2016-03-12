@@ -1,4 +1,9 @@
 #blog
-	{
-		font-weight: bold;
-	}
+    {
+	font-weight: bold;
+    }
+
+#profile_wrapper
+    {
+        display: none;
+    }
