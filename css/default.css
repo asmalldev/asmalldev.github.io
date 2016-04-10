@@ -157,6 +157,8 @@
 		height: 150px;
 		margin-top: -7em;
 		position: relative;
+		transition-property: position, margin;
+		transition-duration: .3s;
 	}
 
 /* CONTAINERS */
@@ -182,7 +184,7 @@
 	.container_title
 	{
 		font-family: "Lato", sans-serif;
-        padding-top: 4.5em;
+        padding-bottom: 2em;
 		display: flex;
 		display:-webkit-flex;
 		display:-moz-flex;
@@ -192,7 +194,7 @@
 		padding-right: 19%;
         -webkit-padding-end: 19%;
         -webkit-padding-start: 19%;
-		transition-property: height;
+		transition-property: height, padding;
 		transition-duration: .3s;
 	}
 
@@ -295,6 +297,7 @@
 	{
 		list-style-type: none;
 		padding: 0;
+		margin: 0;
 	}
 
 	ul.actions
@@ -381,7 +384,7 @@
 
 	#back_button
 	{
-		margin: 6em;
+		margin: 6em 0 6em 0;
 	}
 
 	.posts_button
@@ -1313,11 +1316,6 @@
 /*Responsive resizing WTFTEENY*/
 @media screen and (max-width: 550px) {
 
-    .container_title
-    {
-        padding-top: 3em;
-    }
-
 	.container
 	{
 		border-radius: 0px;
@@ -1326,6 +1324,11 @@
 		width: 100%;
 		margin-top: 0;
 		margin-bottom: 0;
+	}
+
+	.container_title
+	{
+		padding-top: 5em;
 	}
 
 	.rest_wrapper
@@ -1385,6 +1388,15 @@
 	#name_box
 	{
 		font-size: .7em;
+	}
+
+	#profile_img
+	{
+		position: absolute;
+	    top: -42em;
+	    left: 0;
+	    right: 0;
+	    margin: 0 auto;
 	}
 
 	#menu ul li
