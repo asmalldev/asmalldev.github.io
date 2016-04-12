@@ -79,7 +79,7 @@
         background-color: white;
         min-height: 28em;
 		position: relative;
-		z-index: 1;
+		z-index: 3;
     }
 
     .image_overlay
@@ -155,7 +155,7 @@
 		border: 1px solid #CCC;
 		border-radius: 100px;
 		height: 150px;
-		margin-top: -7em;
+		margin-bottom: -38em;
 		position: relative;
 		transition-property: position, margin;
 		transition-duration: .3s;
@@ -1326,11 +1326,6 @@
 		margin-bottom: 0;
 	}
 
-	.container_title
-	{
-		padding-top: 5em;
-	}
-
 	.rest_wrapper
 	{
 		padding-top: 0!important;
@@ -1392,11 +1387,7 @@
 
 	#profile_img
 	{
-		position: absolute;
-	    top: -42em;
-	    left: 0;
-	    right: 0;
-	    margin: 0 auto;
+		margin-bottom: 0;
 	}
 
 	#menu ul li
