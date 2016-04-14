@@ -102,9 +102,10 @@
 	{
 		font-size: 4.8em;
 		font-weight: bold;
-		transition-property: font-size;
-		transition-duration: .5s;
+		transition-property: font-size, margin;
+		transition-duration: .4s;
 		z-index: 100;
+		margin-top: -2em;
 	}
 
 	#name_box
@@ -150,15 +151,26 @@
 		transition-duration: .5s;
 	}
 
-	#profile_img
+	.profile_img
 	{
 		border: 1px solid #CCC;
 		border-radius: 100px;
 		height: 150px;
-		margin-bottom: -38em;
 		position: relative;
-		transition-property: position, margin;
-		transition-duration: .3s;
+		transition-property: opacity;
+		transition-duration: .4s;
+	}
+
+	.small_show
+	{
+		opacity: 0;
+		z-index: -2;
+	}
+
+	.small_hide
+	{
+		opacity: 1;
+		z-index: inherit;
 	}
 
 /* CONTAINERS */
@@ -520,8 +532,8 @@
 		padding-top: 2em;
 		padding-bottom: 2em;
 		position: relative;
-		z-index: 2;
-		transition-property: margin-left;
+		z-index: 4;
+		transition-property: margin-left, padding;
 		transition-duration: 1s;
     }
 
@@ -1378,6 +1390,7 @@
 	{
 		white-space: normal;
 		margin-left: 0;
+		margin-top: 0;
 	}
 
 	#name_box
@@ -1385,9 +1398,21 @@
 		font-size: .7em;
 	}
 
-	#profile_img
+	.profile_img
 	{
 		margin-bottom: 0;
+	}
+
+	.small_show
+	{
+		opacity: 1;
+		z-index: inherit;
+	}
+
+	.small_hide
+	{
+		opacity: 0;
+		z-index: -2;
 	}
 
 	#menu ul li
