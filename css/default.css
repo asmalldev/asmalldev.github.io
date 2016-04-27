@@ -1163,6 +1163,13 @@
 		margin-right: auto;
 		padding: 1em;
 	}
+
+	.carnival-comments
+	{
+		right: 0px!important;
+		width: 169px!important;
+		padding-top: 39px!important;
+	}
 }
 
 /*Responsive resizing TEENY*/
@@ -1547,9 +1554,14 @@
 
 .carnival
 {
-	transition-property: display;
-	transition-duration: .5s;
+	animation: fadein 1s;
 }
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
 .carnival-comment-indicator
 {
 	z-index: 2!important;
@@ -1560,8 +1572,14 @@
 	z-index: 2!important;
 }
 
+.commenting
+{
+	padding-left: 4.5em;
+	transition-property: none;
+	transition-duration: .5s;
+}
+
 .article
 {
-	transition-property: width;
-    transition-duration: 5s;
+
 }
