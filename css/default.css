@@ -12,6 +12,11 @@
 		position: relative;
 	}
 
+	code
+	{
+		background: antiquewhite;
+	}
+
 	.lost
 	{
 		padding-top: 7em;
@@ -302,7 +307,7 @@
 		margin-top: 0;
 	}
 
-	ol, ul
+	ul
 	{
 		list-style-type: none;
 		padding: 0;
