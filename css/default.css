@@ -19,7 +19,8 @@
 
 	.lost
 	{
-		padding-top: 7em;
+		padding-top: 10em;
+		padding-bottom: 8em;
 	}
 
 	#content
@@ -1147,12 +1148,6 @@
 	{
 		width: 80%;
 	}
-
-	.lost
-	{
-		padding-top: 18em;
-	}
-
 
 	#footer_infos
 	{
