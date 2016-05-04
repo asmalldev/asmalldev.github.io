@@ -1,8 +1,8 @@
 <!--
 // scroll function for button
-$("a[href='#next']").click(function() {
+$("#CVscroll").click(function() {
 	$('html,body').animate({
-		scrollTop: $(".scroll_to").offset().top},
-		375);
+		scrollTop: $("#experience_container").offset().top},
+		475);
 });
 -->

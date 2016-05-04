@@ -7,16 +7,16 @@ title: Overview &middot; Austin Small
 	{% include about_select.css %}
 	</style>
     {% include name_title.html %}
-	<!-- <img class="divider" src="/img/divider.png" alt="" style="margin-bottom: -.3em; width=100%;"> -->
+
     <div class="rest_wrapper">
 		<img class="profile_img small_hide" style="margin-bottom: -5.5em" src="{{site.baseurl}}/img/me.jpg" alt="Me"/>
         <div class="container" style="background: rgba(23, 147, 209, 0.24);">
             <div class="container_sub">
                 <div class="paragraph_wrapper">
-					<p style="padding-top: 10px;">My name is Austin. I'm a programmer and am currently working towards a degree in computer science. I've worked at a few technology companies in California, focusing on writing software and doing useful things with Linux. In my personal time I enjoy music, photography, hiking, cooking, spending time with friends and family, and meeting new people.
+					<p style="padding-top: 10px;">My name is Austin. I'm a programmer and am currently working towards a degree in computer science. I focus on writing software and doing useful things with Linux and have worked at a few technology companies in California. In my personal time I enjoy music, photography, hiking, cooking, and meeting new people.
                         		</p>
 					<p>
-					This site is a blog, a CV, and a way for people to get in contact with me.
+					This site is a <a href={{site.baseurl}}/blog>blog</a>, a <a id="CVscroll" href="javascript:;">CV</a>, and a way for people to get in contact with me.
 					<a href="mailto:asmalldev@gmail.com">Send me an email</a> if you want to say
 					hi or have any interesting projects that need contributors!
 					</p>
@@ -24,17 +24,13 @@ title: Overview &middot; Austin Small
             </div>
         </div>
 
-        <!-- <img class="divider" src="img/divider.png" alt=""> -->
-
-        <div class="container" style="background: rgba(255, 238, 215, 0.65);">
+        <div id="experience_container" class="container" style="background: rgba(255, 238, 215, 0.65);">
             <div class="container_sub">
 				{% include cv.html %}
 				<br><br>
 
             </div>
         </div>
-
-        <!-- <img class="divider" src="img/divider.png" alt=""> -->
 
         <div class="container" style="background: rgba(40, 175, 108, 0.26);">
             <div class="container_sub">
@@ -67,8 +63,6 @@ title: Overview &middot; Austin Small
             </div>
         </div>
 
-		<!-- <img class="divider" src="img/divider.png" alt=""> -->
-
 		<div id="soc_sec" class="container" style="background: rgba(202, 218, 255, 0.62);">
 			<div class="container_sub">
 				<h1 class="title">Say hello!</h1>
@@ -98,9 +92,6 @@ title: Overview &middot; Austin Small
 			</div>
 		</div>
 
-
-        <!-- <img class="divider" src="img/divider.png" alt=""> -->
-
         <div class="container" style="background:rgba(255, 152, 152, 0.62); padding-bottom: 3.5em;">
             <div class="container_sub">
                 <h1 class="title">I like to share.</h1>
@@ -114,13 +105,11 @@ title: Overview &middot; Austin Small
             </div>
         </div>
 
-        <!-- <img class="divider" src="img/divider.png" alt=""> -->
         <ul class="actions">
             <li><a href="#top" id="back_button" class="button">BACK TO TOP</a></li>
         </ul>
 
 <!--SCRIPTS-->
-
 <!--start terminal when reached-->
 	<script type="text/javascript">
 	var fired=0;
@@ -137,11 +126,3 @@ title: Overview &middot; Austin Small
 
 	<!--scroll down button-->
 	<script type="text/javascript" src="/assets/javascript/scrolldown.js"></script>
-
-    <!--menu opacity script-->
-    <!-- <script type="text/javascript" src="/assets/javascript/menuscroll.js"></script> -->
-
-    <!--background image size script-->
-<!--
-    <script type="text/javascript" src="/assets/javascript/backgroundsize.js"></script>
--->
