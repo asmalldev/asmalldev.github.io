@@ -3,7 +3,7 @@ layout: post
 title:  "BeagleBone Black from Source: Part One<br>Setting Up the Toolchain"
 date:   2016-05-02
 author: "Austin"
-read_time: "< 15 min"
+read_time: "< 5 min"
 article_overview: "Part one in a series of posts about building and installing the main software components of the BeagleBone Black from source."
 image: <img class="post_overview_img" src="/img/BBB/BBB.jpg" alt="BeagleBone Black">
 ---

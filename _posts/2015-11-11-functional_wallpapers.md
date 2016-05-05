@@ -2,7 +2,7 @@
 layout: post
 title:  "Functional Wallpapers"
 date:   2015-11-11
-author: "asmalldev"
+author: "Austin"
 read_time: "< 1 min"
 article_overview: "Learning new things (languages, tools, etc) usually involves some memorization- like soaking up new syntaxes and building up a relevant vocabulary. Here are a few wallpapers I made to keep new information in my face, providing me with a quick reference and reminding me to commit things to memory."
 image: <img class="post_overview_img" src="/img/post2/work.png" alt="ASCII and assembly">

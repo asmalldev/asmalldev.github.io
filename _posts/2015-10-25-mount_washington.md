@@ -2,7 +2,7 @@
 layout: post
 title:  "Hiking Mount Washington"
 date:   2015-10-25
-author: "asmalldev"
+author: "Austin"
 read_time: "< 1 min"
 article_overview: "A few weekends ago I drove up to New Hampshire with some friends to hike Mount Washington, the tallest peak in the northeast! The hike was awesome! Here's a few pictures :)"
 image: <img class="post_overview_img" src="/img/mtwash/Sunset.jpg" alt="mountain sunset">

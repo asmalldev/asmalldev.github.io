@@ -2,7 +2,7 @@
 layout: post
 title:  "Photomicroscopy!"
 date:   2015-4-3
-author: "asmalldev"
+author: "Austin"
 read_time: "< 1 min"
 article_overview: "I recently re-discovered some images from a few years ago when I was doing photography more actively. The thing that made these specific images stand out to me among many others I was looking through is that they're photomicroscopy images- images taken through a microscope. Take a look and the images and let me know what you think. <strong>WARNING:</strong> If you're squeemish about insects or other bugs, you may want to turn back now."
 ---
