@@ -994,8 +994,9 @@
 
     .post_img_large
     {
-        max-width: 60%;
-        max-height: 600px;
+		transition-property: width;
+		transition-duration: .5s;
+        width: 55%;
 		margin-bottom: 2em;
         border-radius: 4px;
     }
@@ -1452,6 +1453,11 @@
 	.post_img
 	{
 		height: 65px;
+	}
+
+	.post_img_large
+	{
+		width: 100%;
 	}
 
 	a .CC_icons
