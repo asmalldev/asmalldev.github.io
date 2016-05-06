@@ -96,12 +96,8 @@
         left: 0;
         right: 0;
         bottom: 0;
-	/*background: #ffffff;*/
-        /*background-image: url(/img/stuvi.jpg);
-        background-size: cover;
-        background-position: center, center;*/
-	z-index: -3;
-	display: none;
+		z-index: -3;
+		display: none;
     }
 
 	#names
@@ -582,7 +578,8 @@
 	.soc_icon
 	{
 		height: 75px;
-		padding: 1em;
+		margin: 1em;
+		border-radius: 100px;
 		transition-property: height;
 		transition-duration: .3s;
 	}
@@ -1272,7 +1269,7 @@
 	a .soc_icon
 	{
 		height: 50px;
-		padding: 1.1em;
+		margin: 1.1em;
 	}
 
 	#footer #footer_cols .nav_col
