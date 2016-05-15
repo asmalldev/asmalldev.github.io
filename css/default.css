@@ -12,9 +12,10 @@
 		position: relative;
 	}
 
-	code
+	pre
 	{
 		background: antiquewhite;
+                word-wrap: normal;
 	}
 
 	.lost
