@@ -38,8 +38,8 @@
 		border-bottom: 1px solid #EEE;
 		background: #FFF;
 		z-index: 50;
-        transition-property: opacity;
-        transition-duration: .35s;
+        transition-property: margin;
+        transition-duration: .5s;
 	}
 
 	#menu ul

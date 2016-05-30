@@ -4,12 +4,10 @@ $(window).scroll(function() {
     $("#menu").css('opacity','1');
     var ScrollTop = parseInt($(window).scrollTop());
     if(ScrollTop > 100) {
-	//$("#menu").fadeOut("fast");
-	$("#menu").css('opacity','0');
+	$("#menu").css('margin-top','-4em');
     }
     else {
-	//$("#menu").fadeIn("fast");
-	$("#menu").css('opacity','1');
+	$("#menu").css('margin-top','0');
     }
 });
 
