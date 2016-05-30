@@ -1,26 +1,24 @@
 ---
 layout: post
-title:  "BeagleBone Black from Source: Part One<br>Setting Up the Toolchain"
+title:  "BeagleBone Black from Source:<br>Setting Up the Toolchain"
 date:   2016-05-02
 author: "Austin"
 read_time: "< 5 min"
-article_overview: "Part one in a series of posts about building and installing the main software components of the BeagleBone Black from source."
+article_overview: "Part one in a series of posts about building and installing the main software components required to run Linux on the BeagleBone Black single-board computer."
 image: <img class="post_overview_img" src="/img/BBB/BBB.jpg" alt="BeagleBone Black">
 ---
 <div class="center_imgs"><img class="post_img_large" src="/img/BBB/BBB.jpg" alt="BeagleBone Black"></div>
 
 ### The BeagleBone Black
-The Beaglebone Black is an open-source single-board Linux computer supported by the non-profit BeagleBoard foundation and companies like Texas Instruments. In a series of posts starting with this one, I'll be going over how to build the major software components of the BeagleBone Black from source- the first step to adding-in your own changes such as a custom kernel or root filesystem.
+The Beaglebone Black (BBB) is an open-source single-board computer that runs Linux. Starting with this post, I'll be going over how to build the major software components needed to run Linux on the BeagleBone Black. This includes the bootloader, kernel, and rootfs. Building these components from source is the first step towards customizing them- a major part of taking advantage of the flexibility of embedded linux and tailoring the BBB's software for your use case.
 
-The board comes pre-installed with Debian by default, but it's easy to get any number of Linux distributions (or linux-based OS's like Android) running on it. Furthermore, since the hardware and software are open-source and highly configurable, it's possible to taylor them to your specific needs. That's where the BeagleBone Black's niche is. It's hardware (like the 1GHz cortex-A8 processor onboard) allows it to take advantage of general-purpose operating systems like Linux but also to be simultaneously configured to fill more specific computing roles.
+### Why build these from source?
+The out-of-the-box Linux installation on the BeagleBone Black does a good job of providing a standard Linux experience while also letting you take advantage of the board's more specific hardware (using software like [the BoneScript Node.js library](http://beagleboard.org/support/bonescript)). But to *really* tailor the system to your specific needs, you'll probably need to get your hands dirty and compile a custom kernel or root file system from source.
 
-### PRU
-A great example of this is the BeagleBone Black's [PRU subsystem](http://beagleboard.org/pru). PRU stands for "Programmable Real-time Unit" and this hardware subsystem allows the BeagleBone black to fit a role that would usually be filled by an embedded computer running a Real Time OS (RTOS). Using an RTOS would allow for computation with predictable latencies (allowing us to do things like operate a motor at exact times- which would be important for things like lowering landing gear on a plane, or having a robot take a step without falling on its face). But while an RTOS running on an embedded computer would be able to do those specific tasks very well, it would lack the degree of adaptability that comes with a general-purpose OS like Linux (and the ecosystem of software surrounding it). That's where the BeagleBone comes in- the cortex-A8 makes it great for running Linux, but its PRU subsystem can be set up to make it approprate for real-time applications too.
+### Why write about this?
+There's good documentation out there on how to build these components for the BeagleBone Black, but it can be disparate and difficult to track down. My goal in these next few posts is to comprehensively record the process and also throw in my own knowledge. Once you can build these components from source, it's up to you to decide what modifications *you* want to build into them! (In the future I'll also post about some specific examples of what you can change, but for now I'll just post the general process for reference.)
 
-### Why build from source?
-The out-of-the-box Linux installation on the BeagleBone Black does a good job of providing a standard Linux experience while also letting you take advantage of the board's more specific hardware (using software like [the BoneScript Node.js library](http://beagleboard.org/support/bonescript)). But to really taylor the system to your specific needs, you'll probably have to get your hands a little more dirty by doing things like compiling custom kernels, creating custom root file systems, or changing the device tree.
-
-There's a lot of good documentation out there on how to these things with the BeagleBone Black specifically, but they can be disparate and difficult to track down on the web. In the next few posts, I'll cover process of building the major components of the BBB's software from source. Once you can do that, it's up to you to decide what modifications *you* want to build into them in order to fit your specific needs! In the future I'll also post about some specific examples of what you can change, but for now I'll just post the general process for referencce. All right, let's do this.
+All right, here we go!
 
 ## Setting Up a Toolchain for Cross Compiling (The Easy Way)
 In order to build software for the BBB, we need to compile source code into ARM archetecture binaries. The host machine used for compilation is most likely x86 archetecture, so this requires a cross toolchain or cross compiler. Setting up a toolchain for cross compilation can be complicated if you choose to build it yourself. The software tools you need as part of the toolchain (gcc,binutils, etc) are dependent upon specific versions of each other and it can get a little tricky. To avoid this, we will simply use a prebuilt toolchain from the [Linaro group](http://www.linaro.org/). Once set up, the toolchain will allow us to compile code for the BBB from an x86 machine (your typical computer).
