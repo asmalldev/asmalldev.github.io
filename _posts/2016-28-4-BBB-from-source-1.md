@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "BeagleBone Black from Source:<br>Setting Up the Toolchain"
+title:  "BeagleBone Black from Source: Setting Up the Toolchain"
 date:   2016-05-02
 author: "Austin"
 read_time: "< 5 min"
