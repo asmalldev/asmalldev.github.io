@@ -191,8 +191,9 @@
 		border-radius: 4px;
 		transition-property: margin, width;
 		transition-duration: .6s;
+		width: 80%;
 	}
-
+	
 	.container_title
 	{
 		font-family: "Lato", sans-serif;
@@ -464,7 +465,7 @@
 
 	.form_section img
 	{
-		margin-bottom: -2.5em;
+		margin-bottom: -2em;
 		margin-right: 2em;
 		height: 70px;
 		padding-left: 0;
@@ -720,6 +721,7 @@
 	{
 		padding-left: 10%;
 		padding-right: 10%;
+		margin-top: 0;
 	}
 
 	#credits_wrapper .container a
@@ -1077,11 +1079,6 @@
 		width: 45em;
 	}
 
-	.container
-	{
-		width: 80%;
-	}
-
 	.post_info
 	{
 
@@ -1312,6 +1309,7 @@
 	.form_sub
 	{
 		padding-bottom: 4em;
+		width: initial;
 	}
 
 	#terminal-window
