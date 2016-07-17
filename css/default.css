@@ -193,7 +193,7 @@
 		transition-duration: .6s;
 		width: 80%;
 	}
-	
+
 	.container_title
 	{
 		font-family: "Lato", sans-serif;
@@ -1383,6 +1383,13 @@
 	{
 		padding-top: 2em;
 		padding-bottom: 2em;
+	}
+
+	#credits_wrapper .container_col .container
+	{
+		padding-left: 0;
+		padding-right: 0;
+		margin-top: 0;
 	}
 
 	#names
