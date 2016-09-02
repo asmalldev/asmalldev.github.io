@@ -358,11 +358,12 @@
 /*Button Style*/
 	.button
 	{
+		box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    	background: #1793D1;
+    	border: none;
+    	color: white;
 		display: inline-block;
 		padding: 0em 3em;
-		background: rgba(255, 255, 255, 0);
-		border: 1px solid;
-		border-color: rgba(0, 0, 0, 0.23);
 		transition-property: border-color, background;
 		transition-duration: 1s;
 		letter-spacing: 0.20em;
@@ -371,18 +372,12 @@
 		font-family: 'PT Sans', sans-serif;;
 		font-weight: 400;
 		font-size: 1em;
-		color: #333;
 		text-align: center;
 		white-space: nowrap;
 		font-size: medium;
 		border-radius: 2px;
 	}
 
-	.button:hover
-	{
-		border-color: rgb(132, 132, 132);
-		background: rgb(242, 242, 242);
-	}
 
 	.button:before
 	{
@@ -939,23 +934,18 @@
 
 	.read_on
 	{
+		box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    	background: #1793D1;
+    	border: none;
+    	color: white;
 		font-family: 'PT Sans', sans-serif;
 		font-size: .8em;
-		color: #7D7D7D;
 		float: left;
 		margin-top: 1em;
 		padding: 4px 13px 4px 13px;
-		border: 1px solid #CCC;
-		border-radius: 25px;
+		border-radius: 2px;
 		transition-property: background-color,color,border-color;
 		transition-duration: .5s;
-	}
-
-	.read_on:hover
-	{
-		background-color: rgba(23,147,209,.8);
-		color: #FFF;
-		border-color: #FFF;
 	}
 
 	.post_info
