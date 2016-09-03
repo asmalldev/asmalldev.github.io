@@ -1325,6 +1325,12 @@
 /*Responsive resizing WTFTEENY*/
 @media screen and (max-width: 550px) {
 
+	.container
+	{
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
 	.rest_wrapper
 	{
 		padding-top: 0!important;
