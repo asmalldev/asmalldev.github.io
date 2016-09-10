@@ -454,7 +454,7 @@
 		padding-right: 4px;
 		padding-top: 18px;
 		padding-bottom: 9px;
-		margin-top: 1.3em;
+		margin-top: 1.6em;
 		width: 12em;
 		resize: none;
 		float: right;
@@ -466,7 +466,7 @@
 
 	.form_section img
 	{
-		margin-bottom: -2em;
+		margin-bottom: -1.4em;
 		margin-right: 2em;
 		height: 70px;
 		padding-left: 0;
@@ -1329,6 +1329,8 @@
 	{
 		padding-top: 0;
 		padding-bottom: 0;
+		padding-top: 4em;
+		margin-bottom: 0;
 	}
 
 	.rest_wrapper
