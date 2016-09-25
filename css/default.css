@@ -340,7 +340,8 @@
 	.paragraph_wrapper
 	{
 		text-align: justify !important;
-		padding: 2em;
+		padding-left: 2em;
+		padding-right: 2em;
 		width: 55%;
 		margin-left: auto;
 		margin-right: auto;
@@ -1327,9 +1328,8 @@
 
 	.container
 	{
-		padding-top: 0;
-		padding-bottom: 0;
-		padding-top: 4em;
+		padding-top: 1em;
+		padding-bottom: 1em;
 		margin-bottom: 0;
 	}
 
