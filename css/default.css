@@ -1487,9 +1487,9 @@
 .terminal{
 	background-color: #300a24;
 	color: white!important;
-    background-color: #333;
-    border-radius: 4px;
-    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.4),0 0 0 1px #282C2C;
+	background-color: #333;
+	border-radius: 5px;
+	box-shadow: 0 9px 23px 0 rgba(0,0,0,0.4),0 0 0 0px #282C2C;
 }
 
 #terminal span, #terminaltitle
@@ -1504,13 +1504,19 @@
 {
     padding-left: .5em;
     padding-top: .3em;
-	text-align: center;
+    padding-bottom: .3em;
+    text-align: center;
+    background-color: #E7E8EB;
+    color: #333;
+    border-radius: 4px 4px 0 0;
+    font-size: 15px;
 }
 
 #x
 {
     float: left;
-	padding-top: 1px;
+    height: 25px;
+    font-size: 16px;
 }
 
 #shelltitle
@@ -1522,8 +1528,9 @@
 #terminal .output,
 .terminal .output{
 	height: 250px;
-    padding: 1em;
-	overflow: hidden;
+	padding: 1em;
+	/* overflow: hidden; */
+	font-size: 11px!important;
 }
 
 #terminal .output .line,
