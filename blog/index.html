@@ -1,6 +1,6 @@
 ---
 layout: master
-title: Austin Small &middot; Blog Posts 
+title: Austin Small &middot; Blog Posts
 full_posts: 5
 ---
 
@@ -11,6 +11,18 @@ full_posts: 5
 
 <div class="rest_wrapper">
 <div id="posts_wrapper">
+
+<div id="blog_title"></div>
+
+<script>
+function getRandomInt(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min)) + min;
+}
+var titles = ["Miscellaneous Tech Ramblings", "Coding, Linux, Miscellaneous Things", "Targeted Abstractions", "Embedded Excitement"];
+document.getElementById("blog_title").innerHTML = titles[getRandomInt(0,titles.length)];
+</script>
 
 <div id="post_box_wrapper">
 {% for post in site.posts %}
