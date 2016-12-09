@@ -173,7 +173,7 @@
 	}
 
 	.blinker {
-  		animation: blinker 2s linear 4;
+  		animation: blinker 2s linear 3;
 	}
 
 	@keyframes blinker {
