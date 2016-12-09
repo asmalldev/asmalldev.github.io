@@ -4,7 +4,7 @@ title:  "Satellites Are Cool."
 date:   2015-10-4
 author: "Austin"
 read_time: "<1 min"
-article_overview: "This summer I had the very good fortune of getting hired as an intern by Pumpkin Inc. Pumpkin is a company that builds hardware and software for Cubesats, a type of small satellite used for space research missions. I won't get too specific about the mission they were doing at the time, but working with such smart people was a very gratifying experience; I loved getting to learn from people who are more experienced and knowledgeable than I am."
+article_overview: "This summer I had the very good fortune of getting hired as an intern by Pumpkin Inc. Pumpkin is a company that builds hardware and software for Cubesats, a type of small satellite used for space research missions."
 image: <img class="post_overview_img" src="/img/cubesat1.webp">
 ---
 
