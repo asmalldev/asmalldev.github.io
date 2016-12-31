@@ -15,7 +15,15 @@
 	pre
 	{
 		background: antiquewhite;
-                word-wrap: normal;
+        word-wrap: normal;
+		padding: .5em;
+	}
+
+	code
+	{
+		background: antiquewhite;
+        word-wrap: normal;
+		padding: .1em;
 	}
 
 	.lost
@@ -995,9 +1003,9 @@
 		display: block;
 		margin: auto;
 		max-width: 85%;
-        max-height: 300px;
-		margin-top: 1em;
-        border-radius: 4px;
+		max-height: 230px;
+		margin-top: 2.8em;
+		border-radius: 4px;
 		transition-property: max-height;
 		transition-duration: .3s;
 	}
@@ -1069,7 +1077,7 @@
 
 	.post
 	{
-		max-width: 750px;
+		max-width: 1000px;
 		margin-left: auto;
 		margin-right: auto;
 		padding-top: 4em;
@@ -1108,6 +1116,11 @@
 		width: 45em;
 	}
 
+	.post
+	{
+		max-width: 800px;
+	}
+
 	.post_info
 	{
 
@@ -1115,7 +1128,7 @@
 
 	.post_overview_img
 	{
-		max-height: 240px;
+		max-height: 225px;
 	}
 }
 
