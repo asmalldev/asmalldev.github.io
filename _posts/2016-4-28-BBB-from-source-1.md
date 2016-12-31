@@ -10,13 +10,13 @@ image: <img class="post_overview_img" src="/img/BBB/BBB.jpg" alt="BeagleBone Bla
 <div class="center_imgs"><img class="post_img_large" src="/img/BBB/BBB.jpg" alt="BeagleBone Black"></div>
 
 ### The BeagleBone Black
-The Beaglebone Black (BBB) is an open-source single-board computer that runs Linux. Starting with this post, I'll be going over how to build the major software components needed to run Linux on the BeagleBone Black. This includes the bootloader, kernel, and rootfs. Building these components from source is the first step towards customizing them- a major part of taking advantage of the flexibility of embedded linux and tailoring the BBB's software for your use case.
+The Beaglebone Black (BBB) is an open-source single-board computer that runs Linux. Starting with this post, I'll be going over how to build the major software components needed to run Linux on the BeagleBone Black. This includes the bootloader, kernel, and rootfs.
 
 ### Why build these from source?
-The out-of-the-box Linux installation on the BeagleBone Black does a good job of providing a standard Linux experience while also letting you take advantage of the board's more specific hardware (using software like [the BoneScript Node.js library](http://beagleboard.org/support/bonescript)). But to *really* tailor the system to your specific needs, you'll probably need to get your hands dirty and compile a custom kernel or root file system from source.
+The out-of-the-box Linux installation on the BeagleBone Black (Debian + some modifications) does a good job of providing a standard Linux experience while also letting you take advantage of the board's specific hardware (e.g. using software like [the BoneScript Node.js library](http://beagleboard.org/support/bonescript)). But it can also be very useful to get your hands dirty and compile a custom kernel or create a custom root file system. Customizing these components when building them from source can be very helpful in fine-tuning the BBB for your use case and demonstrates the flexibility of embedded Linux.
 
 ### Why write about this?
-There's good documentation out there on how to build these components for the BeagleBone Black, but it can be disparate and difficult to track down. My goal in these next few posts is to comprehensively record the process and also throw in my own knowledge. Once you can build these components from source, it's up to you to decide what modifications *you* want to build into them! (In the future I'll also post about some specific examples of what you can change, but for now I'll just post the general process for reference.)
+There's good documentation out there on how to build these components for the BeagleBone Black, but it can be disparate and difficult to track down. My goal in these next few posts is to comprehensively record the process and throw in knowledge I've gained in my own experience working with the BBB. Once you can build these components from source, it's up to *you* to decide what modifications you want to build into them! (In the future I'll also post about some specific examples of what you can tweak.)
 
 All right, here we go!
 
