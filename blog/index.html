@@ -20,7 +20,7 @@ function getRandomInt(min, max) {
   max = Math.floor(max);
   return Math.floor(Math.random() * (max - min)) + min;
 }
-var titles = ["Miscellaneous Tech Ramblings", "Coding, Linux, Miscellaneous Things", "Excitement About Embedded", "Doing DevOps"];
+var titles = ["Miscellaneous Tech Ramblings", "Coding, Linux, Miscellaneous Things", "Excitement About Embedded"];
 document.getElementById("blog_title").innerHTML = titles[getRandomInt(0,titles.length)];
 </script>
 
@@ -34,7 +34,7 @@ document.getElementById("blog_title").innerHTML = titles[getRandomInt(0,titles.l
                             </div>
 				<a href="{{ post.url }}">{{ post.image }}</a>
 					<p>{{post.article_overview}}<br>
-					<a class="read_on" href="{{ post.url }}">Read On &#8594; </a>
+					<a class="read_on" href="{{ post.url }}">Read Post &#8594; </a>
 					</p>
 			</div>
 {% else %}
