@@ -35,6 +35,7 @@
 	#content
 	{
 		padding-top: 1.8em;
+		background-color: #fafafa;
 	}
 
 /* MENU */
@@ -92,7 +93,7 @@
 /* PROFILE */
     #profile_wrapper
     {
-        background-color: white;
+        background-color: inherit;
         min-height: 28em;
 		position: relative;
 		z-index: 3;
@@ -557,7 +558,7 @@
 
     .rest_wrapper
     {
-        background: #FFF;
+        background-color: inherit;
 		margin-top: -2em;
 		padding-top: 2em;
 		padding-bottom: 2em;
@@ -946,6 +947,7 @@
 
 	.post_box
 	{
+		background-color: #fff;
 		width: 80%;
 		margin-left: auto;
 		margin-right: auto;
