@@ -11,11 +11,11 @@
         h2 {margin-bottom: .5em; font-size: 1.4em;}
         h3 {margin-bottom: .5em;}
         .subline {text-align: center; display: block;}
-        .content_line {padding-left: 2em;}
-        table {display: inline-table; padding-left: 2em; padding-right: 3em;}
+        .content_line {padding-left: 3em;}
+        table {display: inline-table; padding-left: 3em;}
         th {text-align: left!important;}
-        td {padding-right: 2em;}
-        ul {margin-left: 2em; margin-top: 0; max-width: 43em;}
+        td {width: 33%; padding-right: .5em;}
+        ul {margin-left: 3em; margin-top: 0; max-width: 43em;}
     </style>
 </head>
 <body>
@@ -27,74 +27,57 @@
         <span class="content_line">BOSTON UNIVERSITY, Boston, MA</span><br>
         <span class="content_line"><strong>B.A. Computer Science, </strong>Expected May 2017</span>
         <br><br>
-        <span class="content_line"><strong>Related Courses</strong></span><br>
-        <div style="display: inline-block;">
-            <span class="content_line">Advanced Software Systems</span><br>
-            <span class="content_line">Fundamentals of Computing Systems</span>
-        </div>
-        <div style="display: inline-block; padding-left: 4em;">
-            <span class="content_line">Software Engineering</span><br>
-            <span class="content_line">Computer Systems</span>
-        </div>
+
+        <table style="width:100%">
+            <tr>
+                <th>Related Courses</th>
+            </tr>
+            <tr>
+                <td>Advanced Software Systems</td>
+                <td>Operating Systems</td>
+                <td>Software Engineering</td>
+            </tr>
+            <tr>
+                <td>Fndmtls of Computing Systems</td>
+                <td>Network Security</td>
+                <td>Computer Systems</td>
+            </tr>
+        </table>
     <h2>Computer Skills</h2>
-    <table>
+    <table style="width: 100%;">
         <tr>
             <th>Languages</th>
-        </tr>
-        <tr>
-            <td>C</td>
-        </tr>
-        <tr>
-            <td>Python</td>
-        </tr>
-        <tr>
-            <td>Java</td>
-        </tr>
-        <tr>
-            <td>Javascript</td>
-        </tr>
-        <tr>
-            <td>BASH</td>
-        </tr>
-        <tr>
-            <td>HTML & CSS</td>
-        </tr>
-    </table>
-    <table>
-        <tr>
             <th>Software and Tools</th>
-        </tr>
-        <tr>
-            <td>git version control</td>
-        </tr>
-        <tr>
-            <td>gdb (GNU debugger)</td>
-
-        </tr>
-        <tr>
-            <td>systemd (init system)</td>
-        </tr>
-        <tr>
-            <td>Jenkins CI</td>
-        </tr>
-        <tr>
-            <td>MongoDB (nosql database)</td>
-        </tr>
-        <tr>
-            <td>MySQL (relational database)</td>
-        </tr>
-    </table>
-    <table>
-        <tr>
             <th>Operating Systems</th>
         </tr>
         <tr>
+            <td>C</td>
+            <td>git version control</td>
             <td>GNU/Linux</td>
         </tr>
         <tr>
+            <td>Python</td>
+            <td>gdb (GNU debugger)</td>
             <td>Unix</td>
         </tr>
+        <tr>
+            <td>Java</td>
+            <td>systemd (init system)</td>
+        </tr>
+        <tr>
+            <td>Javascript</td>
+            <td>Jenkins CI</td>
+        </tr>
+        <tr>
+            <td>shell script (BASH)</td>
+            <td>MongoDB (nosql database)</td>
+        </tr>
+        <tr>
+            <td>HTML & CSS</td>
+            <td>MySQL (relational database)</td>
+        </tr>
     </table>
+
     <h2>Related Experience</h2>
     <span class="content_line">PUMPKIN SPACE SYSTEMS, San Francisco, CA</span><br>
     <span class="content_line"><strong>Remote Engineer</strong> (November 2015 to present)</span>
