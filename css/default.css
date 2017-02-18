@@ -316,9 +316,10 @@
 	h1
 	{
 		font-size: 1.6em!important;
-		margin: 0;
+		margin-top: 0.8em!important;
+        margin-bottom: 0!important;
 		padding: 0;
-		font-weight: 500;
+		font-weight: 600;
 		color: #253238;
 	}
 
@@ -834,7 +835,9 @@
 
 	#cv h3
 	{
+        margin-top: .6em;
 		margin-bottom: 0;
+        font-weight: 100;
 	}
 
 	#cv p
