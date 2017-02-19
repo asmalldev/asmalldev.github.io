@@ -3,8 +3,9 @@ title: asmalldev
 email: asmalldev@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Austin Small's personal site. Welcome!
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "asmalldev.github.io" # the base hostname & protocol for your site
+baseurl: "" # subpath
+url: https://asmalldev.me
+enforce_ssl: asmalldev.me
 twitter_username: asmalldev
 github_username:  asmalldev
 
