@@ -7,50 +7,47 @@ full_posts: 5
 <style>
 {% include posts_select.css %}
 </style>
-{% include name_title.html %}
 
 <div class="rest_wrapper">
-<div id="posts_wrapper">
+    <div id="posts_wrapper">
+        <div id="blog_title"></div>
+        <script>
+        function getRandomInt(min, max) {
+          min = Math.ceil(min);
+          max = Math.floor(max);
+          return Math.floor(Math.random() * (max - min)) + min;
+        }
+        var titles = ["Miscellaneous Tech Ramblings", "Coding, Linux, Miscellaneous Things", "Excitement About Embedded"];
+        document.getElementById("blog_title").innerHTML = titles[getRandomInt(0,titles.length)];
+        </script>
 
-<div id="blog_title"></div>
+        <div id="post_box_wrapper">
+        {% for post in site.posts %}
+        {% if forloop.index < page.full_posts %}
+        			<div class="post_box">
+                                    <div class="post-header">
+        				<a href="{{ post.url }}"><h1 class="post-title">{{ post.title }}</h1></a>
+        				<span class="post_info">{{ post.date | date: '%B %d, %Y' }} &middot; read in {{post.read_time}}</span>
+                                    </div>
+        				<a href="{{ post.url }}">{{ post.image }}</a>
+        					<p>{{post.article_overview}}<br>
+        					<a class="read_on" href="{{ post.url }}">Read Post &#8594; </a>
+        					</p>
+        			</div>
+        {% else %}
+        {% if forloop.index == page.full_posts %}
+        </div>
 
-<script>
-function getRandomInt(min, max) {
-  min = Math.ceil(min);
-  max = Math.floor(max);
-  return Math.floor(Math.random() * (max - min)) + min;
-}
-var titles = ["Miscellaneous Tech Ramblings", "Coding, Linux, Miscellaneous Things", "Excitement About Embedded"];
-document.getElementById("blog_title").innerHTML = titles[getRandomInt(0,titles.length)];
-</script>
-
-<div id="post_box_wrapper">
-{% for post in site.posts %}
-{% if forloop.index < page.full_posts %}
-			<div class="post_box">
-                            <div class="post-header">
-				<a href="{{ post.url }}"><h1 class="post-title">{{ post.title }}</h1></a>
-				<span class="post_info">{{ post.date | date: '%B %d, %Y' }} &middot; read in {{post.read_time}}</span>
-                            </div>
-				<a href="{{ post.url }}">{{ post.image }}</a>
-					<p>{{post.article_overview}}<br>
-					<a class="read_on" href="{{ post.url }}">Read Post &#8594; </a>
-					</p>
-			</div>
-{% else %}
-{% if forloop.index == page.full_posts %}
-</div>
-
-<div id="archive_box">
-	<div id="archive">
-		<h3>Older Posts:</h3>
-{% endif %}
-			<ul>
-				<li><a href='{{ post.url }}'>{{ post.title }}</a> -- {{ post.date | date_to_string }}</li>
-			</ul>
-{% endif %}
-{% endfor %}
-	</div>
-</div>
-</div>
+        <div id="archive_box">
+        	<div id="archive">
+        		<h3>Older Posts:</h3>
+        {% endif %}
+        			<ul>
+        				<li><a href='{{ post.url }}'>{{ post.title }}</a> -- {{ post.date | date_to_string }}</li>
+        			</ul>
+        {% endif %}
+        {% endfor %}
+        	</div>
+        </div>
+    </div>
 </div>
