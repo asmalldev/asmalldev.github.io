@@ -2,147 +2,145 @@
 layout: master
 title: Austin Small &middot; Blog Posts
 ---
-	<div id="content">
-        <div id="profile_wrapper">
-        <div class="image_overlay"></div>
-            <div class="container_title">
-                <!--set height of .container_title based on viewport ratio-->
-                <script type="text/javascript" src="/assets/javascript/resize.js"></script>
-                <div class="container_sub">
-                    <div id="name_box" class="container_center">
-                        <img class="profile_img small_show" src="/img/me.jpg" alt="Me"/>
-                        <div id="names">
-                            <span id="first">Austin</span><span id="last">Small</span>
-                        </div>
-                        <span id="subtitle" class="byline"></span>
-                        <div id="social_bar">
-        	            <a href="//github.com/asmalldev" target="blank"><img class="soc_icon" src="/img/soc_icons/github.png" alt="asmalldev on github"></a>
-                            <a href="mailto:asmalldev@gmail.com"><img class="soc_icon" src="/img/soc_icons/email.png" alt="email"></a>
-                            <a href="//twitter.com/asmalldev" target="blank"><img class="soc_icon" src="/img/soc_icons/twitter.png" alt="asmalldev on twitter"></a>
-                            <a href="//plus.google.com/113763132515717728023/posts" target="blank"><img class="soc_icon" src="/img/soc_icons/googleplus.png" alt="asmalldev on google plus"></a>
-                            <a href="//www.linkedin.com/in/johnaustinsmall" target="blank"><img class="soc_icon" src="/img/soc_icons/linkedin.png" alt="asmalldev on linkedin plus"></a>
-                        </div>
-                    </div>
+<div id="profile_wrapper">
+<div class="image_overlay"></div>
+    <div class="container_title">
+        <!--set height of .container_title based on viewport ratio-->
+        <script type="text/javascript" src="/assets/javascript/resize.js"></script>
+        <div class="container_sub">
+            <div id="name_box" class="container_center">
+                <img class="profile_img small_show" src="/img/me.jpg" alt="Me"/>
+                <div id="names">
+                    <span id="first">Austin</span><span id="last">Small</span>
                 </div>
-                <a id="scroll_down" href="javascript:;"><img class="blinker" src="/img/down_arrow.svg" height="60" alt=""></a>
-                <div class="scroll_intro"></div>
+                <span id="subtitle" class="byline"></span>
+                <div id="social_bar">
+	            <a href="//github.com/asmalldev" target="blank"><img class="soc_icon" src="/img/soc_icons/github.png" alt="asmalldev on github"></a>
+                    <a href="mailto:asmalldev@gmail.com"><img class="soc_icon" src="/img/soc_icons/email.png" alt="email"></a>
+                    <a href="//twitter.com/asmalldev" target="blank"><img class="soc_icon" src="/img/soc_icons/twitter.png" alt="asmalldev on twitter"></a>
+                    <a href="//plus.google.com/113763132515717728023/posts" target="blank"><img class="soc_icon" src="/img/soc_icons/googleplus.png" alt="asmalldev on google plus"></a>
+                    <a href="//www.linkedin.com/in/johnaustinsmall" target="blank"><img class="soc_icon" src="/img/soc_icons/linkedin.png" alt="asmalldev on linkedin plus"></a>
+                </div>
             </div>
         </div>
+        <a id="scroll_down" href="javascript:;"><img class="blinker" src="/img/down_arrow.svg" height="60" alt=""></a>
+        <div class="scroll_intro"></div>
+    </div>
+</div>
 
-        <div class="rest_wrapper">
-    		<img id="profile_img_hide" class="profile_img small_hide" style="margin-bottom: -3.5em" src="/img/me.jpg" alt="Me"/>
-            <div class="container" style="background: rgba(7, 163, 241, 0.23);">
-                <div class="container_sub">
-                    <div class="paragraph_wrapper">
-    					<p style="padding-top: 10px;">My name is Austin. I'm a software engineer and a university student currently living in Boston, MA. I have worked at a few technology companies in California and am currently pursuing a degree in computer science from Boston University. I am especially interested in devops, embedded systems, and the inner workings of Linux. In my personal time I enjoy photography, hiking, cooking, and meeting new people.
-                		</p>
-    					<p>This site is a <a href=/blog>blog</a>, a <a id="CVscroll" href="javascript:;">CV</a>, and a way for people to get in contact with me.
-    					<a href="mailto:asmalldev@gmail.com">Emailing me</a> is usually the best way to reach me.
-    					</p>
-                    </div>
-                </div>
+<div class="rest_wrapper">
+	<img id="profile_img_hide" class="profile_img small_hide" style="margin-bottom: -3.5em" src="/img/me.jpg" alt="Me"/>
+    <div class="container" style="background: rgba(7, 163, 241, 0.23);">
+        <div class="container_sub">
+            <div class="paragraph_wrapper">
+				<p style="padding-top: 10px;">My name is Austin. I'm a software engineer and a university student currently living in Boston, MA. I have worked at a few technology companies in California and am currently pursuing a degree in computer science from Boston University. I am especially interested in devops, embedded systems, and the inner workings of Linux. In my personal time I enjoy photography, hiking, cooking, and meeting new people.
+        		</p>
+				<p>This site is a <a href=/blog>blog</a>, a <a id="CVscroll" href="javascript:;">CV</a>, and a way for people to get in contact with me.
+				<a href="mailto:asmalldev@gmail.com">Emailing me</a> is usually the best way to reach me.
+				</p>
             </div>
+        </div>
+    </div>
 
-            <div id="experience_container" class="container" style="background: rgba(255, 238, 215, 0.65);">
-                <div class="container_sub">
-                    {% include cv.html %}
-                </div>
-            </div>
+    <div id="experience_container" class="container" style="background: rgba(255, 238, 215, 0.65);">
+        <div class="container_sub">
+            {% include cv.html %}
+        </div>
+    </div>
 
-            <div class="container" style="background: rgba(40, 175, 108, 0.26);">
-                <div class="container_sub">
-                        <h1 class="title">My Blog</h1>
-                    	<div id="terminal-window">
-    						<div id="terminal" data-terminal-prompt="asmalldev@arch:~$ ">
-    							<div id="terminaltitle">
-    								<i id="x" class="material-icons">clear</i>
-    								<span id="shelltitle">asmalldev@arch</span>
-    							</div>
-    							<span data-terminal="text" data-terminal-message='sudo systemctl enable blog@asmalldev.service' data-terminal-time="2000"></span>
-    							<span data-terminal="line" data-terminal-message="[sudo] password for asmalldev:" data-terminal-time="2000"></span>
-    							<span data-terminal="line" data-terminal-message="Created symlink from /etc/systemd/system/multi-user.target.wants/blog.service to /usr/lib/systemd/system/blog@.service." data-terminal-time="3000"></span>
-    							<span data-terminal="line" data-terminal-message="prompt" data-terminal-time="500"></span>
-    							<span data-terminal="text" data-terminal-message="sudo systemctl start blog@asmalldev.service" data-terminal-time="1000"></span>
-    							<span data-terminal="line" data-terminal-message="prompt" data-terminal-time="500"></span>
-    							<span data-terminal="text" data-terminal-message='echo -e \nThis blog is about code, Linux, and other things.' data-terminal-time="2000"></span>
-    							<span data-terminal="line" data-terminal-message="&nbsp;" data-terminal-time="500"></span>
-    							<span data-terminal="line" data-terminal-message="This blog is about code, Linux, and other things." data-terminal-time="10"></span>
-    							<span data-terminal="line" data-terminal-message="prompt" data-terminal-time="100"></span>
-    							<div class="output">
-    								<span class="line">asmalldev@arch:~$ </span>
-    							</div>
-    						</div>
-    					</div>
+    <div class="container" style="background: rgba(40, 175, 108, 0.26);">
+        <div class="container_sub">
+                <h1 class="title">My Blog</h1>
+            	<div id="terminal-window">
+					<div id="terminal" data-terminal-prompt="asmalldev@arch:~$ ">
+						<div id="terminaltitle">
+							<i id="x" class="material-icons">clear</i>
+							<span id="shelltitle">asmalldev@arch</span>
+						</div>
+						<span data-terminal="text" data-terminal-message='sudo systemctl enable blog@asmalldev.service' data-terminal-time="2000"></span>
+						<span data-terminal="line" data-terminal-message="[sudo] password for asmalldev:" data-terminal-time="2000"></span>
+						<span data-terminal="line" data-terminal-message="Created symlink from /etc/systemd/system/multi-user.target.wants/blog.service to /usr/lib/systemd/system/blog@.service." data-terminal-time="3000"></span>
+						<span data-terminal="line" data-terminal-message="prompt" data-terminal-time="500"></span>
+						<span data-terminal="text" data-terminal-message="sudo systemctl start blog@asmalldev.service" data-terminal-time="1000"></span>
+						<span data-terminal="line" data-terminal-message="prompt" data-terminal-time="500"></span>
+						<span data-terminal="text" data-terminal-message='echo -e \nThis blog is about code, Linux, and other things.' data-terminal-time="2000"></span>
+						<span data-terminal="line" data-terminal-message="&nbsp;" data-terminal-time="500"></span>
+						<span data-terminal="line" data-terminal-message="This blog is about code, Linux, and other things." data-terminal-time="10"></span>
+						<span data-terminal="line" data-terminal-message="prompt" data-terminal-time="100"></span>
+						<div class="output">
+							<span class="line">asmalldev@arch:~$ </span>
+						</div>
+					</div>
+				</div>
 
-                        <ul class="actions">
-                            <li style="margin-bottom: 1.5em"><a href="/blog" class="button">BLOG POSTS</a></li>
-                        </ul>
-                </div>
-            </div>
+                <ul class="actions">
+                    <li style="margin-bottom: 1.5em"><a href="/blog" class="button">BLOG POSTS</a></li>
+                </ul>
+        </div>
+    </div>
 
-    		<div id="soc_sec" class="container" style="background: rgba(151, 186, 255, 0.65);">
-    			<div class="container_sub">
-    				<h1 class="title">Contact Me</h1>
-    				<span class="byline">You can find me on...</span>
-    				<div id="soc_icon_box">
-    					<div class="soc_group">
-    						<div class="soc_sub">
-    							<a href="//github.com/asmalldev" target="blank"><img class="soc_icon" src="img/soc_icons/github.png" alt="asmalldev on github" title="asmalldev on github"></a>
-    							<p class="soc_cap">Github</p>
-    						</div>
-    						<div class="soc_sub">
-    							<a href="mailto:asmalldev@gmail.com"><img class="soc_icon" src="img/soc_icons/email.png" alt="email" title="asmalldev on email"></a>
-    							<p class="soc_cap">Email</p>
-    						</div>
-    					</div>
-    					<div class="soc_group">
-    						<div class="soc_sub">
-    							<a href="//twitter.com/asmalldev" target="blank"><img class="soc_icon" src="img/soc_icons/twitter.png" alt="asmalldev on twitter" title="asmalldev on twitter"></a>
-    							<p class="soc_cap">Twitter</p>
-    						</div>
-    						<div class="soc_sub">
-    							<a href="//plus.google.com/113763132515717728023/posts" target="blank"><img class="soc_icon" src="img/soc_icons/googleplus.png" alt="asmalldev on google plus" title="asmalldev on google plus"></a>
-    							<p class="soc_cap">Google+</p>
-    						</div>
-    					</div>
-    				</div>
-    			</div>
-    		</div>
+	<div id="soc_sec" class="container" style="background: rgba(151, 186, 255, 0.65);">
+		<div class="container_sub">
+			<h1 class="title">Contact Me</h1>
+			<span class="byline">You can find me on...</span>
+			<div id="soc_icon_box">
+				<div class="soc_group">
+					<div class="soc_sub">
+						<a href="//github.com/asmalldev" target="blank"><img class="soc_icon" src="img/soc_icons/github.png" alt="asmalldev on github" title="asmalldev on github"></a>
+						<p class="soc_cap">Github</p>
+					</div>
+					<div class="soc_sub">
+						<a href="mailto:asmalldev@gmail.com"><img class="soc_icon" src="img/soc_icons/email.png" alt="email" title="asmalldev on email"></a>
+						<p class="soc_cap">Email</p>
+					</div>
+				</div>
+				<div class="soc_group">
+					<div class="soc_sub">
+						<a href="//twitter.com/asmalldev" target="blank"><img class="soc_icon" src="img/soc_icons/twitter.png" alt="asmalldev on twitter" title="asmalldev on twitter"></a>
+						<p class="soc_cap">Twitter</p>
+					</div>
+					<div class="soc_sub">
+						<a href="//plus.google.com/113763132515717728023/posts" target="blank"><img class="soc_icon" src="img/soc_icons/googleplus.png" alt="asmalldev on google plus" title="asmalldev on google plus"></a>
+						<p class="soc_cap">Google+</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
-            <div class="container" style="background:rgba(255, 159, 159, 0.74); padding-bottom: 3.5em;">
-                <div class="container_sub">
-                    <h1 class="title">I like to share.</h1>
-                    <br>
-                    <a href="//creativecommons.org" target="blank"><img class="CC_icons" src="img/ccman.png" alt="attribution"></a>
-                    <a href="//creativecommons.org" target="blank"><img class="CC_icons" src="img/CC.png" alt="creative commons"></a>
-                    <a href="//creativecommons.org" target="blank"><img class="CC_icons" src="img/ccshare.png" alt="share alike"></a>
-                <br><br>
+    <div class="container" style="background:rgba(255, 159, 159, 0.74); padding-bottom: 3.5em;">
+        <div class="container_sub">
+            <h1 class="title">I like to share.</h1>
+            <br>
+            <a href="//creativecommons.org" target="blank"><img class="CC_icons" src="img/ccman.png" alt="attribution"></a>
+            <a href="//creativecommons.org" target="blank"><img class="CC_icons" src="img/CC.png" alt="creative commons"></a>
+            <a href="//creativecommons.org" target="blank"><img class="CC_icons" src="img/ccshare.png" alt="share alike"></a>
+        <br><br>
 
-                        <span class="byline">All content on this site is licensed under Creative Commons.</span>
-                </div>
-            </div>
+                <span class="byline">All content on this site is licensed under Creative Commons.</span>
+        </div>
+    </div>
 
-            <ul class="actions">
-                <li><a href="#top" id="back_button" class="button">BACK TO TOP</a></li>
-            </ul>
+    <ul class="actions">
+        <li><a href="#top" id="back_button" class="button">BACK TO TOP</a></li>
+    </ul>
 
-        <!--SCRIPTS-->
-        <!--start terminal when reached-->
-    	<script type="text/javascript">
-    	var fired=0;
-    	$(window).scroll(function() {
-    	    if($(window).scrollTop() + 2000 > $(document).height() - $(window).height() & fired==0) {
-    	        runTerminal($('#terminal'));
-    	        fired = 1;
-    	    }
-    	});
-    	</script>
+<!--SCRIPTS-->
+<!--start terminal when reached-->
+<script type="text/javascript">
+var fired=0;
+$(window).scroll(function() {
+    if($(window).scrollTop() + 2000 > $(document).height() - $(window).height() & fired==0) {
+        runTerminal($('#terminal'));
+        fired = 1;
+    }
+});
+</script>
 
-    	<!--scroll top button-->
-    	<script type="text/javascript" src="/assets/javascript/scrolltop.js"></script>
+<!--scroll top button-->
+<script type="text/javascript" src="/assets/javascript/scrolltop.js"></script>
 
-    	<!--scroll down button-->
-    	<script type="text/javascript" src="/assets/javascript/scrolldown.js"></script>
+<!--scroll down button-->
+<script type="text/javascript" src="/assets/javascript/scrolldown.js"></script>
 
-    	</div>
 </div>
