@@ -10,15 +10,17 @@ full_posts: 5
 
 <div class="rest_wrapper">
     <div id="posts_wrapper">
-        <div id="blog_title"></div>
+        <div id="blog_title_wrapper">
+            <div id="blog_title_main">A blog </div>
+            <div id="blog_title"></div>
+        </div>
         <script>
-        function getRandomInt(min, max) {
-          min = Math.ceil(min);
-          max = Math.floor(max);
-          return Math.floor(Math.random() * (max - min)) + min;
-        }
-        var titles = ["Miscellaneous Tech Ramblings", "Coding, Linux, Miscellaneous Things", "Excitement About Embedded"];
-        document.getElementById("blog_title").innerHTML = titles[getRandomInt(0,titles.length)];
+        $(function(){
+            $("#blog_title").typed({
+                strings: ["^800 about code. ^800", "^800 of miscellaneous ramblings. ^800", "^800 about Linux. ^800", "^800 about embedded systems. ^800", "^800 about technology."],
+                typeSpeed: 20
+            });
+        });
         </script>
 
         <div id="post_box_wrapper">
