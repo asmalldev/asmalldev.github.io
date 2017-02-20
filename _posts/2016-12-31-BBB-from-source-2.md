@@ -8,21 +8,21 @@ article_overview: "How to build the u-boot Bootloader for BeagleBone Black. More
 image: <img class="post_overview_img" src="/img/BBB/uboot.png" alt="BeagleBone Black">
 ---
 ### Let's start building things
-After setting up an cross compiler that's pointed to by the env var `CC` we can go ahead and start building software for the BeagleBone Black (arm) from our own PC (x86). We'll start with the bootloader: **u-boot**.
+After setting up a cross compiler that's pointed to by the environmental variable `CC` we can go ahead and start building software for the BeagleBone Black (arm architecture) from our own PC (x86 architecture). We'll start with the bootloader: **u-boot**.
 
 (Make sure to set up the cross compiler according to the last post if you haven't yet.)
 
-1. Get the code from github:
+1. Get the source code for u-boot from github:
 
         git clone https://github.com/u-boot/u-boot && cd u-boot
 
-3. Check out the appropriate branch:
+3. Check out the appropriate tag:
 
         git checkout v2016.01 -b tmp
 
     The `-b` flag just creates a new temporary branch, this will make clean-up easier later.
 
-4. Grab BBB-related patches and apply them:
+4. Grab BBB-related patches and apply them using the GNU patch tool:
 
         wget https://rcn-ee.com/repos/git/u-boot-patches/v2016.01/0001-am335x_evm-uEnv.txt-bootz-n-fixes.patch
         patch -p1 < 0001-am335x_evm-uEnv.txt-bootz-n-fixes.patch
