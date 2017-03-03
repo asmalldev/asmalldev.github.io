@@ -21,4 +21,4 @@ It was really refreshing to do some real-world programming and see embedded Linu
 
 I hope I'll get to work with more companies like Pumpkin in the future and look forward to having more experience and skills to bring to the table.
 
-Check out <a href="http://www.cubesatkit.com/">Pumpkin</a> and the thriving community around <a href="http://www.smallsat.org/">Cubesats</a>!
+Check out <a href="http://www.pumpkinspace.com/about.html">Pumpkin</a> and the thriving community around <a href="http://www.smallsat.org/">Cubesats</a>!
