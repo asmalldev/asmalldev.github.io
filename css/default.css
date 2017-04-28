@@ -638,7 +638,7 @@
 	}
 
 	#site_license {
-		color: #555;
+		color: gainsboro;
 		position: absolute;
 		right: 15px;
 		bottom: 3px;
@@ -841,7 +841,7 @@
         margin-top: -2em;
         padding-top: 2em;
         margin-bottom: -5em;
-        padding-bottom: 2em;
+        padding-bottom: g2em;
         background: rgba(0, 0, 0, 0.3);
     }
 
@@ -1273,6 +1273,10 @@
 		padding-bottom: 1em;
 		margin-bottom: 0;
 	}
+
+    #scroll_down {
+        top: 74%;
+    }
 
 	.rest_wrapper {
 		padding-top: 0!important;
