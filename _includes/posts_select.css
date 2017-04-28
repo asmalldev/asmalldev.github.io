@@ -1,9 +1,11 @@
-#blog
-    {
+#blog {
 	font-weight: bold;
-    }
+}
 
-#profile_wrapper
-    {
-        display: none;
-    }
+#profile_wrapper {
+    display: none;
+}
+
+.force_space {
+    display: none!important;
+}

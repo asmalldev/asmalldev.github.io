@@ -37,12 +37,12 @@
 		width: 100%;
 		height: 3.8em;
 		position: fixed;
-		background: #1793d1;
+		background: white;
 		box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
 		z-index: 50;
         transition-property: margin;
         transition-duration: .3s;
-		color: white;
+		color: black;
 	}
 
 	#menu ul {
@@ -66,10 +66,11 @@
 		text-decoration: none;
 		text-transform: uppercase;
 		font-size: 0.8em;
+        transition: color 0.5s ease 0s;
 	}
 
 	#menu li:hover a, #menu li.active a, #menu li.active span {
-		color: 2B3F48;
+		color: grey;
 	}
 
 	#menu .current_page_item a {
@@ -94,8 +95,11 @@
         left: 0;
         right: 0;
         bottom: 0;
-		z-index: -3;
-		display: none;
+		z-index: -100;
+        background-image: url(/img/boston.jpg);
+        background-size: cover;
+        background-position: center, center;
+		/*display: none;*/
     }
 
 	#names {
@@ -104,12 +108,13 @@
 		transition-duration: .4s;
 		z-index: 100;
 		margin-top: -2em;
+        color: white;
 	}
 
 	#name_box {
 		border-radius: 4px;
 		min-width: 10px;
-		font-weight: 300;
+		font-weight: 400;
 	}
 
 	#social_bar {
@@ -122,12 +127,12 @@
 
 	#first {
 		letter-spacing: 2px;
-		color: #1793D1;
+		/*color: #1793D1;*/
 		padding-right: 10px;
 	}
 
 	#last {
-		color: #333;
+		/*color: #333;*/
 	}
 
 	#subtitle {
@@ -152,7 +157,7 @@
 
 	#scroll_down {
 		position: absolute;
-		top: 80%;
+		top: 70%;
 		left: 50%;
 		transform: translate(-50%, -50%);
 		-webkit-transform: translate(-50%,-50%);
@@ -230,6 +235,7 @@
 		display:-webkit-flex;
 		display:-moz-flex;
 		display:-ms-flexbox;
+        background: rgba(0, 0, 0, 0.3);
 		min-height: 19em;
 		padding-left: 19%;
 		padding-right: 19%;
@@ -523,7 +529,7 @@
 
     .rest_wrapper
     {
-        background-color: inherit;
+        background: white;
 		margin-top: -2em;
 		padding-top: 2em;
 		padding-bottom: 2em;
@@ -600,16 +606,18 @@
 /* FOOTER*/
 	#footer {
         color: gainsboro;
+        background: rgba(0, 0, 0, 0.3);
 		padding-bottom: 2.5em;
 		font-family: 'PT Sans', sans-serif;
 		text-align: center;
 		width: 100%;
-		height: 200px;
+		height: 235px;
 		position: fixed;
 		left: 0px;
 		right: 0px;
 		bottom: 0px;
-		z-index: 0;
+		z-index: 3;
+        display: none;
 	}
 
 	#footer a {
@@ -645,6 +653,7 @@
 	#footer_infos {
 		width: 100%;
 		text-align: center;
+        padding-top: 3em;
 	}
 
 	#footer_cols {
@@ -828,8 +837,15 @@
 	}
 
 /*ALL POSTS PAGES*/
-    #posts_wrapper a
-    {
+    #posts_wrapper {
+        margin-top: -2em;
+        padding-top: 2em;
+        margin-bottom: -5em;
+        padding-bottom: 2em;
+        background: rgba(0, 0, 0, 0.3);
+    }
+
+    #posts_wrapper a {
         text-decoration: none;
     }
 
@@ -851,15 +867,14 @@
 		opacity: 0;
 	}
 
-    #blog_title_wrapper
-    {
+    #blog_title_wrapper {
+        color: white;
         margin-top: 3em;
         font-size: 2em;
         font-weight: 500;
     }
 
-    #blog_title_main
-    {
+    #blog_title_main {
         display: inline-block;
     }
 
@@ -976,6 +991,7 @@
 
 	#archive_box {
 		width: 60em;
+        color: white;
 		text-align: center;
 		border-width: 1px;
 		margin-left: auto;
