@@ -838,7 +838,6 @@
 
 /*ALL POSTS PAGES*/
     #posts_wrapper {
-        margin-top: -2em;
         padding-top: 2em;
         margin-bottom: -5em;
         padding-bottom: 2em;
@@ -1291,6 +1290,10 @@
 	#subtitle {
 		font-size: 1.4em;
 	}
+
+    #blog_title_wrapper {
+        margin-top: 1.7em;
+    }
 
 	#social_bar img {
 		height: 40px;
