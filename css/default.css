@@ -38,10 +38,9 @@
 		height: 3.8em;
 		position: fixed;
 		background: white;
-		box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
 		z-index: 50;
-        transition-property: margin;
-        transition-duration: .3s;
+    	transition-property: margin;
+    	transition-duration: .1s;
 		color: black;
 	}
 
@@ -107,14 +106,19 @@
 		transition-property: font-size, margin;
 		transition-duration: .4s;
 		z-index: 100;
-		margin-top: -2em;
-        color: white;
+		margin-top: -3em;
+  		color: #333333;
 	}
 
 	#name_box {
 		border-radius: 4px;
 		min-width: 10px;
 		font-weight: 400;
+	}
+
+	#role {
+		margin-top: .5em;
+		font-size: 2em;
 	}
 
 	#social_bar {
@@ -235,12 +239,12 @@
 		display:-webkit-flex;
 		display:-moz-flex;
 		display:-ms-flexbox;
-        background: rgba(0, 0, 0, 0.3);
+    background: white;
 		min-height: 19em;
 		padding-left: 19%;
 		padding-right: 19%;
-        -webkit-padding-end: 19%;
-        -webkit-padding-start: 19%;
+    -webkit-padding-end: 19%;
+    -webkit-padding-start: 19%;
 		transition-property: height, padding;
 		transition-duration: .3s;
 	}
