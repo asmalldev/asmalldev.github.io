@@ -170,6 +170,7 @@
 
 	.blinker {
   		animation: blinker 2s linear 3;
+		opacity: .5;
 	}
 
 	@keyframes blinker {
