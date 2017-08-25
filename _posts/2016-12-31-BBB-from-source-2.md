@@ -10,7 +10,7 @@ image: <img class="post_overview_img" src="/img/BBB/uboot.png" alt="BeagleBone B
 ### Let's start building things
 After setting up a cross compiler that's pointed to by the environmental variable `CC` we can go ahead and start building software for the BeagleBone Black (arm architecture) from our own PC (x86 architecture). We'll start with the bootloader: **u-boot**.
 
-(Make sure to set up the cross compiler according to the last post if you haven't yet.)
+(Make sure to set up the cross compiler according to the [last post]({{ site.base_url }}/2016/05/02/BBB-from-source-1/) if you haven't yet.)
 
 1. Get the source code for u-boot from github:
 

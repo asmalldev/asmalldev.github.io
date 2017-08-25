@@ -156,7 +156,7 @@
 		position: relative;
 		transition-property: opacity;
 		transition-duration: .4s;
-		box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+		box-shadow: 0 6px 10px rgba(0,0,0,0.19);
 	}
 
 	#scroll_down {
@@ -229,7 +229,7 @@
 		transition-property: margin, width;
 		transition-duration: .6s;
 		width: 94%;
-		box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+		box-shadow: 0 2px 5px rgba(0,0,0,0.16);
 	}
 
 	.container_title {
@@ -385,7 +385,7 @@
 		display: inline-block;
 		padding: 0em 3em;
 		transition-property: border-color, background, box-shadow;
-		transition-duration: 1s;
+		transition-duration: .5s;
 		letter-spacing: 0.20em;
 		line-height: 4em;
 		text-decoration: none;
@@ -415,7 +415,7 @@
 	}
 
 	#back_button {
-		margin: 6em 0 6em 0;
+		margin: 3em 0 2em 0;
     	background: #1793D1;
     	border: none;
     	color: white;
