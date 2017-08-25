@@ -1282,6 +1282,10 @@
         top: 74%;
     }
 
+	.blinker {
+		margin-top: 5em;
+	}
+
 	.rest_wrapper {
 		padding-top: 0!important;
 		padding-bottom: 0!important;

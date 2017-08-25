@@ -1,8 +1,13 @@
 <!--
 // resize container_title according to window
 function resize() {
-	var h = $(window).height() + 68;
-	document.querySelector('.container_title').style.height = h + 'px';
+	var w = $(window).width();
+	var h = $(window).height();
+	if (w < 535) {
+		document.querySelector('.container_title').style.height = (h - 68) + 'px';
+	} else {
+		document.querySelector('.container_title').style.height = (h + 68) + 'px';
+	}
 }
 window.onresize = resize;
 resize();
