@@ -785,6 +785,11 @@
 		text-align: justify;
 	}
 
+    #focal {
+        color: #24A124;
+        text-decoration: none;
+    }
+
 	#pumpkin {
 		color: #fca311;
 		text-decoration: none;

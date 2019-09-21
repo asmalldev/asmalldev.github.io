@@ -3,3 +3,4 @@ _site/*
 notes.txt
 example.md
 _/drafts/*
+.jekyll-cache/
