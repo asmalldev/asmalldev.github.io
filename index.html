@@ -8,9 +8,8 @@ title: Austin Small &middot; Software Engineer
 </style>
 
 <div id="profile_wrapper">
-<div class="image_overlay"></div>
     <div class="container_title">
-        <!--set height of .container_title based on viewport ratio-->
+        <!--set height of .resize_container based on viewport ratio-->
         <script type="text/javascript" src="/assets/javascript/resize.js"></script>
         <div class="container_sub">
             <div id="name_box" class="container_center">
@@ -30,26 +29,24 @@ title: Austin Small &middot; Software Engineer
                 </div>
             </div>
         </div>
-        <a id="scroll_down" href="javascript:;"><img class="blinker" src="/img/down_arrow.svg" height="60" alt=""></a>
+        <a id="scroll_down" href="javascript:;"><img class="blinker" src="/img/down_arrow_light.svg" height="60" alt=""></a>
         <div class="scroll_intro"></div>
     </div>
 </div>
 
 <div class="rest_wrapper">
-	<img id="profile_img_hide" class="profile_img small_hide" style="margin-bottom: -3.5em" src="/img/me.jpg" alt="Me"/>
-    <div class="container" style="background: rgba(7, 163, 241, 0.23);">
+    <div class="container_title">
+	    <img id="profile_img_hide" class="profile_img small_hide" style="margin-bottom: -3.5em" src="/img/me.jpg" alt="Me"/>
         <div class="container_sub">
             <div class="paragraph_wrapper">
-				<p style="padding-top: 10px;">My name is Austin. I'm a software engineer from the bay area. I focus on embedded systems and firmware.
-        		</p>
-				<p>This site is a <a href=/blog>blog</a>, a <a id="CVscroll" href="javascript:;">CV</a>, and a way for people to get in contact with me.
+				<p style="padding-top: 10px;">My name is Austin. I'm a software engineer from the bay area. I focus on embedded systems and firmware. This site is a <a href=/blog>blog</a>, a <a id="CVscroll" href="javascript:;">CV</a>, and a way for people to get in contact with me.
 				<a href="mailto:asmalldev@gmail.com">Emailing me</a> is usually the best way to reach me.
 				</p>
             </div>
         </div>
     </div>
 
-    <div id="experience_container" class="container" style="background: rgba(255, 238, 215, 0.65);">
+    <div id="experience_container">
         <div class="container_sub">
             {% include cv.html %}
         </div>
