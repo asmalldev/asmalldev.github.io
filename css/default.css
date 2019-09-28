@@ -153,6 +153,8 @@
 	.profile_img {
 		border-radius: 100px;
 		height: 150px;
+        margin-right: auto;
+        margin-left: auto;
 		position: relative;
 		transition-property: opacity;
 		transition-duration: .4s;
@@ -233,19 +235,16 @@
 		box-shadow: 0 2px 5px rgba(0,0,0,0.16);
 	}
 
-	.container_title {
+	.container_resize {
 		font-family: "Lato", sans-serif;
         padding-bottom: 2em;
 		display: flex;
 		display:-webkit-flex;
 		display:-moz-flex;
 		display:-ms-flexbox;
+        flex-direction: column;
         background: black;
-		min-height: 19em;
-		padding-left: 19%;
-		padding-right: 19%;
-    -webkit-padding-end: 19%;
-    -webkit-padding-start: 19%;
+		min-height: 11em;
 		transition-property: height, padding;
 		transition-duration: .3s;
 	}
@@ -276,9 +275,10 @@
 	  position: absolute;
 	  top: 50%;
 	  left: 50%;
+      width: 100%;
+      max-width: 50em;
 	  transform: translate(-50%, -50%);
       -webkit-transform: translate(-50%,-50%);
-	  white-space: nowrap;
 	}
 
 /* LINES */
@@ -419,6 +419,10 @@
     	border: none;
     	color: white;
 	}
+
+    #resume_button {
+        margin: 3em 0 3em 0;
+    }
 
 	.posts_button {
 		margin-top: 4em;
@@ -737,6 +741,11 @@
 	}
 
 /* EXPERIENCE */
+
+    #experience_wrapper {
+        padding-top: 3em;
+    }
+
 	#experience_wrapper > .byline {
 		color: #1793D1;
 	}
@@ -900,8 +909,8 @@
 		margin-right: auto;
 		transition-property: width;
 		transition-duration: .5s;
-		padding-top: 2em;
-		padding-bottom: 3em;
+		padding-top: 4em;
+		padding-bottom: 4em;
 		margin-top: 4em;
 		transition-property: box-shadow;
 		transition-duration: .8s;
@@ -917,7 +926,7 @@
 		text-align: justify;
 		padding-bottom: 2.5em;
        	padding-top: 2.5em;
-		max-width: 30.5em;
+		max-width: 50em;
 		margin-bottom: 0;
 		margin-left: auto;
 		margin-right:auto;
@@ -1028,8 +1037,7 @@
 
 	.post-header {
 		text-align: center;
-                max-width: 30em;
-                margin: auto;
+        margin: auto;
 	}
 
 	.post_middle {
@@ -1127,10 +1135,6 @@
 }
 
 @media screen and (max-width: 900px) {
-	#posts_wrapper .post_box {
-		width: 34em;
-	}
-
 	.post_box p {
 		padding-left: 1em;
 		padding-right: 1em;
@@ -1148,7 +1152,7 @@
 		min-height: 0!important;
 	}
 
-	.container_title {
+	.container_resize {
 		flex-direction: column;
 		-ms-flex-direction: column;
 		-moz-flex-direction: column;
@@ -1311,11 +1315,6 @@
 
 	#posts_wrapper .post_box {
 		margin: 0;
-		border-left: none;
-		border-right: none;
-		border-top: none;
-		border-bottom: 1px solid #CCC;
-		border-radius: 0;
 		box-shadow: none;
 		width: 100%;
 	}

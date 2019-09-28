@@ -8,9 +8,7 @@ title: Austin Small &middot; Software Engineer
 </style>
 
 <div id="profile_wrapper">
-    <div class="container_title">
-        <!--set height of .resize_container based on viewport ratio-->
-        <script type="text/javascript" src="/assets/javascript/resize.js"></script>
+    <div class="container_resize">
         <div class="container_sub">
             <div id="name_box" class="container_center">
                 <img class="profile_img small_show" src="/img/me.jpg" alt="Me"/>
@@ -35,13 +33,16 @@ title: Austin Small &middot; Software Engineer
 </div>
 
 <div class="rest_wrapper">
-    <div class="container_title">
-	    <img id="profile_img_hide" class="profile_img small_hide" style="margin-bottom: -3.5em" src="/img/me.jpg" alt="Me"/>
+    <div class="container_resize">
         <div class="container_sub">
-            <div class="paragraph_wrapper">
-				<p style="padding-top: 10px;">My name is Austin. I'm a software engineer from the bay area. I focus on embedded systems and firmware. This site is a <a href=/blog>blog</a>, a <a id="CVscroll" href="javascript:;">CV</a>, and a way for people to get in contact with me.
-				<a href="mailto:asmalldev@gmail.com">Emailing me</a> is usually the best way to reach me.
-				</p>
+            <div class="container_center">
+                <img id="profile_img_hide" class="profile_img small_hide" src="/img/me.jpg" alt="Me"/>
+                <div class="paragraph_wrapper">
+                    <p style="padding-top: 10px;">My name is Austin. I'm a software engineer from the bay area. I focus on embedded systems and firmware. This site is a <a href=/blog>blog</a>, a <a class="CVscroll" href="javascript:;">CV</a>, and a way for people to get in contact with me.
+                    <a href="mailto:asmalldev@gmail.com">Emailing me</a> is usually the best way to reach me.
+                    </p>
+                </div>
+                <a class="CVscroll" href="javascript:;"><img class="blinker" src="/img/down_arrow_light.svg" height="60" alt="" style="margin-top: 10em"></a>
             </div>
         </div>
     </div>
@@ -50,9 +51,13 @@ title: Austin Small &middot; Software Engineer
         <div class="container_sub">
             {% include cv.html %}
         </div>
+        <a href="{{site.baseurl}}/assets/docs/Resume.pdf" target="blank" id="resume_button" class="button">FULL RESUME</a>
     </div>
 
 <!--scroll down button-->
 <script type="text/javascript" src="/assets/javascript/scrolldown.js"></script>
+
+<!--set height of .resize_container based on viewport ratio-->
+<script type="text/javascript" src="/assets/javascript/resize.js"></script>
 
 </div>
