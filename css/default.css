@@ -746,10 +746,14 @@
     #experience_wrapper img {
         width: 50px;
         margin-bottom: -2em;
+        transition-property: margin;
+        transition-duration: 100ms;
     }
 
     #experience_wrapper ul {
         margin-left: 4em;
+        transition-property: margin;
+        transition-duration: 100ms;
     }
 
     #experience_wrapper li {
@@ -775,7 +779,7 @@
 	}
 
 	#cv {
-		font-size: 1.4em;
+		font-size: 1.6em;
         border-radius: 8px;
 		margin-left: auto;
 		margin-right: auto;
@@ -1189,6 +1193,17 @@
 		text-align: left;
 	}
 
+    #experience_wrapper img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-bottom: 0;
+    }
+
+    #experience_wrapper ul {
+        margin-left: 0;
+    }
+
 	#archive_box {
 		width: 95%;
 	}
@@ -1365,16 +1380,6 @@
 
 	.profile_img {
 		margin-bottom: 0;
-	}
-
-	.small_show {
-		opacity: 1;
-		z-index: inherit;
-	}
-
-	.small_hide {
-		opacity: 0;
-		z-index: -2;
 	}
 
 	#menu ul li {
