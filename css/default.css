@@ -316,9 +316,6 @@
     }
 
 	h1 {
-		font-size: 1.6em!important;
-		margin-top: 0.8em!important;
-        margin-bottom: 0!important;
 		padding: 0;
 		font-weight: 600;
 	}
@@ -746,6 +743,23 @@
         padding-top: 3em;
     }
 
+    #experience_wrapper img {
+        width: 50px;
+        margin-bottom: -2em;
+    }
+
+    #experience_wrapper ul {
+        margin-left: 4em;
+    }
+
+    #experience_wrapper li {
+        margin-bottom: 0.5em;
+    }
+
+    .experience_detail {
+        font-size: 0.8em;
+    }
+
 	#experience_wrapper > .byline {
 		color: #1793D1;
 	}
@@ -760,13 +774,13 @@
 	}
 
 	#cv {
-		border-radius: 8px;
+		font-size: 1.4em;
+        border-radius: 8px;
 		margin-left: auto;
 		margin-right: auto;
-		margin-top: 1em;
 		font-family: 'PT Sans', sans-serif;
 		text-align: left;
-		width: 80%;
+        max-width: 25em;
 		padding: .5em;
 		transition-property: width;
 		transition-duration: .3s;
